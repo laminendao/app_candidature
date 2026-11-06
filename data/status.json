@@ -1,1 +1,95 @@
-{"generated": null, "raw": 0, "unique": 0, "sources": []}
+{
+ "generated": "2026-11-06T11:26:51+00:00",
+ "raw": 1143,
+ "unique": 1074,
+ "sources": [
+  {
+   "id": "france_travail",
+   "label": "France Travail",
+   "homepage": "https://candidat.francetravail.fr/offres/recherche",
+   "enabled": true,
+   "state": "error",
+   "count": 0,
+   "message": "RuntimeError : authentification refusée (400) : vérifie les identifiants et l'abonnement à l'API Offres d'emploi v2",
+   "warnings": [],
+   "seconds": 0.8
+  },
+  {
+   "id": "adzuna",
+   "label": "Adzuna",
+   "homepage": "https://www.adzuna.fr",
+   "enabled": true,
+   "state": "ok",
+   "count": 753,
+   "message": "",
+   "warnings": [],
+   "seconds": 23.1
+  },
+  {
+   "id": "cnrs",
+   "label": "CNRS",
+   "homepage": "https://emploi.cnrs.fr/Offres/Recherche.aspx",
+   "enabled": true,
+   "state": "ok",
+   "count": 237,
+   "message": "",
+   "warnings": [],
+   "seconds": 5.9
+  },
+  {
+   "id": "inria",
+   "label": "Inria",
+   "homepage": "https://jobs.inria.fr/public/classic/fr/offres",
+   "enabled": true,
+   "state": "ok",
+   "count": 137,
+   "message": "",
+   "warnings": [],
+   "seconds": 1.5
+  },
+  {
+   "id": "sfds",
+   "label": "SFdS (Société française de statistique)",
+   "homepage": "https://www.sfds.asso.fr/fr/n/506-consulter_les_offres_demploi/",
+   "enabled": true,
+   "state": "ok",
+   "count": 16,
+   "message": "",
+   "warnings": [],
+   "seconds": 1.6
+  },
+  {
+   "id": "cesi",
+   "label": "CESI (école et LINEACT)",
+   "homepage": "https://lineact.cesi.fr/recrutement/",
+   "enabled": true,
+   "state": "ok",
+   "count": 0,
+   "message": "",
+   "warnings": [],
+   "seconds": 2.7
+  },
+  {
+   "id": "hellowork",
+   "label": "Hellowork",
+   "homepage": "https://www.hellowork.com/fr-fr/emploi.html",
+   "enabled": true,
+   "state": "blocked",
+   "count": 0,
+   "message": "robots.txt interdit la collecte de https://www.hellowork.com/fr-fr/emploi/metier_data-analyst-region_ile-de-france.html",
+   "warnings": [],
+   "seconds": 0.7
+  },
+  {
+   "id": "rss",
+   "label": "Flux RSS",
+   "homepage": "",
+   "enabled": true,
+   "state": "ok",
+   "count": 0,
+   "message": "",
+   "warnings": [],
+   "seconds": 0.0
+  }
+ ]
+}
