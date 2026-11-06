@@ -156,6 +156,13 @@ class EmailAlertsTest(unittest.TestCase):
         self.assertEqual((o.org, o.contract, o.via, o.published), ("Safran", "CDI", "LinkedIn", "2026-11-06"))
         self.assertIn("Magny", o.location)
 
+    def test_linkedin_card_inside_link(self):
+        from collector.sources.email_alerts import parse_alert
+        a, b = parse_alert((FIX / "linkedin_alert2.html").read_text(), "LinkedIn", None)
+        self.assertEqual((a.title, a.org, a.location), ("Data scientist (H/F)", "Banque de France", "Paris"))
+        self.assertEqual((b.title, b.org, b.location), ("Data Scientist IA – H/F", "Free-Work", "Paris (Hybrid)"))
+        self.assertIn("50K", b.salary)
+
     def test_indeed(self):
         from collector.sources.email_alerts import parse_alert
         offers = parse_alert((FIX / "indeed_alert.html").read_text(), "Indeed", None)

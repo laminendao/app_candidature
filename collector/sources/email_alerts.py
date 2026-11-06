@@ -105,15 +105,52 @@ def _context_lines(a, title: str) -> list[str]:
     return [l for l in lines if l != title and not SKIP_TEXT.search(l)][:6] if node is not a else []
 
 
+NOISE_LINE = re.compile(r"(connection|connexion|relation|actively recruiting|recrute activement|alum|ancien[s]? élève|"
+                        r"candidature simplifiée|easy apply|promoted|promu|sponsoris|il y a \d|\d+ (day|jour|hour|heure)s? ago|"
+                        r"\d+ candidat|applicants?|nouveau|new$|top applicant|vous correspondez|be an early applicant)", re.I)
+SALARY_RE = re.compile(r"(\d[\d\s.,]*\s?(k|K)?\s?€|€\s?\d|\d+\s?K\s?€?\s?[-–]|/\s?(an|year|yr|mois|month))")
+
+
+def _split_card(lines: list[str]) -> tuple[str, str, str, str]:
+    """Lignes d'une carte d'offre → (entreprise, lieu, contrat, salaire)."""
+    org = loc = contract = salary = ""
+    for l in lines:
+        if NOISE_LINE.search(l):
+            # « Banque de France · Paris Actively recruiting » : on coupe le bruit en fin de ligne
+            l = NOISE_LINE.split(l)[0].strip(" ·-") if " · " in l else ""
+            if not l:
+                continue
+        if not salary and SALARY_RE.search(l) and len(l) < 60:
+            salary = l
+            continue
+        if not contract and CONTRACT_RE.search(l) and len(l) < 40:
+            contract = CONTRACT_RE.search(l)[0]
+            if CONTRACT_RE.fullmatch(l.strip()):
+                continue
+        if " · " in l and not org:
+            parts = [x.strip() for x in l.split(" · ") if x.strip()]
+            org = parts[0]
+            loc = parts[1] if len(parts) > 1 else loc
+            if len(parts) > 2 and not salary and SALARY_RE.search(parts[2]):
+                salary = parts[2]
+            continue
+        if not org and len(l) <= 80:
+            org = l
+        elif not loc and len(l) <= 80:
+            loc = l
+    loc = SALARY_RE.split(loc)[0].strip(" ·-") if loc else loc
+    return org, loc, contract, salary
+
+
 def parse_alert(html: str, sender_site: str, received: str | None) -> list[Offer]:
     soup = BeautifulSoup(html, "html.parser")
     out: dict[str, Offer] = {}
     for a in soup.find_all("a", href=True):
         href = _unwrap(a["href"].strip())
-        title = clean_text(a.get_text(" "))
-        img_alt = a.find("img")
-        if not title and img_alt is not None:
+        inner = [l for l in (clean_text(x) for x in a.get_text("\n").split("\n")) if l]
+        if not inner:
             continue  # logos, boutons-images
+        title = inner[0] if len(inner) > 1 else clean_text(a.get_text(" "))
         match = _match_site(href)
         if not match:
             if not (sender_site and GENERIC_JOB_HREF.search(href) and len(title) >= 12):
@@ -125,17 +162,16 @@ def parse_alert(html: str, sender_site: str, received: str | None) -> list[Offer
         key = f"{site}:{jid}"
         if key in out:
             continue
-        ctx = _context_lines(a, title)
-        contract = next((CONTRACT_RE.search(l)[0] for l in ctx if CONTRACT_RE.search(l)), "")
-        rest = [l for l in ctx if not CONTRACT_RE.fullmatch(l)]
-        org = rest[0] if rest else ""
-        location = rest[1] if len(rest) > 1 else ""
-        if len(org) > 80:
-            org, location = "", ""
+        # Le lien contient parfois toute la carte (LinkedIn) ; sinon on lit le bloc qui l'entoure.
+        card = inner[1:] if len(inner) > 1 else _context_lines(a, title)
+        card = [l for l in card if l != title and not SKIP_TEXT.search(l)]
+        org, location, contract, salary = _split_card(card)
+        if org == title:
+            org = ""
         out[key] = Offer(
             source="email", source_id=hashlib.sha1(key.encode()).hexdigest()[:16],
-            title=title, url=href, org=org, location=location, contract=contract,
-            description=" · ".join(ctx)[:400], published=received, via=site,
+            title=title, url=href, org=org, location=location, contract=contract, salary=salary,
+            description=" · ".join(card)[:400], published=received, via=site,
         )
     return list(out.values())
 
