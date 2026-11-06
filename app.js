@@ -96,6 +96,10 @@
     const a = $("#bookmarklet");
     a.href = "javascript:" + code;
     a.onclick = e => { e.preventDefault(); toast("Fais-le glisser dans ta barre de favoris"); };
+    $("#btn-bm-copy").onclick = async () => {
+      try { await navigator.clipboard.writeText(a.href); toast("Code copié : colle-le comme adresse d'un nouveau favori"); }
+      catch { toast("Copie impossible : sélectionne le bouton ＋ Radar → clic droit → Copier l'adresse du lien"); }
+    };
   }
 
   function openFromBookmarklet() {
