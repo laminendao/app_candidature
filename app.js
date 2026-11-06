@@ -3,7 +3,9 @@
 
   // ------------------------------------------------------------------ constantes
   const FIT = { hi: "Très bon fit", mid: "Fit correct", lo: "Fit partiel" };
-  const STATUSES = ["À regarder", "À préparer", "Envoyée", "Entretien", "Refus", "Écartée"];
+  const STATUSES = ["À regarder", "À préparer", "Envoyée", "Entretien", "Offre reçue", "Refus", "Écartée"];
+  const LANES = ["À préparer", "Envoyée", "Entretien", "Offre reçue", "Refus"];
+  const RELANCE_DAYS = 14;
   const HIDDEN = new Set(["Refus", "Écartée"]);
   const IDF = new Set(["75", "77", "78", "91", "92", "93", "94", "95"]);
   const IDF_RE = /\b(paris|ile-de-france|île-de-france|essonne|hauts-de-seine|yvelines|val-de-marne|seine-saint-denis|val-d'oise|seine-et-marne|\(?(75|77|78|91|92|93|94|95)\)?)\b/i;
@@ -164,7 +166,7 @@
       ["Nouvelles (48 h)", all.filter(isNew).length, "new"],
       ["Très bon fit", all.filter(o => o.fit === "hi").length, ""],
       ["À préparer", n("À préparer"), ""],
-      ["Envoyées", n("Envoyée") + n("Entretien"), ""],
+      ["Envoyées", n("Envoyée") + n("Entretien") + n("Offre reçue"), ""],
     ];
     $("#stats").innerHTML = items.map(([l, v, c]) => `<div class="stat ${c}"><b>${v}</b><span>${l}</span></div>`).join("");
   }
@@ -292,7 +294,67 @@
     }).join("")}</tbody>`;
   }
 
-  function renderAll() { renderStats(); renderFilters(); renderList(); renderEcheances(); renderLiens(); renderSources(); }
+
+  // ------------------------------------------------------------------ rendu : mes candidatures (tableau en colonnes)
+  function renderBoard() {
+    const byUid = new Map(allOffers().map(o => [o.uid, o]));
+    const items = Object.entries(S.track).filter(([, t]) => LANES.includes(t.status))
+      .map(([uid, t]) => ({ o: byUid.get(uid) || { ...(t.snapshot || {}), uid, archived: true }, t }))
+      .filter(x => x.o.title);
+    $("#n-candidatures").textContent = items.length || "";
+    const ago = iso => { if (!iso) return null; return Math.max(0, Math.round((today() - parseDate(iso.slice(0, 10))) / DAY)); };
+    $("#board").innerHTML = LANES.map((lane, li) => {
+      const cards = items.filter(x => x.t.status === lane)
+        .sort((a, b) => (b.t.since || b.t.updated || "").localeCompare(a.t.since || a.t.updated || ""));
+      return `<section class="lane lane-${li}" data-lane="${esc(lane)}" aria-label="${esc(lane)}">
+        <h2>${esc(lane)} <small>${cards.length}</small></h2>
+        <div class="lane-body">${cards.length ? cards.map(({ o, t }) => {
+          const d = ago(t.since || t.updated);
+          const relance = lane === "Envoyée" && d !== null && d >= RELANCE_DAYS;
+          const url = safeUrl(o.url);
+          return `<article class="mini cat-${esc(o.category || "autre")}" draggable="true" data-uid="${esc(o.uid)}">
+            <span class="org">${esc(o.org || "")}</span>
+            <h3>${esc(o.title)}</h3>
+            <div class="mini-meta">
+              ${d !== null ? `<span>${d === 0 ? "aujourd'hui" : `depuis ${d} j`}</span>` : ""}
+              ${deadlineBadge(o)}
+              ${relance ? `<span class="pill warn">Relancer ?</span>` : ""}
+              ${o.archived ? `<span class="pill lo">Archivée</span>` : ""}
+            </div>
+            ${t.notes ? `<p class="mini-notes">${esc(t.notes.slice(0, 140))}${t.notes.length > 140 ? "…" : ""}</p>` : ""}
+            <div class="mini-foot">
+              <button class="arrow" type="button" data-move="-1" ${li === 0 ? "disabled" : ""} aria-label="Colonne précédente">‹</button>
+              ${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">Offre ↗</a>` : "<span></span>"}
+              <button class="arrow" type="button" data-move="1" ${li === LANES.length - 1 ? "disabled" : ""} aria-label="Colonne suivante">›</button>
+            </div>
+          </article>`;
+        }).join("") : `<p class="lane-empty">${li === 0 ? "Passe une offre en « À préparer » pour la voir ici." : "Glisse un post-it ici."}</p>`}</div>
+      </section>`;
+    }).join("");
+  }
+
+  function moveTo(uid, status) {
+    if (!uid || !status || S.track[uid]?.status === status) return;
+    setTrack(uid, { status });
+    renderStats(); renderList(); renderBoard();
+    toast(`Déplacé dans « ${status} »`);
+  }
+
+  const boardEl = () => $("#board");
+  document.addEventListener("dragstart", e => {
+    const c = e.target.closest?.(".mini"); if (!c) return;
+    e.dataTransfer.setData("text/plain", c.dataset.uid); e.dataTransfer.effectAllowed = "move"; c.classList.add("dragging");
+  });
+  document.addEventListener("dragend", e => { e.target.closest?.(".mini")?.classList.remove("dragging"); document.querySelectorAll(".lane.over").forEach(l => l.classList.remove("over")); });
+  document.addEventListener("dragover", e => { const l = e.target.closest?.(".lane"); if (!l || !boardEl().contains(l)) return; e.preventDefault(); document.querySelectorAll(".lane.over").forEach(x => x !== l && x.classList.remove("over")); l.classList.add("over"); });
+  document.addEventListener("drop", e => { const l = e.target.closest?.(".lane"); if (!l || !boardEl().contains(l)) return; e.preventDefault(); l.classList.remove("over"); moveTo(e.dataTransfer.getData("text/plain"), l.dataset.lane); });
+  document.addEventListener("click", e => {
+    const b = e.target.closest?.("[data-move]"); if (!b || !boardEl().contains(b)) return;
+    const uid = b.closest(".mini").dataset.uid, i = LANES.indexOf(S.track[uid]?.status) + Number(b.dataset.move);
+    if (i >= 0 && i < LANES.length) moveTo(uid, LANES[i]);
+  });
+
+  function renderAll() { renderStats(); renderFilters(); renderList(); renderBoard(); renderEcheances(); renderLiens(); renderSources(); }
 
   // ------------------------------------------------------------------ suivi
   function snapshot(uid) {
@@ -302,7 +364,9 @@
     return { ...rest, description: (rest.description || "").slice(0, 300) };
   }
   function setTrack(uid, patch) {
-    S.track[uid] = { ...S.track[uid], ...patch, snapshot: snapshot(uid), updated: new Date().toISOString() };
+    const now = new Date().toISOString();
+    const changed = patch.status && patch.status !== S.track[uid]?.status;
+    S.track[uid] = { ...S.track[uid], ...patch, ...(changed ? { since: now } : {}), snapshot: snapshot(uid), updated: now };
     store.set(key("track"), S.track);
   }
 
@@ -314,7 +378,7 @@
     if (location.hash.slice(1) !== tab) history.replaceState(null, "", tab === "offres" ? location.pathname + location.search : `#${tab}`);
   }
   document.querySelector(".tabs").addEventListener("click", e => { const b = e.target.closest("[data-tab]"); if (b) switchTab(b.dataset.tab); });
-  window.addEventListener("hashchange", () => switchTab(["echeances", "liens", "sources"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "offres"));
+  window.addEventListener("hashchange", () => switchTab(["candidatures", "echeances", "liens", "sources"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "offres"));
 
   $("#profile").addEventListener("change", async e => {
     S.profile = e.target.value;
@@ -421,6 +485,6 @@
     const next = cur === "dark" ? "light" : "dark"; applyTheme(next); store.set("suivi:theme", next);
   });
 
-  if (["echeances", "liens", "sources"].includes(location.hash.slice(1))) switchTab(location.hash.slice(1));
+  if (["candidatures", "echeances", "liens", "sources"].includes(location.hash.slice(1))) switchTab(location.hash.slice(1));
   boot();
 })();

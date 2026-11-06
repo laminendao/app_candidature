@@ -24,6 +24,7 @@
 
     <nav class="tabs" role="tablist" aria-label="Sections">
       <button role="tab" class="tab" id="tab-offres" data-tab="offres" aria-selected="true">Offres <small id="n-offres"></small></button>
+      <button role="tab" class="tab" id="tab-candidatures" data-tab="candidatures" aria-selected="false">Mes candidatures <small id="n-candidatures"></small></button>
       <button role="tab" class="tab" id="tab-echeances" data-tab="echeances" aria-selected="false">Échéances <small id="n-echeances"></small></button>
       <button role="tab" class="tab" id="tab-liens" data-tab="liens" aria-selected="false">Liens rapides</button>
       <button role="tab" class="tab" id="tab-sources" data-tab="sources" aria-selected="false">Sources <small id="n-sources"></small></button>
@@ -70,6 +71,12 @@
           <button class="btn" id="btn-manual" type="button">Télécharger manual.json</button>
         </div>
       </section>
+    </section>
+
+    <!-- MES CANDIDATURES -->
+    <section id="panel-candidatures" class="panel" role="tabpanel" aria-labelledby="tab-candidatures" hidden>
+      <p class="intro">Fais glisser un post-it d'une colonne à l'autre (ou utilise les flèches ‹ ›). Une candidature envoyée depuis plus de 14 jours affiche « Relancer ? ».</p>
+      <div class="board-wrap"><div class="board" id="board"></div></div>
     </section>
 
     <!-- ÉCHÉANCES -->
