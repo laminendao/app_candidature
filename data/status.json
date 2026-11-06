@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-06T13:20:57+00:00",
- "raw": 1155,
- "unique": 1114,
+ "generated": "2026-11-06T14:09:31+00:00",
+ "raw": 1430,
+ "unique": 1347,
  "sources": [
   {
    "id": "france_travail",
@@ -19,10 +19,10 @@
    "homepage": "https://www.adzuna.fr",
    "enabled": true,
    "state": "ok",
-   "count": 757,
+   "count": 756,
    "message": "",
    "warnings": [],
-   "seconds": 23.3
+   "seconds": 23.4
   },
   {
    "id": "cnrs",
@@ -30,10 +30,10 @@
    "homepage": "https://emploi.cnrs.fr/Offres/Recherche.aspx",
    "enabled": true,
    "state": "ok",
-   "count": 236,
+   "count": 237,
    "message": "",
    "warnings": [],
-   "seconds": 6.9
+   "seconds": 6.1
   },
   {
    "id": "inria",
@@ -44,7 +44,7 @@
    "count": 138,
    "message": "",
    "warnings": [],
-   "seconds": 2.1
+   "seconds": 1.9
   },
   {
    "id": "sfds",
@@ -55,7 +55,7 @@
    "count": 14,
    "message": "",
    "warnings": [],
-   "seconds": 1.9
+   "seconds": 1.3
   },
   {
    "id": "cesi",
@@ -66,7 +66,7 @@
    "count": 10,
    "message": "",
    "warnings": [],
-   "seconds": 1.9
+   "seconds": 1.3
   },
   {
    "id": "hellowork",
@@ -83,11 +83,11 @@
    "label": "Alertes e-mail",
    "homepage": "https://mail.google.com",
    "enabled": true,
-   "state": "skipped",
-   "count": 0,
-   "message": "secret manquant : EMAIL_ADDRESS",
+   "state": "ok",
+   "count": 275,
+   "message": "",
    "warnings": [],
-   "seconds": 0.0
+   "seconds": 6.7
   },
   {
    "id": "rss",
