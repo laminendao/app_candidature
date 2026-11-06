@@ -167,7 +167,12 @@
     const why = o.why ? `<p class="why">${esc(o.why)}</p>` : "";
     const reasons = (o.reasons || []).length ? `<div class="reasons">Correspond :${o.reasons.map(r => `<span class="tag">${esc(r)}</span>`).join("")}</div>` : "";
     const also = (o.also_on || []).filter(a => safeUrl(a.url)).map(a => `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join(" · ");
-    return `<article class="job ${HIDDEN.has(st) || gone ? "dim" : ""}" data-uid="${esc(o.uid)}">
+    // Inclinaison et nuance stables pour chaque post-it (dérivées de l'identifiant)
+    let h = 0; for (const ch of o.uid) h = (h * 31 + ch.charCodeAt(0)) | 0;
+    const rot = ((Math.abs(h) % 7) - 3) * 0.55;
+    const stamp = st !== STATUSES[0] ? `<span class="stamp st-${STATUSES.indexOf(st)}" aria-hidden="true">${esc(st)}</span>` : "";
+    return `<article class="job cat-${esc(o.category || "autre")} ${o.mine || o.source === "manuel" ? "pinned" : ""} ${HIDDEN.has(st) || gone ? "dim" : ""}" style="--rot:${rot}deg" data-uid="${esc(o.uid)}">
+      ${stamp}
       <div class="head"><span class="org">${esc(o.org || "Organisme non précisé")}</span><h3 class="title">${esc(o.title)}</h3></div>
       <div class="badges">
         ${isNew(o) ? `<span class="pill new">Nouvelle</span>` : ""}
