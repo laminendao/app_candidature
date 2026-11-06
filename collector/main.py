@@ -129,7 +129,9 @@ def dedupe(pool: list[Offer], priority: list[str]) -> tuple[list[Offer], dict[st
 
 
 # --------------------------------------------------------------------------- profils
-def build_profile(profile: dict, offers: list[Offer], also: dict, status: list[dict], labels: dict) -> dict:
+def build_profile(profile: dict, offers: list[Offer], also: dict, status: list[dict], labels: dict, seen: set[str] | None = None) -> dict:
+    """seen : identifiants renvoyés par les sources lors de ce passage (avant filtrage)."""
+    seen = seen or set()
     scorer = Scorer(profile)
     today = today_iso()
     min_score = int(profile.get("min_score", 30))
@@ -171,6 +173,8 @@ def build_profile(profile: dict, offers: list[Offer], also: dict, status: list[d
             continue
         if old.get("deadline") and old["deadline"] < stale_deadline:
             continue
+        if uid in seen:
+            continue  # toujours en ligne mais écartée par les règles du profil : on ne la garde pas
         if old.get("source", "").split("-")[0] in failed:
             current[uid] = old  # la source a échoué : on ne conclut rien
         elif old.get("last_seen", "") >= cutoff:
@@ -210,7 +214,8 @@ def main(argv=None) -> int:
 
     labels = {name: cls.label for name, cls in ALL.items()}
     offers, also = dedupe(pool, config.get("priority", list(ALL)))
-    summary = [build_profile(p, offers, also, status, labels) for p in profiles]
+    seen = {o.uid for o in pool}
+    summary = [build_profile(p, offers, also, status, labels, seen) for p in profiles]
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     if not args.offline:

@@ -229,6 +229,13 @@ class PipelineTest(unittest.TestCase):
         self.assertFalse(old["active"])
         self.assertEqual(old["first_seen"], ft["first_seen"])
 
+        # Troisième passage : l'offre revient mais ne passe plus les règles → elle disparaît
+        hidden = Offer("france_travail", "1", "Stage Data Analyst", "https://ft/1", org="Vinci")
+        with mock.patch.object(M, "collect", return_value=([hidden], status)):
+            M.main([])
+        data3 = json.loads((self.tmp / "data/profiles/lamine/offres.json").read_text())
+        self.assertNotIn("france_travail:1", {o["uid"] for o in data3["offres"]})
+
 
 if __name__ == "__main__":
     unittest.main()
