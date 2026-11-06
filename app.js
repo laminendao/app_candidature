@@ -85,6 +85,37 @@
     $("#i-category").innerHTML = meta.categories.map(c => `<option value="${esc(c.id)}">${esc(c.label)}</option>`).join("");
     S.f.cat = "all"; S.shown = PAGE;
     renderAll();
+    setupBookmarklet();
+    openFromBookmarklet();
+  }
+
+  // ------------------------------------------------------------------ bouton « Ajouter au radar »
+  function setupBookmarklet() {
+    const app = location.origin + location.pathname;
+    const code = `(()=>{const s=String(getSelection()).slice(0,600);window.open(${JSON.stringify(app)}+"?p=${encodeURIComponent(S.profile)}&add=1&t="+encodeURIComponent(document.title)+"&u="+encodeURIComponent(location.href)+"&s="+encodeURIComponent(s),"_blank")})()`;
+    const a = $("#bookmarklet");
+    a.href = "javascript:" + code;
+    a.onclick = e => { e.preventDefault(); toast("Fais-le glisser dans ta barre de favoris"); };
+  }
+
+  function openFromBookmarklet() {
+    const q = new URLSearchParams(location.search);
+    if (q.get("add") !== "1") return;
+    let title = (q.get("t") || "").replace(/\s*[|·–-]\s*(LinkedIn|Indeed|Welcome to the Jungle|APEC|Hellowork|Glassdoor|JobTeaser)\b.*$/i, "").trim();
+    let org = "";
+    const m = title.match(/^(.*?)\s+(?:chez|at|@)\s+(.+)$/i);   // « Data Scientist chez Safran »
+    if (m) { title = m[1]; org = m[2]; }
+    $("#form").reset();
+    $("#i-title").value = title;
+    $("#i-org").value = org;
+    $("#i-url").value = q.get("u") || "";
+    $("#i-why").value = (q.get("s") || "").trim();
+    switchTab("offres");
+    $("#dlg").showModal();
+    (org ? $("#i-location") : $("#i-org")).focus();
+    const clean = new URL(location.href);
+    ["add", "t", "u", "s"].forEach(k => clean.searchParams.delete(k));
+    history.replaceState(null, "", clean);
   }
 
   // ------------------------------------------------------------------ données combinées

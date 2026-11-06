@@ -8,7 +8,7 @@ since_days: 7          # ancienneté maximale des offres demandées aux API
 delay_seconds: 1.0     # pause minimale entre deux requêtes vers un même site
 
 # Ordre de préférence quand une même offre apparaît sur plusieurs sources
-priority: [manuel, inria, cnrs, sfds, cesi, rss, france_travail, hellowork, adzuna]
+priority: [manuel, inria, cnrs, sfds, cesi, rss, email, france_travail, hellowork, adzuna]
 
 sources:
   france_travail:
@@ -40,6 +40,14 @@ sources:
     # Requêtes propres à Hellowork (une page par métier et par région).
     # Laisser vide pour réutiliser toutes les requêtes des profils.
     queries: [data analyst, data scientist, statisticien, ingenieur data, professeur de mathematiques]
+
+  email:
+    enabled: true
+    # Alertes emploi reçues par mail (LinkedIn, Indeed, APEC, WTTJ…). Secrets : EMAIL_ADDRESS, EMAIL_APP_PASSWORD.
+    imap_host: imap.gmail.com
+    folder: Alertes emploi       # libellé Gmail où un filtre range les alertes (lu en lecture seule)
+    days: 7                      # ancienneté maximale des mails lus
+    max_messages: 300
 
   rss:
     enabled: true

@@ -147,6 +147,44 @@ class ApiTest(unittest.TestCase):
         self.assertEqual(offers[0].salary, "45 000 – 55 000 €")
 
 
+class EmailAlertsTest(unittest.TestCase):
+    def test_linkedin(self):
+        from collector.sources.email_alerts import parse_alert
+        offers = parse_alert((FIX / "linkedin_alert.html").read_text(), "LinkedIn", "2026-11-06")
+        self.assertEqual([o.title for o in offers], ["Data Scientist – Maintenance prédictive", "Statisticien H/F"])
+        o = offers[0]
+        self.assertEqual((o.org, o.contract, o.via, o.published), ("Safran", "CDI", "LinkedIn", "2026-11-06"))
+        self.assertIn("Magny", o.location)
+
+    def test_indeed(self):
+        from collector.sources.email_alerts import parse_alert
+        offers = parse_alert((FIX / "indeed_alert.html").read_text(), "Indeed", None)
+        self.assertEqual(len(offers), 2)  # le bouton « Postuler maintenant » n'est pas une offre
+        self.assertEqual(offers[0].org, "Vinci Construction")
+        self.assertEqual(offers[1].location, "Évry (91)")
+
+    def test_fetch_reads_only_the_folder(self):
+        from email.mime.text import MIMEText
+        msg = MIMEText((FIX / "indeed_alert.html").read_text(), "html", "utf-8")
+        msg["From"] = "Indeed <alert@indeed.com>"
+        msg["Subject"] = "2 nouvelles offres"
+        msg["Date"] = "Fri, 06 Nov 2026 07:00:00 +0100"
+        imap = mock.MagicMock()
+        imap.select.return_value = ("OK", [b"2"])
+        imap.search.return_value = ("OK", [b"1"])
+        imap.fetch.return_value = ("OK", [(b"1 (BODY[] {1})", msg.as_bytes()), b")"])
+        src = ALL["email"]()
+        c = ctx(settings={"folder": "Alertes emploi"})
+        with mock.patch.dict("os.environ", {"EMAIL_ADDRESS": "a@gmail.com", "EMAIL_APP_PASSWORD": "abcd efgh ijkl mnop"}), \
+             mock.patch("imaplib.IMAP4_SSL", return_value=imap):
+            offers = src.fetch(c)
+        imap.select.assert_called_once_with('"Alertes emploi"', readonly=True)
+        imap.login.assert_called_once_with("a@gmail.com", "abcdefghijklmnop")
+        self.assertEqual(len(offers), 2)
+        self.assertEqual(offers[0].published, "2026-11-06")
+        self.assertIn("PEEK", imap.fetch.call_args.args[1])  # ne marque pas les mails comme lus
+
+
 class ScoringTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
