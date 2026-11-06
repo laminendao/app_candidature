@@ -1,0 +1,50 @@
+# Sources interrogées chaque jour. Chaque source est appelée UNE fois pour tous les profils,
+# avec l'union de leurs requêtes (search.queries). Le score est ensuite calculé par profil.
+#
+# Pour désactiver une source : enabled: false
+# Pour ajouter un flux RSS quelconque : l'ajouter sous rss.feeds
+
+since_days: 7          # ancienneté maximale des offres demandées aux API
+delay_seconds: 1.0     # pause minimale entre deux requêtes vers un même site
+
+# Ordre de préférence quand une même offre apparaît sur plusieurs sources
+priority: [manuel, inria, cnrs, sfds, cesi, rss, france_travail, hellowork, adzuna]
+
+sources:
+  france_travail:
+    enabled: true
+    # departements: ["75", "91"]   # laisser vide = France entière
+
+  adzuna:
+    enabled: true
+    results_per_page: 50
+    max_pages: 2
+    max_calls: 120               # l'offre gratuite autorise 250 appels par jour
+
+  cnrs:
+    enabled: true
+    bassins: [ile-de-france, aquitaine, alsace, centre-est, provence-corse, centre-limousin-poitou-charentes]
+
+  inria:
+    enabled: true
+
+  sfds:
+    enabled: true
+
+  cesi:
+    enabled: true
+
+  hellowork:
+    enabled: true
+    regions: [ile-de-france]     # "" = France entière
+    # Requêtes propres à Hellowork (une page par métier et par région).
+    # Laisser vide pour réutiliser toutes les requêtes des profils.
+    queries: [data analyst, data scientist, statisticien, ingenieur data, professeur de mathematiques]
+
+  rss:
+    enabled: true
+    feeds: []
+    # - id: exemple
+    #   url: https://exemple.fr/offres.rss
+    #   org: Exemple
+    #   location: Paris

@@ -1,0 +1,146 @@
+# Profil de recherche de Lamine. Tout le tri de l'appli découle de ce fichier :
+# modifie-le, commit, et le prochain passage du collecteur recalcule les scores.
+
+name: Lamine Ndao
+
+min_score: 35          # en dessous, l'offre n'est pas affichée
+fit: {hi: 70, mid: 50} # seuils des badges « Très bon fit » / « Fit correct »
+retention_days: 30     # durée pendant laquelle une offre disparue reste visible (grisée)
+
+# Requêtes envoyées aux moteurs (France Travail, Adzuna…). Tous secteurs confondus.
+search:
+  queries:
+    - data analyst
+    - data scientist
+    - analyste de données
+    - chargé d'études statistiques
+    - statisticien
+    - ingénieur data
+    - machine learning
+    - intelligence artificielle
+    - maintenance prédictive
+    - séries temporelles
+    - post-doctorant
+    - postdoc
+    - enseignant-chercheur
+    - maître de conférences
+    - ingénieur de recherche
+    - professeur de mathématiques
+    - enseignant mathématiques
+
+# Catégories, testées dans l'ordre sur l'intitulé du poste. La première qui correspond l'emporte.
+categories:
+  - id: postdoc
+    label: Postdoc
+    points: 40
+    keywords: [postdoc, post-doc, post-doctorant, post-doctorante, post-doctorat, postdoctoral, post doctoral, chercheur postdoctoral]
+  - id: ens_sup
+    label: Enseignement supérieur
+    points: 40
+    keywords: [maître de conférences, maîtresse de conférences, enseignant-chercheur, enseignante-chercheuse, enseignant chercheur, enseignant(e)-chercheur(e), ATER, chargé d'enseignement, professeur des universités, assistant professor, lecturer]
+  - id: ens_sec
+    label: Enseignement secondaire
+    points: 40
+    keywords: [professeur de mathématiques, professeure de mathématiques, professeur(e) de mathématiques, enseignant de mathématiques, enseignante de mathématiques, enseignant(e) de mathématiques, enseignant en mathématiques, enseignant mathématiques, professeur de maths, enseignant de maths, second degré, enseignant contractuel, lycée]
+  - id: rd
+    label: R&D / ingénieur de recherche
+    points: 35
+    keywords: [ingénieur de recherche, ingénieure de recherche, ingénieur r&d, ingénieur-chercheur, ingénieur chercheur, research engineer, research scientist, applied scientist, chercheur]
+  - id: ds
+    label: Data scientist / IA
+    points: 40
+    keywords: [data scientist, machine learning, ml engineer, mlops, deep learning, ingénieur ia, ingénieur intelligence artificielle, ia engineer, ai engineer, ingénieur data, data engineer, maintenance prédictive]
+  - id: da
+    label: Data analyst / statistique
+    points: 35
+    keywords: [data analyst, analyste de données, analyste data, chargé d'études statistiques, chargée d'études statistiques, chargé d'études, chargée d'études, statisticien, statisticienne, biostatisticien, business intelligence, data steward]
+
+# Compétences recherchées dans l'intitulé (poids x1,5) ou la description (poids x1).
+skills:
+  - {label: séries temporelles, weight: 15, terms: [séries temporelles, séries chronologiques, time series, prévision, forecasting]}
+  - {label: maintenance prédictive, weight: 15, terms: [maintenance prédictive, predictive maintenance, pronostic, durée de vie résiduelle, remaining useful life, RUL, PHM, fiabilité, détection d'anomalies, anomaly detection]}
+  - {label: IA explicable, weight: 15, terms: [IA explicable, explicabilité, interprétabilité, XAI, explainable, SHAP, IA de confiance]}
+  - {label: statistique, weight: 8, terms: [statistique, statistiques, statistical, économétrie, analyse de données, data mining, biostatistique]}
+  - {label: machine learning, weight: 8, terms: [machine learning, apprentissage automatique, apprentissage statistique, deep learning, intelligence artificielle]}
+  - {label: classification / réduction de dimension, weight: 6, terms: [classification, clustering, réduction de dimension, ACP, analyse factorielle]}
+  - {label: mathématiques, weight: 8, terms: [mathématiques, mathematics, maths, mathématiques appliquées]}
+  - {label: enseignement, weight: 6, terms: [enseignement, pédagogie, pédagogique, travaux dirigés, cours magistraux]}
+  - {label: profil docteur, weight: 6, terms: [doctorat, docteur, PhD, post-doctorat, publications]}
+  - {label: Python / R, weight: 5, terms: [python, pandas, scikit-learn, pytorch, langage R, RStudio, tidyverse]}
+  - {label: données industrielles, weight: 4, terms: [capteurs, IoT, industrie 4.0, jumeau numérique, machines tournantes, vibratoire]}
+
+# Intitulés exclus d'office
+exclude_title: [stage, stagiaire, alternance, alternant, alternante, apprenti, apprentie, doctorant, doctorante, thèse, phd position, phd student, cifre, contrat doctoral, service civique, job étudiant, vendeur, vendeuse]
+
+# Malus
+penalties:
+  - {label: management, weight: -15, terms: [manager, head of, directeur, directrice, responsable d'équipe, lead]}
+  - {label: technicien, weight: -25, terms: [technicien, technicienne, opérateur, opératrice]}
+  - {label: commercial, weight: -30, terms: [commercial, commerciale, business developer, account manager]}
+  - {label: forte expérience exigée, weight: -12, title_only: false, terms: [10 ans d'expérience, 8 ans d'expérience, 7 ans d'expérience]}
+
+# Bonus géographique
+locations:
+  bonus: 10
+  departements: ["75", "77", "78", "91", "92", "93", "94", "95"]
+  terms: [paris, ile-de-france, île-de-france, essonne, hauts-de-seine, yvelines, val-de-marne, seine-saint-denis, val-d'oise, seine-et-marne]
+
+# Échéances à date fixe (concours, campagnes)
+echeances:
+  - title: Inscription à l'agrégation externe spéciale « docteurs » – mathématiques (session 2027)
+    date: "2026-11-25"
+    detail: Clôture à 12 h. Réservée aux titulaires d'un doctorat. Sections 2027 confirmées par arrêté ultérieur.
+    url: https://www.devenirenseignant.gouv.fr
+  - title: Écrits de l'agrégation externe et externe spéciale
+    date: "2027-02-17"
+    detail: Du 17 février au 5 mars 2027 (dates indicatives).
+    url: https://www.devenirenseignant.gouv.fr
+  - title: Campagne synchronisée de recrutement MCF 2027
+    date: null
+    detail: Ouverture habituellement en fin d'hiver ; dates exactes à vérifier sur Galaxie.
+    url: https://galaxie.enseignementsup-recherche.gouv.fr
+
+# Sites à consulter à la main (non collectables automatiquement)
+liens:
+  - groupe: Recherche et enseignement supérieur
+    sites:
+      - {nom: Galaxie (postes MCF), url: "https://galaxie.enseignementsup-recherche.gouv.fr"}
+      - {nom: EURAXESS, url: "https://euraxess.ec.europa.eu/jobs/search"}
+      - {nom: ABG – emplois pour docteurs, url: "https://www.abg.asso.fr"}
+      - {nom: Academic Positions – machine learning, url: "https://academicpositions.fr/jobs/field/machine-learning"}
+      - {nom: myScience, url: "https://www.myscience.fr/jobs"}
+      - {nom: CEA Talent Impulse, url: "https://talentimpulse.cea.fr/toutes-nos-offres-demploi/"}
+      - {nom: IRT SystemX, url: "https://www.irt-systemx.fr/nous-rejoindre/"}
+      - {nom: CNRS – recherche d'offres, url: "https://emploi.cnrs.fr/Offres/Recherche.aspx"}
+      - {nom: SFdS – offres d'emploi, url: "https://www.sfds.asso.fr/fr/n/506-consulter_les_offres_demploi/"}
+  - groupe: Enseignement secondaire
+    sites:
+      - {nom: Devenir enseignant (concours), url: "https://www.devenirenseignant.gouv.fr"}
+      - {nom: Académie de Versailles, url: "https://www.ac-versailles.fr"}
+      - {nom: Académie de Paris, url: "https://www.ac-paris.fr"}
+      - {nom: Académie de Créteil, url: "https://www.ac-creteil.fr"}
+      - {nom: Choisir le service public – enseignement, url: "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/domaine/3513/"}
+  - groupe: Généralistes
+    sites:
+      - {nom: APEC – data scientist, url: "https://www.apec.fr/candidat/recherche-emploi.html/emploi?motsCles=data+scientist"}
+      - {nom: LinkedIn – data scientist, url: "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=France"}
+      - {nom: Indeed – data analyst, url: "https://fr.indeed.com/jobs?q=data+analyst&l=%C3%8Ele-de-France"}
+      - {nom: Welcome to the Jungle – data analyst, url: "https://www.welcometothejungle.com/fr/pages/emploi-data-analyst"}
+      - {nom: Choisir le service public – numérique, url: "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/domaine/3522/"}
+      - {nom: Emploi territorial, url: "https://www.emploi-territorial.fr"}
+  - groupe: Sites sectoriels
+    sites:
+      - {nom: Makesense – data, url: "https://jobs.makesense.org/s/jobs/all/tech-data-analysis?items_page=0"}
+      - {nom: Greenjob (écologie), url: "https://www.greenjob.fr"}
+      - {nom: Industrie Emploi (UIMM), url: "https://www.industrie-emploi.fr"}
+      - {nom: Industrie recrute, url: "https://www.industrie-recrute.fr"}
+      - {nom: Job BTP, url: "https://www.job-btp.fr"}
+      - {nom: Un job dans le BTP, url: "https://www.unjobdanslebtp.fr"}
+      - {nom: Carrière logistique, url: "https://www.carriere-logistique.fr"}
+      - {nom: Supply Chain, url: "https://www.supply-chain.fr"}
+      - {nom: APECITA (agro), url: "https://www.apecita.com"}
+      - {nom: Jobagri, url: "https://www.jobagri.com"}
+      - {nom: FHF – hôpitaux publics, url: "https://emploi.fhf.fr"}
+      - {nom: eFinancialCareers, url: "https://www.efinancialcareers.fr"}
+      - {nom: Emploi assurance, url: "https://www.emploi-assurance.com"}
+      - {nom: Sciencemeup, url: "https://www.sciencemeup.com"}

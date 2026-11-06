@@ -1,0 +1,217 @@
+{
+ "id": "lamine",
+ "name": "Lamine Ndao",
+ "categories": [
+  {
+   "id": "postdoc",
+   "label": "Postdoc"
+  },
+  {
+   "id": "ens_sup",
+   "label": "Enseignement supérieur"
+  },
+  {
+   "id": "ens_sec",
+   "label": "Enseignement secondaire"
+  },
+  {
+   "id": "rd",
+   "label": "R&D / ingénieur de recherche"
+  },
+  {
+   "id": "ds",
+   "label": "Data scientist / IA"
+  },
+  {
+   "id": "da",
+   "label": "Data analyst / statistique"
+  },
+  {
+   "id": "autre",
+   "label": "Autres"
+  }
+ ],
+ "echeances": [
+  {
+   "title": "Inscription à l'agrégation externe spéciale « docteurs » – mathématiques (session 2027)",
+   "date": "2026-11-25",
+   "detail": "Clôture à 12 h. Réservée aux titulaires d'un doctorat. Sections 2027 confirmées par arrêté ultérieur.",
+   "url": "https://www.devenirenseignant.gouv.fr"
+  },
+  {
+   "title": "Écrits de l'agrégation externe et externe spéciale",
+   "date": "2027-02-17",
+   "detail": "Du 17 février au 5 mars 2027 (dates indicatives).",
+   "url": "https://www.devenirenseignant.gouv.fr"
+  },
+  {
+   "title": "Campagne synchronisée de recrutement MCF 2027",
+   "date": null,
+   "detail": "Ouverture habituellement en fin d'hiver ; dates exactes à vérifier sur Galaxie.",
+   "url": "https://galaxie.enseignementsup-recherche.gouv.fr"
+  }
+ ],
+ "liens": [
+  {
+   "groupe": "Recherche et enseignement supérieur",
+   "sites": [
+    {
+     "nom": "Galaxie (postes MCF)",
+     "url": "https://galaxie.enseignementsup-recherche.gouv.fr"
+    },
+    {
+     "nom": "EURAXESS",
+     "url": "https://euraxess.ec.europa.eu/jobs/search"
+    },
+    {
+     "nom": "ABG – emplois pour docteurs",
+     "url": "https://www.abg.asso.fr"
+    },
+    {
+     "nom": "Academic Positions – machine learning",
+     "url": "https://academicpositions.fr/jobs/field/machine-learning"
+    },
+    {
+     "nom": "myScience",
+     "url": "https://www.myscience.fr/jobs"
+    },
+    {
+     "nom": "CEA Talent Impulse",
+     "url": "https://talentimpulse.cea.fr/toutes-nos-offres-demploi/"
+    },
+    {
+     "nom": "IRT SystemX",
+     "url": "https://www.irt-systemx.fr/nous-rejoindre/"
+    },
+    {
+     "nom": "CNRS – recherche d'offres",
+     "url": "https://emploi.cnrs.fr/Offres/Recherche.aspx"
+    },
+    {
+     "nom": "SFdS – offres d'emploi",
+     "url": "https://www.sfds.asso.fr/fr/n/506-consulter_les_offres_demploi/"
+    }
+   ]
+  },
+  {
+   "groupe": "Enseignement secondaire",
+   "sites": [
+    {
+     "nom": "Devenir enseignant (concours)",
+     "url": "https://www.devenirenseignant.gouv.fr"
+    },
+    {
+     "nom": "Académie de Versailles",
+     "url": "https://www.ac-versailles.fr"
+    },
+    {
+     "nom": "Académie de Paris",
+     "url": "https://www.ac-paris.fr"
+    },
+    {
+     "nom": "Académie de Créteil",
+     "url": "https://www.ac-creteil.fr"
+    },
+    {
+     "nom": "Choisir le service public – enseignement",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/domaine/3513/"
+    }
+   ]
+  },
+  {
+   "groupe": "Généralistes",
+   "sites": [
+    {
+     "nom": "APEC – data scientist",
+     "url": "https://www.apec.fr/candidat/recherche-emploi.html/emploi?motsCles=data+scientist"
+    },
+    {
+     "nom": "LinkedIn – data scientist",
+     "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=France"
+    },
+    {
+     "nom": "Indeed – data analyst",
+     "url": "https://fr.indeed.com/jobs?q=data+analyst&l=%C3%8Ele-de-France"
+    },
+    {
+     "nom": "Welcome to the Jungle – data analyst",
+     "url": "https://www.welcometothejungle.com/fr/pages/emploi-data-analyst"
+    },
+    {
+     "nom": "Choisir le service public – numérique",
+     "url": "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/domaine/3522/"
+    },
+    {
+     "nom": "Emploi territorial",
+     "url": "https://www.emploi-territorial.fr"
+    }
+   ]
+  },
+  {
+   "groupe": "Sites sectoriels",
+   "sites": [
+    {
+     "nom": "Makesense – data",
+     "url": "https://jobs.makesense.org/s/jobs/all/tech-data-analysis?items_page=0"
+    },
+    {
+     "nom": "Greenjob (écologie)",
+     "url": "https://www.greenjob.fr"
+    },
+    {
+     "nom": "Industrie Emploi (UIMM)",
+     "url": "https://www.industrie-emploi.fr"
+    },
+    {
+     "nom": "Industrie recrute",
+     "url": "https://www.industrie-recrute.fr"
+    },
+    {
+     "nom": "Job BTP",
+     "url": "https://www.job-btp.fr"
+    },
+    {
+     "nom": "Un job dans le BTP",
+     "url": "https://www.unjobdanslebtp.fr"
+    },
+    {
+     "nom": "Carrière logistique",
+     "url": "https://www.carriere-logistique.fr"
+    },
+    {
+     "nom": "Supply Chain",
+     "url": "https://www.supply-chain.fr"
+    },
+    {
+     "nom": "APECITA (agro)",
+     "url": "https://www.apecita.com"
+    },
+    {
+     "nom": "Jobagri",
+     "url": "https://www.jobagri.com"
+    },
+    {
+     "nom": "FHF – hôpitaux publics",
+     "url": "https://emploi.fhf.fr"
+    },
+    {
+     "nom": "eFinancialCareers",
+     "url": "https://www.efinancialcareers.fr"
+    },
+    {
+     "nom": "Emploi assurance",
+     "url": "https://www.emploi-assurance.com"
+    },
+    {
+     "nom": "Sciencemeup",
+     "url": "https://www.sciencemeup.com"
+    }
+   ]
+  }
+ ],
+ "min_score": 35,
+ "fit": {
+  "hi": 70,
+  "mid": 50
+ }
+}

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Suivi des candidatures</title>
-  <meta name="description" content="Suivi personnel des offres d'emploi : enseignement, postdoc, data science, data analyse.">
+  <meta name="description" content="Radar d'offres d'emploi et suivi des candidatures, par profil.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
   <link rel="stylesheet" href="styles.css">
@@ -12,61 +12,99 @@
 <body>
   <div class="wrap">
     <header class="top">
-      <div>
+      <div class="brand">
         <h1>Suivi des candidatures</h1>
-        <p class="lede">Enseignement, postdoc, data science, data analyse : toutes les pistes au même endroit.</p>
+        <p class="lede" id="updated">Chargement…</p>
       </div>
       <div class="actions">
-        <button class="btn primary" id="btn-add" type="button">+ Ajouter une offre</button>
-        <button class="btn" id="btn-theme" type="button" >Thème clair/sombre</button>
+        <label class="field inline" id="profile-wrap" hidden><span>Profil</span><select id="profile"></select></label>
+        <button class="btn" id="btn-theme" type="button">Thème clair/sombre</button>
       </div>
     </header>
 
-    <section class="stats" id="stats" aria-label="Résumé"></section>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button role="tab" class="tab" id="tab-offres" data-tab="offres" aria-selected="true">Offres <small id="n-offres"></small></button>
+      <button role="tab" class="tab" id="tab-echeances" data-tab="echeances" aria-selected="false">Échéances <small id="n-echeances"></small></button>
+      <button role="tab" class="tab" id="tab-liens" data-tab="liens" aria-selected="false">Liens rapides</button>
+      <button role="tab" class="tab" id="tab-sources" data-tab="sources" aria-selected="false">Sources <small id="n-sources"></small></button>
+    </nav>
 
-    <section class="toolbar" aria-label="Filtres">
-      <div class="chips" role="group" aria-label="Type de poste" id="chips"></div>
-      <div class="controls">
-        <label class="field"><span>Recherche</span>
-          <input type="search" id="q" placeholder="Organisme, poste, ville…">
-        </label>
-        <label class="field"><span>Statut</span>
-          <select id="f-status"></select>
-        </label>
-        <label class="field"><span>Trier par</span>
-          <select id="sort">
-            <option value="fit">Pertinence</option>
-            <option value="deadline">Date limite</option>
-            <option value="published">Plus récentes</option>
-          </select>
-        </label>
+    <div id="error" class="error" hidden></div>
+
+    <!-- OFFRES -->
+    <section id="panel-offres" class="panel" role="tabpanel" aria-labelledby="tab-offres">
+      <div class="stats" id="stats"></div>
+      <div class="toolbar">
+        <div class="chips" role="group" aria-label="Catégorie" id="chips"></div>
+        <div class="controls">
+          <label class="field grow"><span>Recherche</span><input type="search" id="q" placeholder="Organisme, poste, ville, compétence…"></label>
+          <label class="field"><span>Statut</span><select id="f-status"></select></label>
+          <label class="field"><span>Source</span><select id="f-source"></select></label>
+          <label class="field"><span>Trier par</span>
+            <select id="sort">
+              <option value="score">Pertinence</option>
+              <option value="recent">Plus récentes</option>
+              <option value="deadline">Date limite</option>
+            </select>
+          </label>
+        </div>
+        <div class="toggles">
+          <label><input type="checkbox" id="f-new"> Nouvelles uniquement</label>
+          <label><input type="checkbox" id="f-idf"> Île-de-France uniquement</label>
+          <label><input type="checkbox" id="f-hide" checked> Masquer écartées et refus</label>
+          <label><input type="checkbox" id="f-gone"> Afficher les offres disparues</label>
+          <button class="btn small primary" id="btn-add" type="button">+ Ajouter une offre</button>
+        </div>
       </div>
+      <p class="count" id="count" aria-live="polite"></p>
+      <div class="list" id="list"></div>
+      <div class="more-wrap"><button class="btn" id="btn-more" type="button" hidden>Afficher plus</button></div>
+
+      <section class="data-tools">
+        <h2>Sauvegarde du suivi</h2>
+        <p>Statuts, notes et offres ajoutées restent dans ce navigateur, séparément pour chaque profil. Exporte-les pour changer d'appareil. Pour rendre tes ajouts permanents, télécharge <code>manual.json</code> et remplace <code>profiles/&lt;profil&gt;/manual.json</code> dans le dépôt.</p>
+        <div class="row">
+          <button class="btn" id="btn-export" type="button">Exporter mon suivi</button>
+          <label class="btn" for="file-import">Importer un suivi</label>
+          <input type="file" id="file-import" accept="application/json" hidden>
+          <button class="btn" id="btn-manual" type="button">Télécharger manual.json</button>
+        </div>
+      </section>
     </section>
 
-    <main class="list" id="list" aria-live="polite"></main>
-
-    <section class="data-tools">
-      <h2>Sauvegarde</h2>
-      <p>Ton suivi (statuts, notes, offres ajoutées) reste dans ce navigateur. Exporte-le pour le retrouver sur un autre appareil, ou télécharge <code>offres.js</code> pour intégrer tes ajouts au dépôt.</p>
-      <div class="row">
-        <button class="btn" id="btn-export" type="button">Exporter mon suivi</button>
-        <label class="btn" for="file-import">Importer un suivi</label>
-        <input type="file" id="file-import" accept="application/json" hidden>
-        <button class="btn" id="btn-offres" type="button">Télécharger offres.js</button>
-      </div>
+    <!-- ÉCHÉANCES -->
+    <section id="panel-echeances" class="panel" role="tabpanel" aria-labelledby="tab-echeances" hidden>
+      <p class="intro">Concours et campagnes à date fixe. À modifier dans la rubrique <code>echeances</code> du fichier de profil.</p>
+      <ol class="timeline" id="echeances"></ol>
     </section>
+
+    <!-- LIENS -->
+    <section id="panel-liens" class="panel" role="tabpanel" aria-labelledby="tab-liens" hidden>
+      <p class="intro">Sites que le radar ne peut pas lire automatiquement : à consulter à la main ou via leurs alertes e-mail.</p>
+      <div class="link-groups" id="liens"></div>
+    </section>
+
+    <!-- SOURCES -->
+    <section id="panel-sources" class="panel" role="tabpanel" aria-labelledby="tab-sources" hidden>
+      <p class="intro" id="sources-intro"></p>
+      <div class="table-wrap"><table class="sources" id="sources"></table></div>
+    </section>
+
+    <footer class="foot-note">
+      Offres collectées automatiquement chaque jour. Sources : <a href="https://www.francetravail.fr" target="_blank" rel="noopener">France Travail</a>,
+      <a href="https://www.adzuna.fr" target="_blank" rel="noopener">Jobs by Adzuna</a>, CNRS, Inria, SFdS, CESI, Hellowork.
+      Chaque offre renvoie vers l'annonce d'origine.
+    </footer>
   </div>
 
   <dialog id="dlg">
-    <form id="form" method="dialog">
-      <h2 id="dlg-title">Nouvelle offre</h2>
+    <form id="form">
+      <h2>Nouvelle offre</h2>
       <div class="grid">
         <label class="field full"><span>Intitulé du poste *</span><input id="i-title" required></label>
         <label class="field"><span>Organisme *</span><input id="i-org" required></label>
         <label class="field"><span>Lieu</span><input id="i-location"></label>
-        <label class="field"><span>Type</span>
-          <select id="i-type"><option value="ens">Enseignement / EC</option><option value="pd">Postdoc</option><option value="ds">Data scientist</option><option value="da">Data analyst</option></select>
-        </label>
+        <label class="field"><span>Catégorie</span><select id="i-category"></select></label>
         <label class="field"><span>Pertinence</span>
           <select id="i-fit"><option value="hi">Très bon fit</option><option value="mid" selected>Fit correct</option><option value="lo">Fit partiel</option></select>
         </label>
@@ -77,15 +115,13 @@
         <label class="field full"><span>Pourquoi ça colle</span><textarea id="i-why" rows="3"></textarea></label>
       </div>
       <div class="row end">
-        <button class="btn" value="cancel" type="button" id="btn-cancel">Annuler</button>
+        <button class="btn" type="button" id="btn-cancel">Annuler</button>
         <button class="btn primary" type="submit">Enregistrer</button>
       </div>
     </form>
   </dialog>
 
   <div class="toast" id="toast" role="status" hidden></div>
-
-  <script src="data/offres.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

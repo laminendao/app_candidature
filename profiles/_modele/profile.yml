@@ -1,0 +1,44 @@
+# MODÈLE DE PROFIL — copie ce dossier sous un nouveau nom (ex. profiles/awa/),
+# sans tiret bas au début, puis adapte les valeurs. Les dossiers qui commencent par « _ » sont ignorés.
+
+name: Prénom Nom
+
+min_score: 35
+fit: {hi: 70, mid: 50}
+retention_days: 30
+
+search:
+  queries:
+    - data analyst
+    - chargé d'études
+
+categories:
+  - id: da
+    label: Data analyst
+    points: 40
+    keywords: [data analyst, analyste de données, chargé d'études]
+
+skills:
+  - {label: SQL, weight: 8, terms: [sql, postgresql]}
+  - {label: visualisation, weight: 6, terms: [power bi, tableau, dataviz]}
+
+exclude_title: [stage, stagiaire, alternance, apprenti]
+
+penalties:
+  - {label: management, weight: -15, terms: [manager, head of, directeur]}
+
+locations:
+  bonus: 10
+  departements: ["69"]
+  terms: [lyon]
+
+echeances: []
+#  - title: Nom de l'échéance
+#    date: "2027-01-15"
+#    detail: Précisions
+#    url: https://…
+
+liens: []
+#  - groupe: Mes sites
+#    sites:
+#      - {nom: Exemple, url: "https://…"}
