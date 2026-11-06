@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T12:58:41+00:00",
+ "generated": "2026-11-06T13:01:47+00:00",
  "raw": 1153,
  "unique": 1082,
  "sources": [
@@ -22,7 +22,7 @@
    "count": 754,
    "message": "",
    "warnings": [],
-   "seconds": 23.1
+   "seconds": 40.6
   },
   {
    "id": "cnrs",
@@ -33,7 +33,7 @@
    "count": 236,
    "message": "",
    "warnings": [],
-   "seconds": 7.6
+   "seconds": 5.5
   },
   {
    "id": "inria",
@@ -44,7 +44,7 @@
    "count": 138,
    "message": "",
    "warnings": [],
-   "seconds": 2.9
+   "seconds": 3.8
   },
   {
    "id": "sfds",
@@ -55,7 +55,7 @@
    "count": 14,
    "message": "",
    "warnings": [],
-   "seconds": 1.7
+   "seconds": 1.6
   },
   {
    "id": "cesi",
@@ -66,7 +66,7 @@
    "count": 11,
    "message": "",
    "warnings": [],
-   "seconds": 1.8
+   "seconds": 1.7
   },
   {
    "id": "hellowork",
