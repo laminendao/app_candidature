@@ -12,7 +12,7 @@ priority: [manuel, inria, cnrs, sfds, cesi, rss, france_travail, hellowork, adzu
 
 sources:
   france_travail:
-    enabled: true
+    enabled: false               # API « Offres d'emploi v2 » retirée du catalogue (oct. 2026) : accès sur demande via francetravail.io/contact. Repasser à true une fois l'accès accordé.
     # departements: ["75", "91"]   # laisser vide = France entière
 
   adzuna:
@@ -35,7 +35,7 @@ sources:
     enabled: true
 
   hellowork:
-    enabled: true
+    enabled: false               # robots.txt de Hellowork interdit la collecte (ses offres remontent via France Travail)
     regions: [ile-de-france]     # "" = France entière
     # Requêtes propres à Hellowork (une page par métier et par région).
     # Laisser vide pour réutiliser toutes les requêtes des profils.

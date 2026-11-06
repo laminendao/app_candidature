@@ -3,7 +3,7 @@ ils cherchent des motifs stables (forme des liens, libellés) plutôt que des cl
 from __future__ import annotations
 
 import re
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
@@ -133,9 +133,13 @@ class Sfds(Source):
         for i, table in enumerate(soup.find_all("table")):
             fields: dict[str, str] = {}
             link = ""
+            inner: list[str] = []   # lignes à une seule cellule : titre, date, type/lieu
             for tr in table.find_all("tr"):
                 cells = tr.find_all(["th", "td"])
                 if len(cells) < 2:
+                    t = clean_text(tr.get_text(" "))
+                    if t:
+                        inner.append(t)
                     continue
                 key = clean_text(cells[0].get_text()).rstrip(" :")
                 fields[key] = clean_text(cells[1].get_text(" "))
@@ -144,17 +148,23 @@ class Sfds(Source):
                     link = urljoin(base, a["href"]) if a else ""
             if not fields:
                 continue
-            # Le titre, la date de publication et le type/lieu précèdent le tableau.
-            before: list[str] = []
-            for el in table.find_all_previous(string=True, limit=40):
-                t = clean_text(el)
-                if t:
-                    before.append(t)
-                if len(before) >= 6:
-                    break
+            # Le titre, la date de publication et le type/lieu sont soit dans le tableau
+            # (lignes à une cellule), soit juste avant. On s'arrête à la fin du tableau précédent.
+            before: list[str] = list(inner)
+            if not any(t.startswith("Publiée le") for t in before):
+                prev_table = table.find_previous("table")
+                for el in table.find_all_previous(string=True, limit=60):
+                    if prev_table is not None and el.find_parent("table") is prev_table:
+                        break
+                    t = clean_text(el)
+                    if t:
+                        before.insert(0, t)  # remet dans l'ordre de lecture
+                before = before[-8:]
+            known = {clean_text(v) for v in fields.values()}
             published = next((parse_date(t) for t in before if t.startswith("Publiée le")), None)
-            meta = next((t for t in before if re.match(r"^(CDI|CDD|Postdoc|Stage|Thèse)\b", t)), "")
-            title = next((t for t in before if not t.startswith(("Publiée le", "Référence")) and t != meta and len(t) > 12), "")
+            meta = next((t for t in before if re.match(r"^(CDI|CDD|Postdoc|Stage|Thèse|Doctorat)\s*,", t, re.I)), "")
+            title = next((t for t in before if not t.startswith(("Publiée le", "Référence")) and t != meta
+                          and t not in known and "@" not in t and len(t) > 12), "")
             if not title or meta.lower().startswith(("stage", "thèse")):
                 continue
             contact = fields.get("Contact", "")
@@ -197,19 +207,23 @@ class Cesi(Source):
     def parse(self, html: str, base: str) -> list[Offer]:
         soup = BeautifulSoup(html, "html.parser")
         out: dict[str, Offer] = {}
-        for h in soup.find_all(["h2", "h3"]):
-            a = h.find("a", href=True)
-            if not a or "/recrutement/" not in a["href"]:
+        base_path = urlparse(base).path.rstrip("/")
+        for a in soup.find_all("a", href=True):
+            url = urljoin(base, a["href"]).split("#")[0]
+            path = urlparse(url).path.rstrip("/")
+            # Une offre = un lien vers une sous-page de /recrutement/ (pas la liste, ni un filtre, ni la candidature spontanée)
+            if not path.startswith(base_path + "/") or path == base_path or "?" in a["href"] \
+                    or "candidature-spontanee" in url or "/page/" in path or url in out:
                 continue
-            url = urljoin(base, a["href"])
-            if url.rstrip("/") == base.rstrip("/") or "candidature-spontanee" in url:
+            title = clean_text(a.get_text(" "))
+            if len(title) < 15:
                 continue
+            h = a.find_parent(["h2", "h3", "h4"]) or a
             card = _card(h)
             text = " ".join(_lines(card))
             pub = re.search(r"Publié le\s+(\d{1,2}(?:er)?\s+\w+\s+\d{4})\s*([^\n]*?)(?=\s*(?:Recherche|Enseignement|$)|\s{2})", text)
             contract = CONTRACT_RE.search(text)
             loc = re.search(r"-\s*(CDI|CDD)[^-]*-\s*([^()]+?)(?:\s*\(|$)", text)
-            title = clean_text(a.get_text())
             out[url] = Offer(
                 source=self.name, source_id=slugify(url.rstrip("/").split("/")[-1])[:80],
                 title=title, url=url,

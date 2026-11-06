@@ -94,6 +94,7 @@ Chaque source n'est interrogée qu'une fois pour tous les profils ; le score est
 Pour un simple flux RSS, inutile d'écrire du code : l'ajouter sous `rss.feeds` dans `config/sources.yml`.
 
 Une source qui échoue n'empêche jamais les autres de tourner : son erreur apparaît dans l'onglet Sources.
+Pour diagnostiquer un extracteur HTML, lancer le workflow à la main en cochant **debug** : une copie des pages lues est enregistrée dans `data/_debug/`.
 Les sources HTML respectent `robots.txt` et espacent leurs requêtes.
 
 ## 5. Tester en local

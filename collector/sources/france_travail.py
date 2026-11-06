@@ -20,16 +20,34 @@ class FranceTravail(Source):
     homepage = "https://candidat.francetravail.fr/offres/recherche"
     secrets = ("FRANCE_TRAVAIL_CLIENT_ID", "FRANCE_TRAVAIL_CLIENT_SECRET")
 
+    SCOPES = ("api_offresdemploiv2 o2dsoffre", "api_offresdemploiv2")
+
     def _token(self, ctx: Context) -> str:
-        r = ctx.http.post(TOKEN_URL, data={
-            "grant_type": "client_credentials",
-            "client_id": self.secret("FRANCE_TRAVAIL_CLIENT_ID"),
-            "client_secret": self.secret("FRANCE_TRAVAIL_CLIENT_SECRET"),
-            "scope": "api_offresdemploiv2 o2dsoffre",
-        })
-        if r.status_code != 200:
-            raise RuntimeError(f"authentification refusée ({r.status_code}) : vérifie les identifiants et l'abonnement à l'API Offres d'emploi v2")
-        return r.json()["access_token"]
+        errors = []
+        for scope in self.SCOPES:
+            r = ctx.http.post(TOKEN_URL, data={
+                "grant_type": "client_credentials",
+                "client_id": self.secret("FRANCE_TRAVAIL_CLIENT_ID"),
+                "client_secret": self.secret("FRANCE_TRAVAIL_CLIENT_SECRET"),
+                "scope": scope,
+            }, headers={"Content-Type": "application/x-www-form-urlencoded"})
+            if r.status_code == 200:
+                try:
+                    return r.json()["access_token"]
+                except (ValueError, KeyError):
+                    pass
+            try:
+                body = r.json()
+                detail = " – ".join(x for x in (body.get("error"), body.get("error_description")) if x)
+            except ValueError:
+                detail = r.text[:120]
+            errors.append(f"{r.status_code} {detail}".strip())
+        hint = {
+            "invalid_client": "identifiant ou clé secrète incorrects (vérifie les secrets GitHub, sans espace)",
+            "invalid_scope": "l'application n'est pas abonnée à l'API « Offres d'emploi v2 » sur francetravail.io",
+        }
+        why = next((h for k, h in hint.items() if any(k in e for e in errors)), "vérifie les identifiants et l'abonnement à l'API Offres d'emploi v2")
+        raise RuntimeError(f"authentification refusée ({' / '.join(errors)}) : {why}")
 
     def fetch(self, ctx: Context) -> list[Offer]:
         token = self._token(ctx)

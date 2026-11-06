@@ -29,23 +29,28 @@ search:
     - enseignant mathématiques
 
 # Catégories, testées dans l'ordre sur l'intitulé du poste. La première qui correspond l'emporte.
+# « requires » : l'offre n'est gardée que si au moins une de ces compétences (skills.label) est trouvée.
 categories:
   - id: postdoc
     label: Postdoc
     points: 40
     keywords: [postdoc, post-doc, post-doctorant, post-doctorante, post-doctorat, postdoctoral, post doctoral, chercheur postdoctoral]
+    requires: [séries temporelles, maintenance prédictive, IA explicable, statistique, machine learning, classification / réduction de dimension, mathématiques]
   - id: ens_sup
     label: Enseignement supérieur
     points: 40
     keywords: [maître de conférences, maîtresse de conférences, enseignant-chercheur, enseignante-chercheuse, enseignant chercheur, enseignant(e)-chercheur(e), ATER, chargé d'enseignement, professeur des universités, assistant professor, lecturer]
+    requires: [séries temporelles, maintenance prédictive, IA explicable, statistique, machine learning, classification / réduction de dimension, mathématiques]
   - id: ens_sec
     label: Enseignement secondaire
     points: 40
     keywords: [professeur de mathématiques, professeure de mathématiques, professeur(e) de mathématiques, enseignant de mathématiques, enseignante de mathématiques, enseignant(e) de mathématiques, enseignant en mathématiques, enseignant mathématiques, professeur de maths, enseignant de maths, second degré, enseignant contractuel, lycée]
+    requires: [mathématiques]   # seules les maths comptent
   - id: rd
     label: R&D / ingénieur de recherche
     points: 35
     keywords: [ingénieur de recherche, ingénieure de recherche, ingénieur r&d, ingénieur-chercheur, ingénieur chercheur, research engineer, research scientist, applied scientist, chercheur]
+    requires: [séries temporelles, maintenance prédictive, IA explicable, statistique, machine learning, classification / réduction de dimension, mathématiques]
   - id: ds
     label: Data scientist / IA
     points: 40
@@ -70,7 +75,10 @@ skills:
   - {label: données industrielles, weight: 4, terms: [capteurs, IoT, industrie 4.0, jumeau numérique, machines tournantes, vibratoire]}
 
 # Intitulés exclus d'office
-exclude_title: [stage, stagiaire, alternance, alternant, alternante, apprenti, apprentie, doctorant, doctorante, thèse, phd position, phd student, cifre, contrat doctoral, service civique, job étudiant, vendeur, vendeuse]
+exclude_title: [stage, stagiaire, alternance, alternant, alternante, apprenti, apprentie, doctorant, doctorante, thèse, phd position, phd student, cifre, contrat doctoral, service civique, job étudiant, vendeur, vendeuse, intern, internship]
+
+# Exclus si présents n'importe où dans l'annonce (cours particuliers, soutien scolaire…)
+exclude_text: [professeur particulier, professeure particulière, cours particuliers, soutien scolaire, cours à domicile, aide aux devoirs]
 
 # Malus
 penalties:
@@ -124,6 +132,7 @@ liens:
     sites:
       - {nom: APEC – data scientist, url: "https://www.apec.fr/candidat/recherche-emploi.html/emploi?motsCles=data+scientist"}
       - {nom: LinkedIn – data scientist, url: "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=France"}
+      - {nom: Hellowork – data analyst Île-de-France, url: "https://www.hellowork.com/fr-fr/emploi/metier_data-analyst-region_ile-de-france.html"}
       - {nom: Indeed – data analyst, url: "https://fr.indeed.com/jobs?q=data+analyst&l=%C3%8Ele-de-France"}
       - {nom: Welcome to the Jungle – data analyst, url: "https://www.welcometothejungle.com/fr/pages/emploi-data-analyst"}
       - {nom: Choisir le service public – numérique, url: "https://choisirleservicepublic.gouv.fr/nos-offres/filtres/domaine/3522/"}

@@ -90,7 +90,9 @@ def today_iso() -> str:
 class Http:
     """Session HTTP polie : User-Agent explicite, délai entre requêtes, respect de robots.txt."""
 
-    def __init__(self, delay: float = 1.0, timeout: int = 30):
+    def __init__(self, delay: float = 1.0, timeout: int = 30, debug_dir=None):
+        self.debug_dir = debug_dir   # si défini, copie des pages HTML/XML reçues (diagnostic des extracteurs)
+        self._dumped: dict[str, int] = {}
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT, "Accept-Language": "fr-FR,fr;q=0.9"})
         self.delay = delay
@@ -133,11 +135,25 @@ class Http:
                 if r.status_code in (429, 502, 503, 504) and attempt < retries:
                     time.sleep(3 * (attempt + 1))
                     continue
+                self._dump(url, r)
                 return r
             except requests.RequestException as exc:
                 last_exc = exc
                 time.sleep(2 * (attempt + 1))
         raise last_exc or RuntimeError(f"échec GET {url}")
+
+    def _dump(self, url: str, r: requests.Response) -> None:
+        if not self.debug_dir or url.endswith("robots.txt") or "json" in r.headers.get("Content-Type", ""):
+            return  # les réponses d'API (JSON) ne sont jamais copiées
+        host = urlparse(url).netloc
+        n = self._dumped.get(host, 0)
+        if n >= 3:
+            return
+        self._dumped[host] = n + 1
+        from pathlib import Path
+        d = Path(self.debug_dir)
+        d.mkdir(parents=True, exist_ok=True)
+        (d / f"{host}_{n}.html").write_text(f"<!-- {url} [{r.status_code}] -->\n" + r.text, encoding="utf-8")
 
     def post(self, url: str, **kw) -> requests.Response:
         self._wait(url)

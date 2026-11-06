@@ -4,7 +4,10 @@ from ..models import Offer
 from .base import Context, Source
 from .rss import entry_to_offer, parse_feed
 
-FEED_URL = "https://emploi.cnrs.fr/Rss/Offres.ashx?BassinEmploi={bassin}"
+import re
+
+PREFIX_RE = re.compile(r"^Offre d'emploi\s+(.{0,60}?)\s*:\s*", re.I)
+FEED_URL ="https://emploi.cnrs.fr/Rss/Offres.ashx?BassinEmploi={bassin}"
 
 
 class Cnrs(Source):
@@ -25,7 +28,14 @@ class Cnrs(Source):
                 entries = parse_feed(r.text)
                 ok += 1
                 label = bassin.replace("-", " ").title()
-                offers += [entry_to_offer(self.name, e, "CNRS", label) for e in entries]
+                for e in entries:
+                    o = entry_to_offer(self.name, e, "CNRS", label)
+                    # « Offre d'emploi Chercheur en contrat CDD : Post-doctorat… » → contrat + intitulé
+                    m = PREFIX_RE.match(o.title)
+                    if m:
+                        o.contract = m[1].strip()
+                        o.title = o.title[m.end():].strip()
+                    offers.append(o)
             except Exception as exc:
                 ctx.warn(f"bassin {bassin} : {exc}")
         if not ok:

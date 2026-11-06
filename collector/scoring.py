@@ -78,6 +78,10 @@ class Scorer:
                 total += w
                 reasons.append(skill["label"])
 
+        # Une catégorie peut exiger au moins une compétence (ex. un postdoc doit toucher à la statistique ou au ML)
+        if cat and cat.get("requires") and not set(cat["requires"]) & set(reasons):
+            return Scored(0, "lo", cat["id"], reasons, excluded="hors thématique")
+
         for pen in self.penalties:
             hit = has_any(title, pen.get("terms")) if pen.get("title_only", True) else has_any(body, pen.get("terms"))
             if hit:

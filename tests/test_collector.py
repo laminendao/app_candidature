@@ -76,6 +76,21 @@ class ParsersTest(unittest.TestCase):
         self.assertEqual(o.published, "2026-10-14")
         self.assertEqual(o.extra.get("contact"), "contact@oniris.fr")
 
+    def test_sfds_title_inside_table(self):
+        offers = ALL["sfds"]().parse((FIX / "sfds_intable.html").read_text(), "https://www.sfds.asso.fr/fr/n/506/")
+        self.assertEqual([o.org for o in offers], ["ASNR", "ONIRIS"])
+        self.assertTrue(offers[0].title.startswith("Postdoc : Modèles"))
+        self.assertTrue(offers[1].title.startswith("Chargé d'enseignement"))
+        self.assertEqual(offers[1].location, "Nantes")
+        self.assertNotIn("@", offers[1].title)
+
+    def test_cnrs_prefix(self):
+        from collector.sources.cnrs import PREFIX_RE
+        t = "Offre d'emploi Chercheur en contrat CDD : Post-doctorat en statistique (H/F)"
+        m = PREFIX_RE.match(t)
+        self.assertEqual(m[1], "Chercheur en contrat CDD")
+        self.assertEqual(t[m.end():], "Post-doctorat en statistique (H/F)")
+
     def test_cesi(self):
         offers = ALL["cesi"]().parse((FIX / "cesi.html").read_text(), "https://lineact.cesi.fr/recrutement/")
         self.assertEqual(len(offers), 1)
@@ -103,6 +118,17 @@ class ApiTest(unittest.TestCase):
         self.assertEqual(offers[0].via, "HELLOWORK")
         self.assertEqual(offers[0].description, "Analyse SQL")
         self.assertEqual(g.call_args.kwargs["params"]["motsCles"], "data,analyst")
+
+    def test_france_travail_auth_error_is_explained(self):
+        src = ALL["france_travail"]()
+        c = ctx()
+        bad = FakeResponse(400, text='{"error":"invalid_client"}', data={"error": "invalid_client", "error_description": "Client authentication failed"})
+        with mock.patch.dict("os.environ", {"FRANCE_TRAVAIL_CLIENT_ID": "a", "FRANCE_TRAVAIL_CLIENT_SECRET": "b"}), \
+             mock.patch.object(c.http, "post", return_value=bad) as p:
+            with self.assertRaises(RuntimeError) as cm:
+                src.fetch(c)
+        self.assertIn("clé secrète incorrects", str(cm.exception))
+        self.assertEqual(p.call_count, 2)  # deux portées essayées
 
     def test_adzuna(self):
         src = ALL["adzuna"]()
@@ -148,6 +174,11 @@ class ScoringTest(unittest.TestCase):
         self.assertIsNotNone(self.s("Alternance data analyst").excluded)
         # « apprentissage automatique » ne doit pas être pris pour de l'alternance
         self.assertIsNone(self.s("Ingénieur apprentissage automatique").excluded)
+
+    def test_tutoring_and_offtopic_excluded(self):
+        self.assertIsNotNone(self.s("Professeur de mathématiques à Évry H/F", "Les Sherpas recrutent un professeur particulier de maths").excluded)
+        self.assertEqual(self.s("Post-doctorat en biologie moléculaire", "PCR, culture cellulaire").excluded, "hors thématique")
+        self.assertIsNone(self.s("Post-doctorat en statistique bayésienne", "statistique").excluded)
 
     def test_irrelevant_is_low(self):
         self.assertLess(self.s("Technicien de laboratoire en biologie moléculaire").score, 35)

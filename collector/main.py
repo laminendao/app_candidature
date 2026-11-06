@@ -70,7 +70,9 @@ def collect(config: dict, profiles: list[dict], only: set[str] | None) -> tuple[
                 queries.append(q)
 
     since = int(config.get("since_days", 7))
-    http = Http(delay=float(config.get("delay_seconds", 1.0)))
+    import os
+    debug = DATA / "_debug" if os.environ.get("COLLECT_DEBUG") == "1" else None
+    http = Http(delay=float(config.get("delay_seconds", 1.0)), debug_dir=debug)
     pool: list[Offer] = []
     status: list[dict] = []
 
