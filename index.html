@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suivi des candidatures</title>
+  <meta name="description" content="Suivi personnel des offres d'emploi : enseignement, postdoc, data science, data analyse.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <h1>Suivi des candidatures</h1>
+        <p class="lede">Enseignement, postdoc, data science, data analyse : toutes les pistes au même endroit.</p>
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="btn-add" type="button">+ Ajouter une offre</button>
+        <button class="btn" id="btn-theme" type="button" >Thème clair/sombre</button>
+      </div>
+    </header>
+
+    <section class="stats" id="stats" aria-label="Résumé"></section>
+
+    <section class="toolbar" aria-label="Filtres">
+      <div class="chips" role="group" aria-label="Type de poste" id="chips"></div>
+      <div class="controls">
+        <label class="field"><span>Recherche</span>
+          <input type="search" id="q" placeholder="Organisme, poste, ville…">
+        </label>
+        <label class="field"><span>Statut</span>
+          <select id="f-status"></select>
+        </label>
+        <label class="field"><span>Trier par</span>
+          <select id="sort">
+            <option value="fit">Pertinence</option>
+            <option value="deadline">Date limite</option>
+            <option value="published">Plus récentes</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <main class="list" id="list" aria-live="polite"></main>
+
+    <section class="data-tools">
+      <h2>Sauvegarde</h2>
+      <p>Ton suivi (statuts, notes, offres ajoutées) reste dans ce navigateur. Exporte-le pour le retrouver sur un autre appareil, ou télécharge <code>offres.js</code> pour intégrer tes ajouts au dépôt.</p>
+      <div class="row">
+        <button class="btn" id="btn-export" type="button">Exporter mon suivi</button>
+        <label class="btn" for="file-import">Importer un suivi</label>
+        <input type="file" id="file-import" accept="application/json" hidden>
+        <button class="btn" id="btn-offres" type="button">Télécharger offres.js</button>
+      </div>
+    </section>
+  </div>
+
+  <dialog id="dlg">
+    <form id="form" method="dialog">
+      <h2 id="dlg-title">Nouvelle offre</h2>
+      <div class="grid">
+        <label class="field full"><span>Intitulé du poste *</span><input id="i-title" required></label>
+        <label class="field"><span>Organisme *</span><input id="i-org" required></label>
+        <label class="field"><span>Lieu</span><input id="i-location"></label>
+        <label class="field"><span>Type</span>
+          <select id="i-type"><option value="ens">Enseignement / EC</option><option value="pd">Postdoc</option><option value="ds">Data scientist</option><option value="da">Data analyst</option></select>
+        </label>
+        <label class="field"><span>Pertinence</span>
+          <select id="i-fit"><option value="hi">Très bon fit</option><option value="mid" selected>Fit correct</option><option value="lo">Fit partiel</option></select>
+        </label>
+        <label class="field"><span>Contrat</span><input id="i-contract" placeholder="CDI, CDD 24 mois…"></label>
+        <label class="field"><span>Date limite</span><input type="date" id="i-deadline"></label>
+        <label class="field full"><span>Lien de l'offre</span><input type="url" id="i-url" placeholder="https://…"></label>
+        <label class="field full"><span>Contact</span><input id="i-contact" placeholder="nom@exemple.fr"></label>
+        <label class="field full"><span>Pourquoi ça colle</span><textarea id="i-why" rows="3"></textarea></label>
+      </div>
+      <div class="row end">
+        <button class="btn" value="cancel" type="button" id="btn-cancel">Annuler</button>
+        <button class="btn primary" type="submit">Enregistrer</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script src="data/offres.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
