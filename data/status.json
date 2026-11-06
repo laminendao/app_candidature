@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T11:26:51+00:00",
+ "generated": "2026-11-06T11:28:02+00:00",
  "raw": 1143,
  "unique": 1074,
  "sources": [
@@ -12,7 +12,7 @@
    "count": 0,
    "message": "RuntimeError : authentification refusée (400) : vérifie les identifiants et l'abonnement à l'API Offres d'emploi v2",
    "warnings": [],
-   "seconds": 0.8
+   "seconds": 0.7
   },
   {
    "id": "adzuna",
@@ -34,7 +34,7 @@
    "count": 237,
    "message": "",
    "warnings": [],
-   "seconds": 5.9
+   "seconds": 6.2
   },
   {
    "id": "inria",
@@ -45,7 +45,7 @@
    "count": 137,
    "message": "",
    "warnings": [],
-   "seconds": 1.5
+   "seconds": 2.0
   },
   {
    "id": "sfds",
@@ -56,7 +56,7 @@
    "count": 16,
    "message": "",
    "warnings": [],
-   "seconds": 1.6
+   "seconds": 1.9
   },
   {
    "id": "cesi",
@@ -67,7 +67,7 @@
    "count": 0,
    "message": "",
    "warnings": [],
-   "seconds": 2.7
+   "seconds": 2.0
   },
   {
    "id": "hellowork",
