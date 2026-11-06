@@ -62,6 +62,9 @@
       sel.innerHTML = S.profiles.map(p => `<option value="${esc(p.id)}">${esc(p.name)}</option>`).join("");
       sel.value = S.profile;
       $("#profile-wrap").hidden = S.profiles.length < 2;
+      if (S.profiles.length < 2 && new URLSearchParams(location.search).has("p") && new URLSearchParams(location.search).get("add") !== "1") {
+        const u = new URL(location.href); u.searchParams.delete("p"); history.replaceState(null, "", u.pathname + u.search + u.hash);
+      }
       S.status = await getJSON("data/status.json").catch(() => null);
       await loadProfile();
     } catch (e) {
@@ -120,7 +123,7 @@
     $("#dlg").showModal();
     (org ? $("#i-location") : $("#i-org")).focus();
     const clean = new URL(location.href);
-    ["add", "t", "u", "s"].forEach(k => clean.searchParams.delete(k));
+    ["add", "t", "u", "s"].concat(S.profiles.length < 2 ? ["p"] : []).forEach(k => clean.searchParams.delete(k));
     history.replaceState(null, "", clean);
   }
 
@@ -375,10 +378,9 @@
     S.tab = tab;
     document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
     document.querySelectorAll(".panel").forEach(p => (p.hidden = p.id !== `panel-${tab}`));
-    if (location.hash.slice(1) !== tab) history.replaceState(null, "", tab === "offres" ? location.pathname + location.search : `#${tab}`);
+    try { sessionStorage.setItem("suivi:onglet", tab); } catch {}   // onglet retenu sans toucher à l'adresse
   }
   document.querySelector(".tabs").addEventListener("click", e => { const b = e.target.closest("[data-tab]"); if (b) switchTab(b.dataset.tab); });
-  window.addEventListener("hashchange", () => switchTab(["candidatures", "echeances", "liens", "sources"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "offres"));
 
   $("#profile").addEventListener("change", async e => {
     S.profile = e.target.value;
@@ -485,6 +487,13 @@
     const next = cur === "dark" ? "light" : "dark"; applyTheme(next); store.set("suivi:theme", next);
   });
 
-  if (["candidatures", "echeances", "liens", "sources"].includes(location.hash.slice(1))) switchTab(location.hash.slice(1));
+  // Anciens liens en #onglet : on ouvre l'onglet puis on nettoie l'adresse
+  {
+    const fromHash = location.hash.slice(1);
+    let start = ["candidatures", "echeances", "liens", "sources"].includes(fromHash) ? fromHash : null;
+    try { start = start || sessionStorage.getItem("suivi:onglet"); } catch {}
+    if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+    if (start && start !== "offres") switchTab(start);
+  }
   boot();
 })();
