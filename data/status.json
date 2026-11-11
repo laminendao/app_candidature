@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-10T13:30:34+00:00",
- "raw": 1438,
- "unique": 1329,
+ "generated": "2026-11-11T12:45:42+00:00",
+ "raw": 1430,
+ "unique": 1337,
  "sources": [
   {
    "id": "france_travail",
@@ -19,10 +19,10 @@
    "homepage": "https://www.adzuna.fr",
    "enabled": true,
    "state": "ok",
-   "count": 799,
+   "count": 779,
    "message": "",
    "warnings": [],
-   "seconds": 34.2
+   "seconds": 26.6
   },
   {
    "id": "cnrs",
@@ -30,10 +30,10 @@
    "homepage": "https://emploi.cnrs.fr/Offres/Recherche.aspx",
    "enabled": true,
    "state": "ok",
-   "count": 229,
+   "count": 233,
    "message": "",
    "warnings": [],
-   "seconds": 6.7
+   "seconds": 6.0
   },
   {
    "id": "inria",
@@ -41,7 +41,7 @@
    "homepage": "https://jobs.inria.fr/public/classic/fr/offres",
    "enabled": true,
    "state": "ok",
-   "count": 133,
+   "count": 139,
    "message": "",
    "warnings": [],
    "seconds": 1.5
@@ -55,7 +55,7 @@
    "count": 14,
    "message": "",
    "warnings": [],
-   "seconds": 1.1
+   "seconds": 1.4
   },
   {
    "id": "cesi",
@@ -63,10 +63,10 @@
    "homepage": "https://lineact.cesi.fr/recrutement/",
    "enabled": true,
    "state": "ok",
-   "count": 10,
+   "count": 9,
    "message": "",
    "warnings": [],
-   "seconds": 1.5
+   "seconds": 1.6
   },
   {
    "id": "hellowork",
@@ -84,13 +84,13 @@
    "homepage": "https://mail.google.com",
    "enabled": true,
    "state": "warning",
-   "count": 253,
+   "count": 256,
    "message": "",
    "warnings": [
     "aucune offre reconnue dans « Confirmation de votre adresse électronique » (francetravail.fr)",
     "aucune offre reconnue dans « Information relative à nos communications » (welcometothejungle.com)"
    ],
-   "seconds": 5.3
+   "seconds": 6.6
   },
   {
    "id": "rss",
