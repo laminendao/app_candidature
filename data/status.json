@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-17T14:28:24+00:00",
- "raw": 1324,
- "unique": 1215,
+ "generated": "2026-11-18T14:03:33+00:00",
+ "raw": 1374,
+ "unique": 1242,
  "sources": [
   {
    "id": "france_travail",
@@ -19,10 +19,10 @@
    "homepage": "https://www.adzuna.fr",
    "enabled": true,
    "state": "ok",
-   "count": 701,
+   "count": 732,
    "message": "",
    "warnings": [],
-   "seconds": 23.2
+   "seconds": 67.9
   },
   {
    "id": "cnrs",
@@ -30,10 +30,10 @@
    "homepage": "https://emploi.cnrs.fr/Offres/Recherche.aspx",
    "enabled": true,
    "state": "ok",
-   "count": 227,
+   "count": 239,
    "message": "",
    "warnings": [],
-   "seconds": 5.4
+   "seconds": 5.3
   },
   {
    "id": "inria",
@@ -41,10 +41,10 @@
    "homepage": "https://jobs.inria.fr/public/classic/fr/offres",
    "enabled": true,
    "state": "ok",
-   "count": 135,
+   "count": 137,
    "message": "",
    "warnings": [],
-   "seconds": 10.1
+   "seconds": 1.1
   },
   {
    "id": "sfds",
@@ -55,7 +55,7 @@
    "count": 14,
    "message": "",
    "warnings": [],
-   "seconds": 1.3
+   "seconds": 0.9
   },
   {
    "id": "cesi",
@@ -66,7 +66,7 @@
    "count": 9,
    "message": "",
    "warnings": [],
-   "seconds": 1.4
+   "seconds": 1.1
   },
   {
    "id": "hellowork",
@@ -84,12 +84,12 @@
    "homepage": "https://mail.google.com",
    "enabled": true,
    "state": "warning",
-   "count": 238,
+   "count": 243,
    "message": "",
    "warnings": [
     "aucune offre reconnue dans « Confirmation de votre adresse électronique » (francetravail.fr)"
    ],
-   "seconds": 5.3
+   "seconds": 15.0
   },
   {
    "id": "rss",
