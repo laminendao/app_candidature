@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-21T13:30:20+00:00",
+ "generated": "2026-11-22T13:23:53+00:00",
  "profile": "lamine",
- "count": 1136,
+ "count": 1172,
  "offres": [
   {
    "source": "adzuna",
@@ -210,7 +210,7 @@
    "why": "Cœur de ton expertise : maintenance prédictive, modèles de durée, fiabilité et vieillissement des actifs. Vérifier le lieu exact sur le site carrière SNCF.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -239,7 +239,7 @@
    "why": "Équipe StatSC (classification, réduction de dimension, multiblocs) : colle à IDFC et au feature clustering robuste. Date passée, mais un mail direct à la responsable d'équipe peut encore passer.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -268,7 +268,7 @@
    "why": "Classification et séries temporelles, dans ton établissement. Démarrage prévu sept./oct. : demander si le poste est encore ouvert.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -295,7 +295,7 @@
    "why": "Axes explicitement « IA explicable et de confiance » et analyse prédictive. Qualification CNU 27 exigée : tu l'as. Tu connais le labo de l'intérieur.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -359,9 +359,39 @@
      "url": "https://www.adzuna.fr/details/5967767643?utm_medium=api&utm_source=b765adeb"
     }
    ],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5967767643",
+   "title": "Ingénieure/ Ingénieur AIOps / MLOps F/H",
+   "url": "https://www.adzuna.fr/details/5967767643?utm_medium=api&utm_source=b765adeb",
+   "org": "Capgemini",
+   "location": "Lille-Nord, Lille",
+   "department": "",
+   "contract": "CDI",
+   "description": "Votre profil Vous maîtrisez : AIOps : modèles de détection d’anomalies et de séries temporelles, corrélation d’événements ; une plateforme AIOps est un plus. MLOps / LLMOps : MLflow, Kubeflow ou plateformes cloud (Azure ML, Vertex AI, SageMaker) ; outils d’observabilité LLM (Langfuse, Arize Phoenix, OpenLLMetry ou équivalent). Développement : Python obligatoire ; Kubernetes, Docker ; Terraform, Ansible, GitOps. Bonne connaissance des enjeux de conformité de l’IA et des données (AI Act, RGPD) et…",
+   "published": "2026-11-16",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5967767643",
+   "score": 75,
+   "fit": "hi",
+   "category": "ds",
+   "reasons": [
+    "séries temporelles",
+    "maintenance prédictive",
+    "Python / R"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
   },
   {
    "source": "adzuna",
@@ -508,7 +538,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -770,7 +800,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -931,7 +961,7 @@
    "source": "adzuna",
    "source_id": "5973998774",
    "title": "Data Scientist (h/f)",
-   "url": "https://www.adzuna.fr/details/5973998774?utm_medium=api&utm_source=b765adeb",
+   "url": "https://www.adzuna.fr/land/ad/5973998774?se=HqnN5nfm8RGB-bDIy5dDgQ&utm_medium=api&utm_source=b765adeb&v=9113762151EE1AE1EF5D73C64C9A77F38505290E",
    "org": "LHH Recruitment Solutions",
    "location": "Saint-Denis, Seine-Saint-Denis",
    "department": "",
@@ -953,7 +983,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -982,7 +1012,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -1279,7 +1309,7 @@
    "source": "adzuna",
    "source_id": "5973791323",
    "title": "DATA SCIENTIST (H/F) - PYTHON / SQL / POWER BI",
-   "url": "https://www.adzuna.fr/details/5973791323?utm_medium=api&utm_source=b765adeb",
+   "url": "https://www.adzuna.fr/land/ad/5973791323?se=4MlG4Hfm8RGuPayoyp3FzQ&utm_medium=api&utm_source=b765adeb&v=04E448416101D1FA6A6025E549CB7CACF9745B7C",
    "org": "Crit",
    "location": "Magny-les-Hameaux, Maurepas",
    "department": "",
@@ -1302,7 +1332,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -1400,7 +1430,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -1429,7 +1459,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-18"
   },
@@ -1523,6 +1553,35 @@
   },
   {
    "source": "adzuna",
+   "source_id": "5974336638",
+   "title": "Senior Machine Learning Engineer",
+   "url": "https://www.adzuna.fr/details/5974336638?utm_medium=api&utm_source=b765adeb",
+   "org": "Nabla",
+   "location": "Paris, Ile-de-France",
+   "department": "",
+   "contract": "temps plein",
+   "description": "About Nabla Nabla delivers a unified clinical AI platform used by healthcare organizations across specialties and care settings. The platform includes: Ambient AI documentation that captures clinical conversations and generates structured notes. AI-powered dictation and clinical workflow tools embedded directly within EHR systems. Agentic AI capabilities that support multi-step clinical and administrative tasks. Enterprise-grade infrastructure built for secure deployment across health systems. …",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974336638",
+   "score": 62,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "machine learning",
+    "zone géographique"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
    "source_id": "5971853689",
    "title": "Post-doc Approches de Machine Learning pour l'étude des vitraux (H/F)",
    "url": "https://www.adzuna.fr/details/5971853689?utm_medium=api&utm_source=b765adeb",
@@ -1546,7 +1605,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-20"
   },
@@ -1576,7 +1635,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -1605,7 +1664,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -1692,7 +1751,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-16"
   },
   {
@@ -1721,7 +1780,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-16"
   },
   {
@@ -2187,6 +2246,35 @@
   },
   {
    "source": "email",
+   "source_id": "6ddba9eecaf29052",
+   "title": "Post-doctorat - Interaction spin-réseau par simulations ab initio et Machine Learning - H/F",
+   "url": "https://www.linkedin.com/comm/jobs/view/4466884070/?trackingId=0%2BkRLRm%2B75hxK2H1RMjRsA%3D%3D&refId=c3dWYfPUumPk7EzkR77IVA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BY6w782Q0TAqlO6ySAGlrvQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=1MdN7jX_bYzYw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4466884070_ssid_1741961043_fmid_bbso98~mwqlbjzk~x2_crv_7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4466884070_ssid_1741961043_fmid_bbso98~mwqlbjzk~x2_crv_7-null-bbso98~mwqlbjzk~x2-null-null&eid=bbso98-mwqlbjzk-x2&otpToken=NTViZGRhNTdlZjMyMmI4YWJiYjQ3MGUyZGM4ZWVjYTg3NTRlODg5NDNlNjljNmU2Y2FjNjRmMWIyMTBlOTQ1NjJlNTFiMDBkNTY2MmMzZGIyNmRjN2UwY2RiODA0ZDVlMGVjZDZmNzE5M2Y5NmZiNDdmYTkzNjkzZDMxMWFlY2MwZWI2MjIzYjQzMjM0NywyLDE%3D",
+   "org": "CEA",
+   "location": "Bruyères-le-Châtel",
+   "department": "",
+   "contract": "",
+   "description": "CEA · Bruyères-le-Châtel · 1 connection",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:6ddba9eecaf29052",
+   "score": 61,
+   "fit": "mid",
+   "category": "postdoc",
+   "reasons": [
+    "machine learning",
+    "profil docteur"
+   ],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
    "source_id": "82b15163bdaff759",
    "title": "Post-doctorat - Méthodes de machine learning pour la simulation rapide des ondes de choc 3D - H/F",
    "url": "https://www.linkedin.com/comm/jobs/view/4472550948/?trackingId=ABErJj6BvUvPpoJQA%2BN7GA%3D%3D&refId=XhhWBZMYRdG43Bqjwza85Q%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BK3qJRVFNQXm3n%2Fyciaq00w%3D%3D&midToken=AQEISyqAMf6QBg&midSig=1Yy2AdK_Fsrcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4472550948_ssid_1741961043_fmid_bbso98~mwhjj6rd~x_crv_9&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4472550948_ssid_1741961043_fmid_bbso98~mwhjj6rd~x_crv_9-null-bbso98~mwhjj6rd~x-null-null&eid=bbso98-mwhjj6rd-x&otpToken=MGYzZWMyZDk4NWZiZjE2ODcwYjc4NTI3NzViOTNkMmFlZDg3YmViMjFjNzM4MzdiMjI5YmM0YzMyOTgyNjJhM2ZjZGJiMTU2ZjI1YzY1OGM1YWUwNWVlNjU4OGRiODg0NjBkNTk2MDIxZDI0YWU1YzIyZDliYjM1YjcwNjhlZmE4Mjk4M2U0ZDBhNWZlMiwyLDE%3D",
@@ -2211,7 +2299,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-15"
   },
   {
@@ -2298,7 +2386,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -2767,7 +2855,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -2830,6 +2918,64 @@
   },
   {
    "source": "adzuna",
+   "source_id": "5974792423",
+   "title": "Data Scientist - H/F",
+   "url": "https://www.adzuna.fr/details/5974792423?utm_medium=api&utm_source=b765adeb",
+   "org": "E.LECLERC",
+   "location": "Val-de-Marne, Ile-de-France",
+   "department": "",
+   "contract": "CDI",
+   "description": "Description Au sein du pôle Etudes de ConsoRégie le Data Scientist aura les missions suivantes : 1. Data Science Conception et développement de modèles : explorer, analyser et modéliser des ensembles de données pour répondre aux problématiques métiers de la régie. Développer et mettre en oeuvre des algorithmes de Machine Learning (supervisé, non supervisé, par renforcement) et de Deep Learning. Contrôler la qualité, la cohérence et l'intégrité des données. Analyse exploratoire : mener des analy…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974792423",
+   "score": 58,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "machine learning",
+    "zone géographique"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974791642",
+   "title": "Data Engineer IA – H/F",
+   "url": "https://www.adzuna.fr/details/5974791642?utm_medium=api&utm_source=b765adeb",
+   "org": "STORM GROUP",
+   "location": "Paris, Ile-de-France",
+   "department": "",
+   "contract": "CDI",
+   "description": "Bâtis les pipelines de données massives et alimente les moteurs de l’IA générative Dans le cadre du développement et du passage à l’échelle des cas d’usage IA d’un grand compte, nous recherchons un(e) Data Engineer IA . Ton rôle sera hautement structurant et central : tu concevras, développeras et industrialiseras les pipelines de données volumineux et temps réel qui alimentent les modèles de Machine Learning et les applications d’IA générative, en garantissant la qualité, la traçabilité et la …",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974791642",
+   "score": 58,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "machine learning",
+    "zone géographique"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
    "source_id": "5973510274",
    "title": "Senior AI Engineer - Data Scientist (Python · LangGraph · RAG · Azure) - Freelance",
    "url": "https://www.adzuna.fr/details/5973510274?utm_medium=api&utm_source=b765adeb",
@@ -2854,7 +3000,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -2883,7 +3029,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -2912,7 +3058,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -2941,7 +3087,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -2970,7 +3116,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -2999,7 +3145,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -3027,36 +3173,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5971839685",
-   "title": "Ingénieur data-chargé projet données ouv",
-   "url": "https://www.adzuna.fr/details/5971839685?utm_medium=api&utm_source=b765adeb",
-   "org": "Ministère de la Justice",
-   "location": "Paris, Ile-de-France",
-   "department": "",
-   "contract": "CDD",
-   "description": "Vos missions en quelques mots Au sein de la sous-direction de la transformation, de la documentation et de la prospective, l’ingénieur data intervient sur trois chantiers à forte visibilité : -Un site d’ouverture des données publiques de la Justice -Un tableau de bord de pilotage à destination de la direction du ministère -Un projet pionnier d’IA générative appliquée à l’exploitation des décisions de justice. Il travaille sur des sources variées (données du service statistique, données métiers …",
-   "published": "2026-11-19",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5971839685",
-   "score": 58,
-   "fit": "mid",
-   "category": "ds",
-   "reasons": [
-    "statistique",
-    "zone géographique"
-   ],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-20"
   },
@@ -3086,8 +3203,37 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5971839685",
+   "title": "Ingénieur data-chargé projet données ouv",
+   "url": "https://www.adzuna.fr/details/5971839685?utm_medium=api&utm_source=b765adeb",
+   "org": "Ministère de la Justice",
+   "location": "Paris, Ile-de-France",
+   "department": "",
+   "contract": "CDD",
+   "description": "Vos missions en quelques mots Au sein de la sous-direction de la transformation, de la documentation et de la prospective, l’ingénieur data intervient sur trois chantiers à forte visibilité : -Un site d’ouverture des données publiques de la Justice -Un tableau de bord de pilotage à destination de la direction du ministère -Un projet pionnier d’IA générative appliquée à l’exploitation des décisions de justice. Il travaille sur des sources variées (données du service statistique, données métiers …",
+   "published": "2026-11-19",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5971839685",
+   "score": 58,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "statistique",
+    "zone géographique"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": false,
+   "last_seen": "2026-11-21",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "adzuna",
@@ -3144,7 +3290,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -3173,7 +3319,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -3202,7 +3348,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -4571,7 +4717,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -4627,7 +4773,7 @@
    ],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-14"
   },
@@ -4655,7 +4801,7 @@
    ],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-14"
   },
@@ -4976,7 +5122,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -5034,7 +5180,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -5063,7 +5209,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -5184,6 +5330,34 @@
   },
   {
    "source": "adzuna",
+   "source_id": "5974613542",
+   "title": "Ingénieur Data H/F",
+   "url": "https://www.adzuna.fr/details/5974613542?utm_medium=api&utm_source=b765adeb",
+   "org": "Matmut",
+   "location": "Rouen, Seine-Maritime",
+   "department": "",
+   "contract": "temps plein",
+   "description": "PAS JUSTE UN QUOTIDIEN ! Au sein de la Direction du Numérique et de l'Innovation, vous intégrez l'équipe DevOps Open & Data en tant que spécialiste des systèmes de gestion de bases de données. Vous évoluez dans un environnement DEVOPS en lien étroit avec les équipes de développement, avec pour objectif de garantir la performance, la fiabilité et l'exploitabilité des plateformes et solutions data du SI. Vos missions principales : - Vous pilotez la fourniture des environnements data ainsi que leu…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "55 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974613542",
+   "score": 55,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "maintenance prédictive"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
    "source_id": "5973465487",
    "title": "Ingénieur Data Integrity H/F",
    "url": "https://www.adzuna.fr/details/5973465487?utm_medium=api&utm_source=b765adeb",
@@ -5219,7 +5393,7 @@
      "url": "https://www.adzuna.fr/details/5972604204?utm_medium=api&utm_source=b765adeb"
     }
    ],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -5247,9 +5421,42 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5972605175",
+   "title": "Ingénieur Data Integrity (H/F)",
+   "url": "https://www.adzuna.fr/details/5972605175?utm_medium=api&utm_source=b765adeb",
+   "org": "CADUCEUM",
+   "location": "Rhône, Auvergne-Rhône-Alpes",
+   "department": "",
+   "contract": "temps plein",
+   "description": "Dans le cadre du développement de nos activités, nous recherchons un Ingénieur Data Integrity (H/F) pour intervenir sur des missions chez nos clients en Rhône-Alpes. Vous serez amené(e) à travailler sur des projets variés, en collaboration avec des équipes pluridisciplinaires, pour garantir la fiabilité, la traçabilité et la conformité des données selon les exigences réglementaires (GxP, 21 CFR Part 11, Annexe 11, DIRA, etc.). Missions principales - Garantir l'intégrité des données : Mettre en …",
+   "published": "2026-11-20",
+   "deadline": null,
+   "salary": "35 000 – 50 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5972605175",
+   "score": 55,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "maintenance prédictive"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/details/5972604204?utm_medium=api&utm_source=b765adeb"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
   },
   {
    "source": "adzuna",
@@ -5281,7 +5488,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -5309,7 +5516,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -5789,7 +5996,7 @@
    "why": "Poste R&D qui cible explicitement les docteurs. L'annonce se retrouve sur Hellowork.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -5816,7 +6023,7 @@
    "why": "Statistique publique, études et publications : ton profil de statisticien ENSAE y est bien lu.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -5845,7 +6052,7 @@
    "why": "Statistique bayésienne sur données longitudinales, proche de chez toi. Attendus : inférence bayésienne, analyse d'images, C++.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -5872,7 +6079,7 @@
    "why": "Pilotage et performance bancaire : moins scientifique, mais stable, télétravail jusqu'à 3 j/sem. Ces offres sont dépubliées sans préavis.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -5899,7 +6106,7 @@
    "why": "Profil IoT/sécurité, mais en Île-de-France. Angle possible : données capteurs et maintenance prédictive sur systèmes cyber-physiques.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -5928,7 +6135,7 @@
    "why": "Données fonctionnelles et multiniveaux, même labo que toi. Démarrage prévu en septembre : vérifier s'il est encore ouvert.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -5955,7 +6162,7 @@
    "why": "Maintenance prédictive et séries temporelles comptent comme un « strong plus ». Point faible : ils attendent une thèse orientée LLM.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -6018,7 +6225,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -6455,7 +6662,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -6484,7 +6691,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -6512,7 +6719,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -6540,36 +6747,8 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5971855114",
-   "title": "Machine Learning Engineer",
-   "url": "https://www.adzuna.fr/details/5971855114?utm_medium=api&utm_source=b765adeb",
-   "org": "Jobgether",
-   "location": "France",
-   "department": "",
-   "contract": "temps plein",
-   "description": "This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Machine Learning Engineer based in France. As a Machine Learning Engineer, you will design, develop, and deploy advanced machine learning solutions, with a particular focus on Large Language Models (LLMs) and intelligent AI-powered applications. You will take ownership of the ML development lifecycle, from initial research and experimentation to model training, fin…",
-   "published": "2026-11-19",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5971855114",
-   "score": 52,
-   "fit": "mid",
-   "category": "ds",
-   "reasons": [
-    "machine learning"
-   ],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-20"
   },
   {
    "source": "email",
@@ -6596,8 +6775,36 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5971855114",
+   "title": "Machine Learning Engineer",
+   "url": "https://www.adzuna.fr/details/5971855114?utm_medium=api&utm_source=b765adeb",
+   "org": "Jobgether",
+   "location": "France",
+   "department": "",
+   "contract": "temps plein",
+   "description": "This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Machine Learning Engineer based in France. As a Machine Learning Engineer, you will design, develop, and deploy advanced machine learning solutions, with a particular focus on Large Language Models (LLMs) and intelligent AI-powered applications. You will take ownership of the ML development lifecycle, from initial research and experimentation to model training, fin…",
+   "published": "2026-11-19",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5971855114",
+   "score": 52,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "machine learning"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": false,
+   "last_seen": "2026-11-21",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "adzuna",
@@ -6624,8 +6831,36 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
+  },
+  {
+   "source": "cnrs",
+   "source_id": "2c4cb5c58857b6ca",
+   "title": "Post-doc Approches de Machine Learning pour l'étude des vitraux (H/F) (PARIS 05 - Île-de-France) Ref:UMR7590-LAUCOR-002",
+   "url": "https://emploi.cnrs.fr/Offres/CDD/UMR7590-LAUCOR-002/Default.aspx",
+   "org": "CNRS",
+   "location": "Ile De France",
+   "department": "",
+   "contract": "Chercheur en contrat CDD",
+   "description": "",
+   "published": "2026-11-17",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "cnrs:2c4cb5c58857b6ca",
+   "score": 52,
+   "fit": "mid",
+   "category": "postdoc",
+   "reasons": [
+    "machine learning"
+   ],
+   "source_label": "CNRS",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-17"
   },
   {
    "source": "adzuna",
@@ -6660,37 +6895,9 @@
      "url": "https://www.adzuna.fr/details/5969299212?utm_medium=api&utm_source=b765adeb"
     }
    ],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
-  },
-  {
-   "source": "cnrs",
-   "source_id": "2c4cb5c58857b6ca",
-   "title": "Post-doc Approches de Machine Learning pour l'étude des vitraux (H/F) (PARIS 05 - Île-de-France) Ref:UMR7590-LAUCOR-002",
-   "url": "https://emploi.cnrs.fr/Offres/CDD/UMR7590-LAUCOR-002/Default.aspx",
-   "org": "CNRS",
-   "location": "Ile De France",
-   "department": "",
-   "contract": "Chercheur en contrat CDD",
-   "description": "",
-   "published": "2026-11-17",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "cnrs:2c4cb5c58857b6ca",
-   "score": 52,
-   "fit": "mid",
-   "category": "postdoc",
-   "reasons": [
-    "machine learning"
-   ],
-   "source_label": "CNRS",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-17"
   },
   {
    "source": "adzuna",
@@ -6772,7 +6979,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-14"
   },
@@ -7193,7 +7400,7 @@
    "source_label": "CESI (école et LINEACT)",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -7221,7 +7428,7 @@
    "source_label": "Inria",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -7249,7 +7456,7 @@
    "source_label": "Inria",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -7277,7 +7484,7 @@
    "source_label": "Inria",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -7305,7 +7512,7 @@
    "source_label": "Inria",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -7332,26 +7539,26 @@
    ],
    "source_label": "Inria",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-06"
   },
   {
    "source": "adzuna",
-   "source_id": "5973679427",
-   "title": "Data Engineer (F/H) - CDI",
-   "url": "https://www.adzuna.fr/details/5973679427?utm_medium=api&utm_source=b765adeb",
-   "org": "Alphabet France Fleet Management",
-   "location": "Yvelines, Ile-de-France",
+   "source_id": "5974658483",
+   "title": "Senior AI/ML Engineer, Paris",
+   "url": "https://www.adzuna.fr/details/5974658483?utm_medium=api&utm_source=b765adeb",
+   "org": "vector8",
+   "location": "9ème Arrondissement, Paris",
    "department": "",
-   "contract": "CDI",
-   "description": "Rattaché au centre d’expertise de la Business Intelligence au sein d’Alphabet France, vous aurez comme principaux objectifs : - Gestion des outils de stockage de données - Automatisation des processus d’accès & de traitement de la donnée - Optimisation de l’utilisation des informations et des données dans l’entreprise Le poste sera scindé en plusieurs activités : Architecture des données : - Définir & créer l’architecture technique globale de stockage des données - Créer et maintenir les différ…",
-   "published": "2026-11-21",
+   "contract": "CDI temps plein",
+   "description": "Job Description At vector8 we design, develop and deliver production grade AI Solutions. Our solutions are varied depending on the problem we are solving, ranging from agentic systems to more traditional AI-powered solutions based on LLMs, classical ML or speech models. Every solution meets the same impeccable standard of performance, robustness and long-term maintainability. This is a hands-on engineering role where you will: Design and build agents and AI workflows, including tool integration…",
+   "published": "2026-11-22",
    "deadline": null,
    "salary": "",
    "via": "",
    "extra": {},
-   "uid": "adzuna:5973679427",
+   "uid": "adzuna:5974658483",
    "score": 50,
    "fit": "mid",
    "category": "ds",
@@ -7361,8 +7568,92 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "1cc650e6d7d270f0",
+   "title": "Data Scientist F/H",
+   "url": "https://www.linkedin.com/comm/jobs/view/4493266183/?trackingId=oAEfIICNXcvf6DTnIdMhCw%3D%3D&refId=1CgSeHOF1sdITklw2Dl2Vw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BGpzsRRs%2BQTK%2FGZQDUNDAUQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=0aAMc0JxCYAYw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4493266183_ssid_1726638067_fmid_bbso98~mwrjm4nm~fc_crv_3&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4493266183_ssid_1726638067_fmid_bbso98~mwrjm4nm~fc_crv_3-null-bbso98~mwrjm4nm~fc-null-null&eid=bbso98-mwrjm4nm-fc&otpToken=NmM2YjRjZmZjMDdiMGViZmM1MDg1OGVlNzhkZmNiMjVlMzcxZWVhODQ1ZWQ1MDUxMzMyODNlODgxMWQwM2Q5NjFlMTE2NGJkYWZlNGQwMWVlOTIzMzIzYmFjMzM0MDNlOWZkOWY3MmQzMjY4N2U5ZThmOGQ2YjkxNmRhZGI3ODhlNmJiOWFkMDNmMTZiMSwyLDE%3D",
+   "org": "La Banque Postale",
+   "location": "Paris",
+   "department": "",
+   "contract": "",
+   "description": "La Banque Postale · Paris · 3 company alumni",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:1cc650e6d7d270f0",
+   "score": 50,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "zone géographique"
+   ],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "ef1d37524ba8f77f",
+   "title": "Data Scientist F/H",
+   "url": "https://www.linkedin.com/comm/jobs/view/4492851355/?trackingId=iJEX2d9hFn1f%2BDrdhrtH8g%3D%3D&refId=1CgSeHOF1sdITklw2Dl2Vw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BGpzsRRs%2BQTK%2FGZQDUNDAUQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=0aAMc0JxCYAYw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4492851355_ssid_1726638067_fmid_bbso98~mwrjm4nm~fc_crv_3&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4492851355_ssid_1726638067_fmid_bbso98~mwrjm4nm~fc_crv_3-null-bbso98~mwrjm4nm~fc-null-null&eid=bbso98-mwrjm4nm-fc&otpToken=NmM2YjRjZmZjMDdiMGViZmM1MDg1OGVlNzhkZmNiMjVlMzcxZWVhODQ1ZWQ1MDUxMzMyODNlODgxMWQwM2Q5NjFlMTE2NGJkYWZlNGQwMWVlOTIzMzIzYmFjMzM0MDNlOWZkOWY3MmQzMjY4N2U5ZThmOGQ2YjkxNmRhZGI3ODhlNmJiOWFkMDNmMTZiMSwyLDE%3D",
+   "org": "Inspection Générale de La Banque Postale",
+   "location": "Paris",
+   "department": "",
+   "contract": "",
+   "description": "Inspection Générale de La Banque Postale · Paris",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:ef1d37524ba8f77f",
+   "score": 50,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "zone géographique"
+   ],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "a3f194a786d2826b",
+   "title": "Senior Data Scientist I",
+   "url": "https://www.linkedin.com/comm/jobs/view/4410178803/?trackingId=z%2B0jFoBrO3waO4rDOv9tUQ%3D%3D&refId=zFhT2DHHuV76vMhZH0mRPA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BIVOf%2BzfiQROb2FZN4bL7BA%3D%3D&midToken=AQEISyqAMf6QBg&midSig=2zN8eCWQ8QBcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4410178803_ssid_1639218493_fmid_bbso98~mwrnwgg6~uz_crv_2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4410178803_ssid_1639218493_fmid_bbso98~mwrnwgg6~uz_crv_2-null-bbso98~mwrnwgg6~uz-null-null&eid=bbso98-mwrnwgg6-uz&otpToken=Yzg3ZTI1ODU0N2U0ODQwNTExMTFhNzkzMGYwODVmZjdlNWY5ZmYzNzQ3OGQ4ZjEwMDM2ODdiNGYzYWFmYTNmNGI1ZDVhZjcyODllYzA2NzY2NGVjMjVlMjg2NmFiZDQ5YTI5MmE5OGIyMzg3MWIwMmM2MzQxNDY0MDI2YjkwOWFiNjI4ZjUzNTI3MjY3MiwyLDE%3D",
+   "org": "Checkout.com",
+   "location": "Paris (On-site)",
+   "department": "",
+   "contract": "",
+   "description": "Checkout.com · Paris (On-site) · 2 school alumni",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:a3f194a786d2826b",
+   "score": 50,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "zone géographique"
+   ],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-06"
   },
   {
    "source": "adzuna",
@@ -7389,7 +7680,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -7417,7 +7708,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -7445,7 +7736,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -7473,7 +7764,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -7506,7 +7797,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -7534,8 +7825,36 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973679427",
+   "title": "Data Engineer (F/H) - CDI",
+   "url": "https://www.adzuna.fr/details/5973679427?utm_medium=api&utm_source=b765adeb",
+   "org": "Alphabet France Fleet Management",
+   "location": "Yvelines, Ile-de-France",
+   "department": "",
+   "contract": "CDI",
+   "description": "Rattaché au centre d’expertise de la Business Intelligence au sein d’Alphabet France, vous aurez comme principaux objectifs : - Gestion des outils de stockage de données - Automatisation des processus d’accès & de traitement de la donnée - Optimisation de l’utilisation des informations et des données dans l’entreprise Le poste sera scindé en plusieurs activités : Architecture des données : - Définir & créer l’architecture technique globale de stockage des données - Créer et maintenir les différ…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973679427",
+   "score": 50,
+   "fit": "mid",
+   "category": "ds",
+   "reasons": [
+    "zone géographique"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": false,
+   "last_seen": "2026-11-21",
+   "first_seen": "2026-11-21"
   },
   {
    "source": "adzuna",
@@ -7562,36 +7881,8 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5972605571",
-   "title": "Ingénieur DATA Analyst (H/F)",
-   "url": "https://www.adzuna.fr/details/5972605571?utm_medium=api&utm_source=b765adeb",
-   "org": "Talent Pool",
-   "location": "Ile-de-France, France",
-   "department": "",
-   "contract": "temps plein",
-   "description": "Dans le cadre de l'accompagnement de l'un de nos clients, acteur industriel spécialisé dans les composants de freinage pour les secteurs du transport et de l'industrie, nous recherchons un Ingénieur Data Analyst (H/F). Les activités de R&D du client génèrent un volume important de données issues de campagnes d'essais sur bancs : performances des matériaux de friction, usure et émissions liées au freinage. Ces données couvrent les conditions opératoires (pression, couple, vitesse, énergie, tempé…",
-   "published": "2026-11-20",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5972605571",
-   "score": 50,
-   "fit": "mid",
-   "category": "ds",
-   "reasons": [
-    "zone géographique"
-   ],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
   },
   {
    "source": "adzuna",
@@ -7602,7 +7893,7 @@
    "location": "Paris, Ile-de-France",
    "department": "",
    "contract": "CDD",
-   "description": "Informations générales Organisme de rattachement Siège de l'AP-HP Référence APHP_2026-22629 Date de début de diffusion 12/06/2026 Date de parution 19/11/2026 Nature de l'emploi Emploi ouvert aux titulaires et aux contractuels Domaine / Métier Numérique - Spécialiste méthode et outils / qualité / sécurité Intitulé du poste Data scientist spécialisé.e en développement logiciel F/H Description du poste Au sein de l’équipe data science, vous aurez pour mission de développer, valider et maintenir de…",
+   "description": "Informations générales Organisme de rattachement Siège de l'AP-HP Référence APHP_2026-22629 Date de début de diffusion 12/06/2026 Date de parution 20/11/2026 Nature de l'emploi Emploi ouvert aux titulaires et aux contractuels Domaine / Métier Numérique - Spécialiste méthode et outils / qualité / sécurité Intitulé du poste Data scientist spécialisé.e en développement logiciel F/H Description du poste Au sein de l’équipe data science, vous aurez pour mission de développer, valider et maintenir de…",
    "published": "2026-11-20",
    "deadline": null,
    "salary": "",
@@ -7618,7 +7909,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -7646,7 +7937,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -7674,7 +7965,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -7702,7 +7993,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -7763,7 +8054,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -7791,7 +8082,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -7819,7 +8110,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -7847,7 +8138,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -7875,7 +8166,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -7903,7 +8194,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -7931,7 +8222,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -7959,7 +8250,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -7987,7 +8278,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -8015,7 +8306,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -8043,7 +8334,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -8071,7 +8362,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -8183,7 +8474,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -8211,7 +8502,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -8239,7 +8530,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -8267,7 +8558,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -8295,7 +8586,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -8608,7 +8899,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -8636,7 +8927,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -8664,7 +8955,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -8692,7 +8983,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -8720,7 +9011,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -9000,7 +9291,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-16"
   },
   {
@@ -9055,7 +9346,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-17"
   },
@@ -9083,7 +9374,7 @@
    ],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-14"
   },
@@ -11478,34 +11769,6 @@
    "first_seen": "2026-11-06"
   },
   {
-   "source": "email",
-   "source_id": "a3f194a786d2826b",
-   "title": "Senior Data Scientist I",
-   "url": "https://www.linkedin.com/comm/jobs/view/4410178803/?trackingId=bbLcd3Xw1w1bT4YMN2d6fQ%3D%3D&refId=tXozjq1KF0TFKu7eLe7MuA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BctZZ9gZ6Tx%2Bl54V%2FDXC2fQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=1X-NvrOYIk7Iw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4410178803_ssid_1639218493_fmid_bbso98~mvxnnk7r~e&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4410178803_ssid_1639218493_fmid_bbso98~mvxnnk7r~e-null-bbso98~mvxnnk7r~e-null-null&eid=bbso98-mvxnnk7r-e&otpToken=OThkODA1OTRlMWY4MzgxYWUyOGMwZTEyMzRiYzdiZDMxYTU5ZjEzNjRlOWU3ZTBjMDc1N2E3MDk3MGNiZmIxYTA3YWJhZGFmYjQyNWM5MTk2OGIwMjY0MTlhMmIwOWZmMzdkMjEzY2RjYjJiN2JkMTM4MzEwYjQyMmMxZGZlMzMzZGFmZTViNzc4NDlmNiwyLDE%3D",
-   "org": "Checkout.com",
-   "location": "Paris (On-site)",
-   "department": "",
-   "contract": "",
-   "description": "Checkout.com · Paris (On-site) · 2 school alumni",
-   "published": "2026-11-01",
-   "deadline": null,
-   "salary": "",
-   "via": "LinkedIn",
-   "extra": {},
-   "uid": "email:a3f194a786d2826b",
-   "score": 50,
-   "fit": "mid",
-   "category": "ds",
-   "reasons": [
-    "zone géographique"
-   ],
-   "source_label": "Alertes e-mail",
-   "also_on": [],
-   "active": false,
-   "last_seen": "2026-11-08",
-   "first_seen": "2026-11-06"
-  },
-  {
    "source": "adzuna",
    "source_id": "5947703713",
    "title": "Ingénieur DATA Analyst (H/F)",
@@ -11643,8 +11906,36 @@
    "source_label": "Inria",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974340698",
+   "title": "CDD - Data Scientist (F/H)",
+   "url": "https://www.adzuna.fr/details/5974340698?utm_medium=api&utm_source=b765adeb",
+   "org": "ArianeGroup",
+   "location": "Le Haillan, Bordeaux",
+   "department": "",
+   "contract": "CDD",
+   "description": "Rejoignez-nous pour transformer les données en opportunités ! En tant que Data Scientist (F/H) , vous serez au cœur de l'innovation chez ArianeGroup, en exploitant l'intelligence artificielle pour des projets ambitieux. Ce poste en CDD est motivé par un accroissement temporaire de l'activité lié à la réalisation du plan d'action en intelligence artificielle, nécessitant un renfort temporaire des équipes afin de résorber le retard et d'assurer le déploiement des projets dans les délais. Votre en…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974340698",
+   "score": 48,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [
+    "machine learning"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
   },
   {
    "source": "adzuna",
@@ -11670,7 +11961,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -11699,7 +11990,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -11732,7 +12023,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -11760,7 +12051,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -11788,7 +12079,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -11816,7 +12107,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -11844,7 +12135,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -11872,7 +12163,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -11928,7 +12219,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -11956,7 +12247,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -11984,7 +12275,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -13353,10 +13644,38 @@
   },
   {
    "source": "adzuna",
+   "source_id": "5974583961",
+   "title": "Data Analyst Sénior F/H (CDI)",
+   "url": "https://www.adzuna.fr/land/ad/5974583961?se=PN4E33fm8RG3nZ-LYijpoQ&utm_medium=api&utm_source=b765adeb&v=989F03CB2736DAF5D0DF41E681BF3118E102275C",
+   "org": "JEMS",
+   "location": "1er Arrondissement, Paris",
+   "department": "",
+   "contract": "CDI",
+   "description": "Nous sommes le premier industriel de la donnée en Europe . Notre métier est de créer, manager et exploiter le patrimoine data de nos clients. Nous avons la conviction que chaque entreprise peut adopter une démarche innovante de gestion de la donnée et créer des cas d'usage disruptifs en réduisant l'impact écologique et en diminuant la dette technique. Nous comptons plus de 900 collaborateurs en mission chez nos clients grands comptes dans tout secteur d'activité Nous recherchons un(e) Analyst D…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974583961",
+   "score": 45,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [
+    "zone géographique"
+   ],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
    "source_id": "5973283952",
    "title": "Data analyst senior f/h (CDI)",
    "url": "https://www.adzuna.fr/details/5973283952?utm_medium=api&utm_source=b765adeb",
-   "org": "SCC France",
+   "org": "SCC FRANCE",
    "location": "Hauts-de-Seine, Ile-de-France",
    "department": "",
    "contract": "CDI",
@@ -13376,7 +13695,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -13404,7 +13723,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -13432,7 +13751,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -13444,7 +13763,7 @@
    "location": "Paris, Ile-de-France",
    "department": "",
    "contract": "CDD",
-   "description": "Informations générales Organisme de rattachement Siège de l'AP-HP Référence APHP_2026-22628 Date de début de diffusion 12/06/2026 Date de parution 19/11/2026 Nature de l'emploi Emploi ouvert aux titulaires et aux contractuels Domaine / Métier Numérique - Spécialiste méthode et outils / qualité / sécurité Intitulé du poste Data Analyst – Programme PSCC AP-HP F/H Description du poste Au sein de l’équipe Analyse et Usage des Données, votre mission consiste à analyser, structurer et valoriser les d…",
+   "description": "Informations générales Organisme de rattachement Siège de l'AP-HP Référence APHP_2026-22628 Date de début de diffusion 12/06/2026 Date de parution 20/11/2026 Nature de l'emploi Emploi ouvert aux titulaires et aux contractuels Domaine / Métier Numérique - Spécialiste méthode et outils / qualité / sécurité Intitulé du poste Data Analyst – Programme PSCC AP-HP F/H Description du poste Au sein de l’équipe Analyse et Usage des Données, votre mission consiste à analyser, structurer et valoriser les d…",
    "published": "2026-11-20",
    "deadline": null,
    "salary": "",
@@ -13460,7 +13779,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -13488,7 +13807,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -13516,7 +13835,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -13544,7 +13863,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -13572,7 +13891,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -13600,7 +13919,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -13628,7 +13947,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -13656,14 +13975,14 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
    "source": "adzuna",
    "source_id": "5970816378",
    "title": "Analyste de données en ligne - France H/F (CDD)",
-   "url": "https://www.adzuna.fr/land/ad/5970816378?se=pEb7la_l8RGB-bDIy5dDgQ&utm_medium=api&utm_source=b765adeb&v=88EC4AA5539A432684DC9BEFB5DA06ED8BC5118D",
+   "url": "https://www.adzuna.fr/land/ad/5970816378?se=4GFY4Xfm8RGK1Jozpv_WtA&utm_medium=api&utm_source=b765adeb&v=88EC4AA5539A432684DC9BEFB5DA06ED8BC5118D",
    "org": "TELUS Digital",
    "location": "1er Arrondissement, Paris",
    "department": "",
@@ -13684,7 +14003,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -13964,7 +14283,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -14104,7 +14423,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-16"
   },
   {
@@ -14243,7 +14562,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-15"
   },
@@ -14271,7 +14590,7 @@
    ],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-14"
   },
@@ -14299,7 +14618,7 @@
    ],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-14"
   },
@@ -14327,7 +14646,7 @@
    ],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-15"
   },
@@ -16471,20 +16790,20 @@
   },
   {
    "source": "adzuna",
-   "source_id": "5973782032",
+   "source_id": "5974905842",
    "title": "Data Analyst - H/F",
-   "url": "https://www.adzuna.fr/details/5973782032?utm_medium=api&utm_source=b765adeb",
-   "org": "E.LECLERC",
-   "location": "Châlons-en-Champagne, Marne",
+   "url": "https://www.adzuna.fr/details/5974905842?utm_medium=api&utm_source=b765adeb",
+   "org": "E.Leclerc",
+   "location": "Marne, Grand-Est",
    "department": "",
    "contract": "CDI",
-   "description": "Sous l'autorité du Responsable du pôle exploitation, le Data Analyst recueille et analyse les données de l'entreprise dans le but de fournir des rapports aux différents services et ainsi les aider dans les prises de décision. Doté(e) d'une forte appétence pour l'Intelligence Artificielle, il ou elle explore et intègre les nouvelles opportunités offertes par ces technologies pour maximiser la valorisation de la donnée. Vos attributions sont notamment les suivantes : · Collecter et mettre en form…",
-   "published": "2026-11-21",
+   "description": "Description Sous l'autorité du Responsable du pôle exploitation, le Data Analyst recueille et analyse les données de l'entreprise dans le but de fournir des rapports aux différents services et ainsi les aider dans les prises de décision. Doté(e) d'une forte appétence pour l'Intelligence Artificielle, il ou elle explore et intègre les nouvelles opportunités offertes par ces technologies pour maximiser la valorisation de la donnée. Vos attributions sont notamment les suivantes : · Collecter et me…",
+   "published": "2026-11-22",
    "deadline": null,
    "salary": "",
    "via": "",
    "extra": {},
-   "uid": "adzuna:5973782032",
+   "uid": "adzuna:5974905842",
    "score": 43,
    "fit": "lo",
    "category": "da",
@@ -16492,10 +16811,15 @@
     "machine learning"
    ],
    "source_label": "Adzuna",
-   "also_on": [],
+   "also_on": [
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/land/ad/5973782032?se=cLhf5Hfm8RG3nZ-LYijpoQ&utm_medium=api&utm_source=b765adeb&v=5083F89C5831E56DB354DD63523318100E44DCAB"
+    }
+   ],
    "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
   },
   {
    "source": "adzuna",
@@ -16523,7 +16847,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -16552,7 +16876,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -16608,7 +16932,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -16703,7 +17027,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-16"
   },
   {
@@ -16814,7 +17138,7 @@
    ],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-18"
   },
@@ -17321,6 +17645,629 @@
   },
   {
    "source": "adzuna",
+   "source_id": "5974612281",
+   "title": "Ingénieur Data Analyst H/F",
+   "url": "https://www.adzuna.fr/details/5974612281?utm_medium=api&utm_source=b765adeb",
+   "org": "AVISTO",
+   "location": "Grasse, Alpes-Maritimes",
+   "department": "",
+   "contract": "",
+   "description": "Dans le cadre du renforcement d'une équipe spécialisée en Data Analytics autour de solutions digitales permettant aux entreprises de gérer leurs déplacements professionnels et leurs dépenses associées, nous recherchons un(e) Data Analyst afin de contribuer à la valorisation des données et à la production d'indicateurs décisionnels à destination de clients nationaux et internationaux. Au sein d'un environnement international et orienté Business Intelligence, tu participeras à la transformation d…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "35 000 – 50 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974612281",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974611160",
+   "title": "Ingénieur Data Analyst H/F",
+   "url": "https://www.adzuna.fr/details/5974611160?utm_medium=api&utm_source=b765adeb",
+   "org": "UEM",
+   "location": "Metz, Metz-Ville",
+   "department": "",
+   "contract": "",
+   "description": "Qui sommes nous ? Un point caractérise plus que tout autre UEM : c'est sa volonté de satisfaire le client à travers la qualité de ses services. La politique du groupe UEM se construit autour de valeurs fortes telles que le respect de l'environnement, la participation à la vie économique du territoire et la valorisation des ressources énergétiques locales. C'est au travers de ces engagements que nos équipes cultivent chaque jour une proximité réelle avec nos clients. Vos missions : Intégré(e) à …",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "43 000 – 51 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974611160",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974603842",
+   "title": "Ingénieur Data Analyst H/F",
+   "url": "https://www.adzuna.fr/details/5974603842?utm_medium=api&utm_source=b765adeb",
+   "org": "Talent Pool",
+   "location": "France",
+   "department": "",
+   "contract": "temps plein",
+   "description": "Dans le cadre de l'accompagnement de l'un de nos clients, acteur industriel spécialisé dans les composants de freinage pour les secteurs du transport et de l'industrie, nous recherchons un Ingénieur Data Analyst (H/F). Les activités de R&D du client génèrent un volume important de données issues de campagnes d'essais sur bancs : performances des matériaux de friction, usure et émissions liées au freinage. Ces données couvrent les conditions opératoires (pression, couple, vitesse, énergie, tempé…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974603842",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/details/5972605571?utm_medium=api&utm_source=b765adeb"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974796144",
+   "title": "Data Scientist - IA & Performance industrielle - Manufacturing 4.0 F/H",
+   "url": "https://www.adzuna.fr/details/5974796144?utm_medium=api&utm_source=b765adeb",
+   "org": "Safran",
+   "location": "France",
+   "department": "",
+   "contract": "",
+   "description": "Data Scientist - IA & Performance industrielle - Manufacturing 4.0 F/H Détail de l'offre Informations générales Entité de rattachement Safran est un groupe international de haute technologie opérant dans les domaines de l'aéronautique (propulsion, équipements et intérieurs), de l'espace et de la défense. Sa mission : contribuer durablement à un monde plus sûr, où le transport aérien devient toujours plus respectueux de l'environnement, plus confortable et plus accessible. Implanté sur tous les …",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974796144",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974611974",
+   "title": "Ingénieur Data H/F",
+   "url": "https://www.adzuna.fr/details/5974611974?utm_medium=api&utm_source=b765adeb",
+   "org": "Evolis",
+   "location": "Angers, Maine-et-Loire",
+   "department": "",
+   "contract": "temps plein",
+   "description": "Au sein de la DSI et du service Corporate Applications composé de 5 collaborateurs, vous êtes le référent de l'activité Data Business. Votre mission consiste à collecter, structurer et valoriser les données afin de fournir aux équipes des informations fiables et exploitables pour la prise de décision. Vous assurez également l'industrialisation et la mise en production des traitements de données, notamment à travers le déploiement de tableaux de bord, d'indicateurs, en étroite collaboration avec…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "50 000 – 60 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974611974",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974611097",
+   "title": "Ingénieur Data H/F",
+   "url": "https://www.adzuna.fr/details/5974611097?utm_medium=api&utm_source=b765adeb",
+   "org": "Legallais",
+   "location": "Caen, Calvados",
+   "department": "",
+   "contract": "temps plein",
+   "description": "Ingénieur(e) Data - CDI - Caen (Hérouville-St-Clair) Legallais, leader de la distribution de produits techniques pour les professionnels du bâtiment, recrute un(e) Ingénieur(e) Data pour rejoindre l'équipe d'Agathe responsable Data qui est composée de 4 Ingénieurs Data experts et passionnés. Notre enjeu actuel : tirer pleinement parti de notre migration vers BigQuery, désormais finalisée. Il s'agit maintenant d'industrialiser et d'optimiser nos traitements, et d'exploiter toutes les possibilité…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "42 000 – 46 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974611097",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974585006",
+   "title": "Ingénieur IA Générative H/F (CDI)",
+   "url": "https://www.adzuna.fr/land/ad/5974585006?se=cLhf5Hfm8RG3nZ-LYijpoQ&utm_medium=api&utm_source=b765adeb&v=B13648986ABB904CBA9261ACC369F7302F169ED6",
+   "org": "LEA Recrutement",
+   "location": "Sète, Montpellier",
+   "department": "",
+   "contract": "CDI",
+   "description": "Le Pôle IT se tient à disposition pour échanger avec vous ! La confidentialité de votre candidature est assurée. LEA Recrutement présente une nouvelle offre d'emploi Notre client, entreprise engagée dans des projets à forte dimension technologique et environnementale, recherche un Ingénieur IA Générative H/F pour renforcer sa DSI. Vous intégrerez une équipe de développement à taille humaine et collaborerez en binôme avec le Product Owner pour concevoir, développer et déployer des solutions d’IA…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974585006",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "f5bf15ae7bb6b8ce",
+   "title": "Consultant AI Data Scientist – GenAI / Agentic AI",
+   "url": "https://www.linkedin.com/comm/jobs/view/4492842272/?trackingId=CtJvst2CJZPFwzEyAbge9g%3D%3D&refId=zFhT2DHHuV76vMhZH0mRPA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BIVOf%2BzfiQROb2FZN4bL7BA%3D%3D&midToken=AQEISyqAMf6QBg&midSig=2zN8eCWQ8QBcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4492842272_ssid_1639218493_fmid_bbso98~mwrnwgg6~uz_crv_2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4492842272_ssid_1639218493_fmid_bbso98~mwrnwgg6~uz_crv_2-null-bbso98~mwrnwgg6~uz-null-null&eid=bbso98-mwrnwgg6-uz&otpToken=Yzg3ZTI1ODU0N2U0ODQwNTExMTFhNzkzMGYwODVmZjdlNWY5ZmYzNzQ3OGQ4ZjEwMDM2ODdiNGYzYWFmYTNmNGI1ZDVhZjcyODllYzA2NzY2NGVjMjVlMjg2NmFiZDQ5YTI5MmE5OGIyMzg3MWIwMmM2MzQxNDY0MDI2YjkwOWFiNjI4ZjUzNTI3MjY3MiwyLDE%3D",
+   "org": "WHIZE",
+   "location": "Neuilly-sur-Seine (Hybrid)",
+   "department": "",
+   "contract": "",
+   "description": "WHIZE · Neuilly-sur-Seine (Hybrid) · Actively recruiting · Easy Apply",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:f5bf15ae7bb6b8ce",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "3433784c74170302",
+   "title": "CDI - Bras droit CTO / Ingénieur IA - H/F",
+   "url": "https://www.linkedin.com/comm/jobs/view/4492834948/?trackingId=BzIvQ2IuZygZdGDkJUtJDg%3D%3D&refId=GMbt4wrLQXS9FYBZXb9Jtw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BuC4eUP3zQuCJwt0JFl65sA%3D%3D&midToken=AQEISyqAMf6QBg&midSig=2yd13rCtKIBcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4492834948_ssid_8383691322_fmid_bbso98~mwrs6r94~xd_crv_9&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4492834948_ssid_8383691322_fmid_bbso98~mwrs6r94~xd_crv_9-null-bbso98~mwrs6r94~xd-null-null&eid=bbso98-mwrs6r94-xd&otpToken=YzczZWM0MzJiYzVjMmE3YzM1ZGJhY2IwOWY1YjExZTdiNDFiMjZlYTdmMWE0MGRiOThjODY2ODVkMDQ2NmMwNTg2NGFlNTAyZWIwMzAzOTAyYjg1MzY2YjM3ODM4N2UzODIwOTMxMTEyMGE2NWZmZDZjMTlhOWZhODBlNzIwMTJhMmVhMDlkYmY4ZjJhNiwyLDE%3D",
+   "org": "Ensimag",
+   "location": "",
+   "department": "",
+   "contract": "",
+   "description": "Ensimag Alumni · Paris",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:3433784c74170302",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974044363",
+   "title": "Data engineer (H/F)",
+   "url": "https://www.adzuna.fr/details/5974044363?utm_medium=api&utm_source=b765adeb",
+   "org": "AMILTONE",
+   "location": "Nord, Hauts-De-France",
+   "department": "",
+   "contract": "CDD",
+   "description": "nous ? Nous sommes passionnés par les nouvelles technologies, et vous ? Rejoindre Amiltone, c'est intégrer des équipes dynamiques et soudées dans le cadre de projets novateurs et ambitieux. Nous relevons les challenges techniques de nos clients et les accompagnons dans leur transformation digitale. Pourquoi choisir Amiltone ? Amiltone, plus qu'une entreprise, un état d'esprit ! Notre objectif ? Votre épanouissement professionnel ! Nous avons à cœur de : Vous accompagner au mieux au travers d'un…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974044363",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974044396",
+   "title": "Data scientist (H/F)",
+   "url": "https://www.adzuna.fr/details/5974044396?utm_medium=api&utm_source=b765adeb",
+   "org": "AMILTONE",
+   "location": "Rhône, Auvergne-Rhône-Alpes",
+   "department": "",
+   "contract": "CDD",
+   "description": "nous ? Nous sommes passionnés par les nouvelles technologies, et vous ? Rejoindre Amiltone, c'est intégrer des équipes dynamiques et soudées dans le cadre de projets novateurs et ambitieux. Nous relevons les challenges techniques de nos clients et les accompagnons dans leur transformation digitale. Pourquoi choisir Amiltone ? Amiltone, plus qu'une entreprise, un état d'esprit ! Notre objectif ? Votre épanouissement professionnel ! Nous avons à cœur de : Vous accompagner au mieux au travers d'un…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974044396",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/details/5972885671?utm_medium=api&utm_source=b765adeb"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973777176",
+   "title": "Data Scientist F/H",
+   "url": "https://www.adzuna.fr/land/ad/5973777176?se=LvX353fm8RGfx_Pr_uTsjg&utm_medium=api&utm_source=b765adeb&v=6EC1B6F8964F1D1113DDE71A0B18122FC7A7A21B",
+   "org": "THALES",
+   "location": "Élancourt, Versailles",
+   "department": "",
+   "contract": "CDI",
+   "description": "Lieu : Elancourt, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'innovation tel…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973777176",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973551562",
+   "title": "Data scientist (H/F)",
+   "url": "https://www.adzuna.fr/details/5973551562?utm_medium=api&utm_source=b765adeb",
+   "org": "jobPosting",
+   "location": "1er-Arrondissement, Lyon",
+   "department": "",
+   "contract": "",
+   "description": "Entreprise : Qui sommes-nous ? Nous sommes passionnés par les nouvelles technologies, et vous ? Rejoindre Amiltone, c'est intégrer des équipes dynamiques et soudées dans le cadre de projets novateurs et ambitieux. Nous relevons les challenges techniques de nos clients et les accompagnons dans leur transformation digitale. Pourquoi choisir Amiltone ? Amiltone, plus qu'une entreprise, un état d'esprit ! Notre objectif ? Votre épanouissement professionnel ! Nous avons à cœur de : Vous accompagner …",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973551562",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/details/5969801167?utm_medium=api&utm_source=b765adeb"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973283955",
+   "title": "Data engineer (H/F) (CDI)",
+   "url": "https://www.adzuna.fr/details/5973283955?utm_medium=api&utm_source=b765adeb",
+   "org": "Free-Work",
+   "location": "Nord, Hauts-De-France",
+   "department": "",
+   "contract": "CDI",
+   "description": "Free-Work est une plateforme qui s'adresse à tous les professionnels des métiers de l'informatique. Ses contenus et son jobboard IT sont mis à disposition 100% gratuitement pour les indépendants et les salariés du secteur. Vos missions ? Intégré(e) à nos équipes ou chez nos clients, vous contribuez à développer et valoriser l'ensemble des données en résolvant des problématiques business concrètes via les technologies liées à la Data A ce titre, vos missions seront les suivantes : - Concevoir et…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973283955",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973283942",
+   "title": "Data scientist (H/F) (CDI)",
+   "url": "https://www.adzuna.fr/details/5973283942?utm_medium=api&utm_source=b765adeb",
+   "org": "Free-Work",
+   "location": "Rhône, Auvergne-Rhône-Alpes",
+   "department": "",
+   "contract": "CDI",
+   "description": "Free-Work est une plateforme qui s'adresse à tous les professionnels des métiers de l'informatique. Ses contenus et son jobboard IT sont mis à disposition 100% gratuitement pour les indépendants et les salariés du secteur. Mission : En tant que Data Scientist (H/F), vous serez en charge des missions suivantes : - Concevoir et développer les futures fonctionnalités de la plateforme sous Google Cloud Platform. - Concevoir les flux d'alimentation et les tables (structure de données). - Automatiser…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973283942",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973896475",
+   "title": "EXPLORE - Ingénieur DATA sénior / Senior DATA Engineer (H/F) - CDI",
+   "url": "https://www.adzuna.fr/details/5973896475?utm_medium=api&utm_source=b765adeb",
+   "org": "INTESCIA GROUP",
+   "location": "Nantes, Loire-Atlantique",
+   "department": "",
+   "contract": "CDI temps plein",
+   "description": "Ingénieur DATA sénior / Senior DATA Engineer (H/F) CDI Rejoignez le Groupe INTESCIA, leader de la Business Intelligence en Europe ! Qui sommes-nous ? EXPLORE, filiale d’INTESCIA GROUP, est un acteur leader dans le développement de solutions de data intelligence BtoB. Nous produisons des données à forte valeur ajoutée pour accompagner le développement commercial des entreprises, faciliter leurs analyses de marchés et optimiser leur connaissance clients. Nous comptons aujourd’hui plus de 1 500 cl…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "55 000 – 60 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973896475",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/details/5973896477?utm_medium=api&utm_source=b765adeb"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973781625",
+   "title": "Ingénieur data (H/F)",
+   "url": "https://www.adzuna.fr/land/ad/5973781625?se=jgss43fm8RGB-bDIy5dDgQ&utm_medium=api&utm_source=b765adeb&v=BC76FC67442DEFFA87534DDD903CBD6BECE75468",
+   "org": "THALES",
+   "location": "Vélizy-Villacoublay, Versailles",
+   "department": "",
+   "contract": "CDI",
+   "description": "Lieu : Vélizy-Villacoublay, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'inno…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973781625",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/details/5969239592?utm_medium=api&utm_source=b765adeb"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973284821",
+   "title": "Ingénieur Data Integrity F/H (CDI)",
+   "url": "https://www.adzuna.fr/details/5973284821?utm_medium=api&utm_source=b765adeb",
+   "org": "CADUCEUM",
+   "location": "Cany-Barville, Dieppe",
+   "department": "",
+   "contract": "CDI",
+   "description": "Caduceum, la solution Life Sciences du groupe ALTEN, est une société de conseils 100% dédiée aux industries de Santé. De la conception du produit à sa mise sur le marché, nos équipes accompagnent les industriels des secteurs pharmaceutiques, dispositifs médicaux, biotechnologiques et cosmétiques, dans tous leurs projets d’innovation et de transformation. Être consultant chez Caduceum, c’est la garantie d’évoluer dans votre domaine privilégié ! Grâce à notre Direction Technique, notre couverture…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973284821",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974356003",
+   "title": "Staff AI Engineer - Agent Evaluation Platform (x/f/m)",
+   "url": "https://www.adzuna.fr/details/5974356003?utm_medium=api&utm_source=b765adeb",
+   "org": "Doctolib",
+   "location": "Levallois-Perret, Nanterre",
+   "department": "",
+   "contract": "temps plein",
+   "description": "Join a team of passionate and hardworking entrepreneurs to transform healthcare! Working in the tech team at Doctolib involves building innovative products and features to improve the daily lives of care teams and patients. We work in feature teams in an agile environment, while collaborating with product, design, and business teams. What you'll do We are looking for a Staff AI Software Engineer to join the AI Evaluation team (EvalX) at Doctolib and help every AI product team measure, understan…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "4 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974356003",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974352203",
+   "title": "Research AI Engineer for High-Throughput Crystallography and Drug Discovery",
+   "url": "https://www.adzuna.fr/details/5974352203?utm_medium=api&utm_source=b765adeb",
+   "org": "European Molecular Biology Laboratory",
+   "location": "Grenoble, Isère",
+   "department": "",
+   "contract": "temps plein",
+   "description": "About the team The Márquez Team at EMBL Grenoble develops methods and software for high-throughput, fully automated crystallography and fragment screening, applying them to the study of biomedically relevant systems. The team operates the HTX Lab, one of Europe’s major facilities for high-throughput protein crystallisation screening. Its developments include the CrystalDirect technology for automated crystal mounting and processing, and the Crystallisation Information Management System (CRIMS),…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "4 096 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974352203",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974345240",
+   "title": "ML Engineer, Model Development (m/f)",
+   "url": "https://www.adzuna.fr/details/5974345240?utm_medium=api&utm_source=b765adeb",
+   "org": "Airbus",
+   "location": "France",
+   "department": "",
+   "contract": "temps plein",
+   "description": "Job Description: About Us Airbus pioneers sustainable aerospace for a safe and united world. The company is constantly innovating to provide efficient and technologically advanced solutions in aerospace, defense, and connected services. In the commercial aircraft sector, Airbus offers the most modern and fuel-efficient aircraft families. Airbus is also a European leader in defense and security and one of the world's largest space companies. As such, we are actively shaping the technological fut…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974345240",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974332841",
+   "title": "Senior AI Engineer",
+   "url": "https://www.adzuna.fr/details/5974332841?utm_medium=api&utm_source=b765adeb",
+   "org": "Razer",
+   "location": "France",
+   "department": "",
+   "contract": "temps plein",
+   "description": "Joining Razer will place you on a global mission to revolutionize the way the world games. Razer is a place to do great work , offering you the opportunity to make an impact globally while working across a global team located across 5 continents. Razer is also a great place to work, providing you the unique, gamer-centric LifeAtRazer experience that will put you in an accelerated growth, both personally and professionally. Job Responsibilities : We're looking for a Senior AI Engineer to join Ra…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "45 000 – 84 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974332841",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "a825f939c38bf1d8",
+   "title": "Research AI Engineer for High-Throughput Crystallography and Drug Discovery",
+   "url": "https://www.linkedin.com/comm/jobs/view/4492778391/?trackingId=C7DMz29kPRzuFjrARZkKQQ%3D%3D&refId=MFgbU8q74uVi4lL0rld5dg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BTHRPbmMnTru4yyNmtoIQ7g%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3CiUPvv-OkzIw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4492778391_ssid_8383691322_fmid_bbso98~mwq8gliy~5k_crv_2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4492778391_ssid_8383691322_fmid_bbso98~mwq8gliy~5k_crv_2-null-bbso98~mwq8gliy~5k-null-null&eid=bbso98-mwq8gliy-5k&otpToken=YzRlYjY4MGUwNjA0OGVmMzQ5ZTNiZmM0ODMwZTFjZTNlZGI1NWZjYzc0NDc4YTcyZjMxMTcwMDRiNzYwNGNkZmJkZDVjNWUwZGE2OWQxMDNjNDYxNWY3MjMyZjIyNDNkZDkyYmY0ODVmN2QyZjkwMmMzOTk2NTk1N2NhZWEwYmY0NTcwYWNmNjc5M2Q2MSwyLDE%3D",
+   "org": "EMBL",
+   "location": "Grenoble",
+   "department": "",
+   "contract": "",
+   "description": "EMBL · Grenoble · Actively recruiting",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:a825f939c38bf1d8",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
    "source_id": "5973464535",
    "title": "Ingenieur Data H/F",
    "url": "https://www.adzuna.fr/details/5973464535?utm_medium=api&utm_source=b765adeb",
@@ -17358,7 +18305,7 @@
      "url": "https://www.adzuna.fr/details/5966437023?utm_medium=api&utm_source=b765adeb"
     }
    ],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17384,7 +18331,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17410,173 +18357,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5974044396",
-   "title": "Data scientist (H/F)",
-   "url": "https://www.adzuna.fr/details/5974044396?utm_medium=api&utm_source=b765adeb",
-   "org": "AMILTONE",
-   "location": "Rhône, Auvergne-Rhône-Alpes",
-   "department": "",
-   "contract": "CDD",
-   "description": "nous ? Nous sommes passionnés par les nouvelles technologies, et vous ? Rejoindre Amiltone, c'est intégrer des équipes dynamiques et soudées dans le cadre de projets novateurs et ambitieux. Nous relevons les challenges techniques de nos clients et les accompagnons dans leur transformation digitale. Pourquoi choisir Amiltone ? Amiltone, plus qu'une entreprise, un état d'esprit ! Notre objectif ? Votre épanouissement professionnel ! Nous avons à cœur de : Vous accompagner au mieux au travers d'un…",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5974044396",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [
-    {
-     "source": "adzuna",
-     "url": "https://www.adzuna.fr/details/5972885671?utm_medium=api&utm_source=b765adeb"
-    }
-   ],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5974044363",
-   "title": "Data engineer (H/F)",
-   "url": "https://www.adzuna.fr/details/5974044363?utm_medium=api&utm_source=b765adeb",
-   "org": "AMILTONE",
-   "location": "Nord, Hauts-De-France",
-   "department": "",
-   "contract": "CDD",
-   "description": "nous ? Nous sommes passionnés par les nouvelles technologies, et vous ? Rejoindre Amiltone, c'est intégrer des équipes dynamiques et soudées dans le cadre de projets novateurs et ambitieux. Nous relevons les challenges techniques de nos clients et les accompagnons dans leur transformation digitale. Pourquoi choisir Amiltone ? Amiltone, plus qu'une entreprise, un état d'esprit ! Notre objectif ? Votre épanouissement professionnel ! Nous avons à cœur de : Vous accompagner au mieux au travers d'un…",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5974044363",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5973777176",
-   "title": "Data Scientist F/H",
-   "url": "https://www.adzuna.fr/details/5973777176?utm_medium=api&utm_source=b765adeb",
-   "org": "THALES",
-   "location": "Élancourt, Versailles",
-   "department": "",
-   "contract": "CDI",
-   "description": "Lieu : Elancourt, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'innovation tel…",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5973777176",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5973283955",
-   "title": "Data engineer (H/F) (CDI)",
-   "url": "https://www.adzuna.fr/details/5973283955?utm_medium=api&utm_source=b765adeb",
-   "org": "Free-Work",
-   "location": "Nord, Hauts-De-France",
-   "department": "",
-   "contract": "CDI",
-   "description": "Free-Work est une plateforme qui s'adresse à tous les professionnels des métiers de l'informatique. Ses contenus et son jobboard IT sont mis à disposition 100% gratuitement pour les indépendants et les salariés du secteur. Vos missions ? Intégré(e) à nos équipes ou chez nos clients, vous contribuez à développer et valoriser l'ensemble des données en résolvant des problématiques business concrètes via les technologies liées à la Data A ce titre, vos missions seront les suivantes : - Concevoir et…",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5973283955",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5973283942",
-   "title": "Data scientist (H/F) (CDI)",
-   "url": "https://www.adzuna.fr/details/5973283942?utm_medium=api&utm_source=b765adeb",
-   "org": "Free-Work",
-   "location": "Rhône, Auvergne-Rhône-Alpes",
-   "department": "",
-   "contract": "CDI",
-   "description": "Free-Work est une plateforme qui s'adresse à tous les professionnels des métiers de l'informatique. Ses contenus et son jobboard IT sont mis à disposition 100% gratuitement pour les indépendants et les salariés du secteur. Mission : En tant que Data Scientist (H/F), vous serez en charge des missions suivantes : - Concevoir et développer les futures fonctionnalités de la plateforme sous Google Cloud Platform. - Concevoir les flux d'alimentation et les tables (structure de données). - Automatiser…",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5973283942",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5973781625",
-   "title": "Ingénieur data (H/F)",
-   "url": "https://www.adzuna.fr/details/5973781625?utm_medium=api&utm_source=b765adeb",
-   "org": "THALES",
-   "location": "Vélizy-Villacoublay, Versailles",
-   "department": "",
-   "contract": "CDI",
-   "description": "Lieu : Vélizy-Villacoublay, France Construisons ensemble un avenir de confiance Thales est un leader mondial des hautes technologies spécialisé dans trois secteurs d'activité : Défense & Sécurité, Aéronautique & Spatial, et Cyber & Digital. Il développe des produits et solutions qui contribuent à un monde plus sûr, plus respectueux de l'environnement et plus inclusif. Le Groupe investit près de 4,5 milliards d'euros par an en Recherche & Développement, notamment dans des domaines clés de l'inno…",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5973781625",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [
-    {
-     "source": "adzuna",
-     "url": "https://www.adzuna.fr/details/5969239592?utm_medium=api&utm_source=b765adeb"
-    }
-   ],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17602,7 +18383,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17628,7 +18409,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17654,7 +18435,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17680,7 +18461,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17706,7 +18487,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17732,7 +18513,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17758,33 +18539,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5973284821",
-   "title": "Ingénieur Data Integrity F/H (CDI)",
-   "url": "https://www.adzuna.fr/details/5973284821?utm_medium=api&utm_source=b765adeb",
-   "org": "CADUCEUM",
-   "location": "Cany-Barville, Dieppe",
-   "department": "",
-   "contract": "CDI",
-   "description": "Caduceum, la solution Life Sciences du groupe ALTEN, est une société de conseils 100% dédiée aux industries de Santé. De la conception du produit à sa mise sur le marché, nos équipes accompagnent les industriels des secteurs pharmaceutiques, dispositifs médicaux, biotechnologiques et cosmétiques, dans tous leurs projets d’innovation et de transformation. Être consultant chez Caduceum, c’est la garantie d’évoluer dans votre domaine privilégié ! Grâce à notre Direction Technique, notre couverture…",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5973284821",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17810,7 +18565,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17836,33 +18591,7 @@
    "reasons": [],
    "source_label": "Adzuna",
    "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "email",
-   "source_id": "a825f939c38bf1d8",
-   "title": "Research AI Engineer for High-Throughput Crystallography and Drug Discovery",
-   "url": "https://www.linkedin.com/comm/jobs/view/4492778391/?trackingId=C7DMz29kPRzuFjrARZkKQQ%3D%3D&refId=MFgbU8q74uVi4lL0rld5dg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BTHRPbmMnTru4yyNmtoIQ7g%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3CiUPvv-OkzIw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4492778391_ssid_8383691322_fmid_bbso98~mwq8gliy~5k_crv_2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4492778391_ssid_8383691322_fmid_bbso98~mwq8gliy~5k_crv_2-null-bbso98~mwq8gliy~5k-null-null&eid=bbso98-mwq8gliy-5k&otpToken=YzRlYjY4MGUwNjA0OGVmMzQ5ZTNiZmM0ODMwZTFjZTNlZGI1NWZjYzc0NDc4YTcyZjMxMTcwMDRiNzYwNGNkZmJkZDVjNWUwZGE2OWQxMDNjNDYxNWY3MjMyZjIyNDNkZDkyYmY0ODVmN2QyZjkwMmMzOTk2NTk1N2NhZWEwYmY0NTcwYWNmNjc5M2Q2MSwyLDE%3D",
-   "org": "EMBL",
-   "location": "Grenoble",
-   "department": "",
-   "contract": "",
-   "description": "EMBL · Grenoble · Actively recruiting",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "LinkedIn",
-   "extra": {},
-   "uid": "email:a825f939c38bf1d8",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Alertes e-mail",
-   "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-21"
   },
@@ -17889,7 +18618,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -17915,7 +18644,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -17946,7 +18675,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -17972,7 +18701,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -17998,7 +18727,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -18024,7 +18753,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18050,8 +18779,43 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5972930189",
+   "title": "INGÉNIEUR DATA F/H",
+   "url": "https://www.adzuna.fr/details/5972930189?utm_medium=api&utm_source=b765adeb",
+   "org": "randstad professional",
+   "location": "Martigues, Istres",
+   "department": "",
+   "contract": "CDI",
+   "description": "Nous recherchons pour le compte de notre client éditeur de solutions, un ingénieur data intégration en CDI situé à Vitrolles. Au sein de l'équipe Data/IT, vous jouerez un rôle central dans la circulation, la transformation et la fiabilisation de nos données. Nous évoluons dans un environnement technique riche combinant des outils d'intégration robustes (Talend, Camel) et des solutions modernes d'orchestration et d'indexation (Airflow, Elasticsearch). Vous interviendrez sur l'ensemble du cycle d…",
+   "published": "2026-11-20",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5972930189",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/details/5972315378?utm_medium=api&utm_source=b765adeb"
+    },
+    {
+     "source": "adzuna",
+     "url": "https://www.adzuna.fr/details/5966437023?utm_medium=api&utm_source=b765adeb"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
   },
   {
    "source": "adzuna",
@@ -18085,7 +18849,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18111,7 +18875,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18137,7 +18901,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18163,7 +18927,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -18189,7 +18953,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18215,7 +18979,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18241,7 +19005,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18267,7 +19031,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18293,8 +19057,34 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5971222672",
+   "title": "18/11/2026 - Data Scientist H/F (Centre hospitalier Douai)",
+   "url": "https://www.adzuna.fr/details/5971222672?utm_medium=api&utm_source=b765adeb",
+   "org": "",
+   "location": "Douai, Nord",
+   "department": "",
+   "contract": "",
+   "description": "PRESENTATION DU POSTE Famille de métier Management, gestion et aide à la décision Sous famille de métier : Pilotage de la performance / Data / décisionnel Métier : Data Scientist Code métier : (à adapter type contrôleur de gestion / data analyst) Intitulé du poste : Data Scientist H/F Localisation Direction Générale Position du poste au sein de l'établissement Pôle : Direction Générale Service : Pilotage stratégique / mission transversale UF : Composition de l'équipe : Travail en lien fonctionn…",
+   "published": "2026-11-19",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5971222672",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "adzuna",
@@ -18319,7 +19109,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -18345,7 +19135,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -18371,7 +19161,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18397,7 +19187,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -18423,7 +19213,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -18449,8 +19239,34 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5971877075",
+   "title": "Ingénieur DATA",
+   "url": "https://www.adzuna.fr/details/5971877075?utm_medium=api&utm_source=b765adeb",
+   "org": "Ministères de la Santé, des Solidarités et du Travail",
+   "location": "Lyon, Rhône",
+   "department": "",
+   "contract": "CDD",
+   "description": "Vos missions en quelques mots L’ATIH cherche un-e spécialiste de l’ingénierie des données pour automatiser l’intégration et les traitements des données hospitalières et médico-sociales collectées par l’agence et mises à disposition auprès d’utilisateurs externes. Votre rôle sera de : Maintenir les pipelines de données (ETL et ELT) : En collaboration avec les statisticiens, maintenir et faire évoluer les flux de transformation et d’intégration des données, notamment en Parquet et MySQL vers Tera…",
+   "published": "2026-11-19",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5971877075",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-20"
   },
   {
    "source": "adzuna",
@@ -18475,7 +19291,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -18501,34 +19317,8 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5971865742",
-   "title": "Responsible AI Engineer",
-   "url": "https://www.adzuna.fr/details/5971865742?utm_medium=api&utm_source=b765adeb",
-   "org": "Accenture",
-   "location": "France",
-   "department": "",
-   "contract": "temps plein",
-   "description": "Imaginez, transformez et impactez le monde positivement : venez vivre au cœur du changement en tant que Responsible AI Engineer . Vos principales responsabilités seront les suivantes : Développer et implémenter des modèles et solutions AI en intégrant les principes de Responsible AI . Identifier et évaluer les risques liés aux modèles : bias, fairness, robustness, explainability , puis mettre en œuvre les mesures de mitigation adaptées. Optimiser et maintenir les systèmes AI existants afin d’am…",
-   "published": "2026-11-19",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5971865742",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-20"
   },
   {
    "source": "email",
@@ -18553,7 +19343,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -18579,25 +19369,25 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
    "source": "adzuna",
-   "source_id": "5971222672",
-   "title": "18/11/2026 - Data Scientist H/F (Centre hospitalier Douai)",
-   "url": "https://www.adzuna.fr/details/5971222672?utm_medium=api&utm_source=b765adeb",
-   "org": "",
-   "location": "Douai, Nord",
+   "source_id": "5971865742",
+   "title": "Responsible AI Engineer",
+   "url": "https://www.adzuna.fr/details/5971865742?utm_medium=api&utm_source=b765adeb",
+   "org": "Accenture",
+   "location": "France",
    "department": "",
-   "contract": "",
-   "description": "PRESENTATION DU POSTE Famille de métier Management, gestion et aide à la décision Sous famille de métier : Pilotage de la performance / Data / décisionnel Métier : Data Scientist Code métier : (à adapter type contrôleur de gestion / data analyst) Intitulé du poste : Data Scientist H/F Localisation Direction Générale Position du poste au sein de l'établissement Pôle : Direction Générale Service : Pilotage stratégique / mission transversale UF : Composition de l'équipe : Travail en lien fonctionn…",
+   "contract": "temps plein",
+   "description": "Imaginez, transformez et impactez le monde positivement : venez vivre au cœur du changement en tant que Responsible AI Engineer . Vos principales responsabilités seront les suivantes : Développer et implémenter des modèles et solutions AI en intégrant les principes de Responsible AI . Identifier et évaluer les risques liés aux modèles : bias, fairness, robustness, explainability , puis mettre en œuvre les mesures de mitigation adaptées. Optimiser et maintenir les systèmes AI existants afin d’am…",
    "published": "2026-11-19",
    "deadline": null,
    "salary": "",
    "via": "",
    "extra": {},
-   "uid": "adzuna:5971222672",
+   "uid": "adzuna:5971865742",
    "score": 40,
    "fit": "lo",
    "category": "ds",
@@ -18605,7 +19395,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": false,
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "first_seen": "2026-11-20"
   },
   {
@@ -18688,32 +19478,6 @@
   },
   {
    "source": "adzuna",
-   "source_id": "5971877075",
-   "title": "Ingénieur DATA",
-   "url": "https://www.adzuna.fr/details/5971877075?utm_medium=api&utm_source=b765adeb",
-   "org": "Ministères de la Santé, des Solidarités et du Travail",
-   "location": "Lyon, Rhône",
-   "department": "",
-   "contract": "CDD",
-   "description": "Vos missions en quelques mots L’ATIH cherche un-e spécialiste de l’ingénierie des données pour automatiser l’intégration et les traitements des données hospitalières et médico-sociales collectées par l’agence et mises à disposition auprès d’utilisateurs externes. Votre rôle sera de : Maintenir les pipelines de données (ETL et ELT) : En collaboration avec les statisticiens, maintenir et faire évoluer les flux de transformation et d’intégration des données, notamment en Parquet et MySQL vers Tera…",
-   "published": "2026-11-19",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5971877075",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": false,
-   "last_seen": "2026-11-20",
-   "first_seen": "2026-11-20"
-  },
-  {
-   "source": "adzuna",
    "source_id": "5971787240",
    "title": "Data Engineer – Plateforme Data on-premise (F/H). (CDI)",
    "url": "https://www.adzuna.fr/details/5971787240?utm_medium=api&utm_source=b765adeb",
@@ -18766,32 +19530,6 @@
   },
   {
    "source": "adzuna",
-   "source_id": "5970324685",
-   "title": "Data Engineer - Transport - Nantes",
-   "url": "https://www.adzuna.fr/details/5970324685?utm_medium=api&utm_source=b765adeb",
-   "org": "Sopra Steria",
-   "location": "Loire-Atlantique, Pays de la Loire",
-   "department": "",
-   "contract": "",
-   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Sopra Steria recherche actuellement des profils : Description de l'entreprise Leader technologique européen, Sopra Steria accompagne les organisations dans le déploiement de leurs projets stratégiques en s’appuyant sur ses expertises en…",
-   "published": "2026-11-18",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5970324685",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-18"
-  },
-  {
-   "source": "adzuna",
    "source_id": "5970549357",
    "title": "Data Engineer",
    "url": "https://www.adzuna.fr/details/5970549357?utm_medium=api&utm_source=b765adeb",
@@ -18813,7 +19551,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -18844,34 +19582,8 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5969801167",
-   "title": "Data Scientist (H/F)",
-   "url": "https://www.adzuna.fr/details/5969801167?utm_medium=api&utm_source=b765adeb",
-   "org": "Jobposting",
-   "location": "1er-Arrondissement, Lyon",
-   "department": "",
-   "contract": "",
-   "description": "Entreprise : Depuis sa création, KLANIK s'est donnée pour mission de conjuguer expertise technologique et authenticité. Ce pari audacieux, né à Marseille en 2011, en France, s'est transformé en une aventure internationale qui compte aujourd'hui plus de 800 collaborateurs, des implantations dans 10 pays et des filiales innovantes. Nous rejoignons en 2026 le groupe ALTEN, acteur mondial de l'ingénierie et des services numériques. Notre rôle : recruter les meilleurs talents & les connecter à nos c…",
-   "published": "2026-11-18",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5969801167",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-19"
   },
   {
    "source": "adzuna",
@@ -18896,7 +19608,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -18926,7 +19638,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -18952,7 +19664,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -18978,7 +19690,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -19004,7 +19716,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -19030,7 +19742,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -19056,8 +19768,34 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5970324685",
+   "title": "Data Engineer - Transport - Nantes",
+   "url": "https://www.adzuna.fr/details/5970324685?utm_medium=api&utm_source=b765adeb",
+   "org": "Sopra Steria",
+   "location": "Loire-Atlantique, Pays de la Loire",
+   "department": "",
+   "contract": "",
+   "description": "En tant qu'organisateur de forums de recrutement, Talents Handicap accompagne de très nombreuses entreprises & organisations en France dans leurs recrutements de collaborateurs en situation de handicap. Participant actuellement à l'un de nos forums. L'entreprise Sopra Steria recherche actuellement des profils : Description de l'entreprise Leader technologique européen, Sopra Steria accompagne les organisations dans le déploiement de leurs projets stratégiques en s’appuyant sur ses expertises en…",
+   "published": "2026-11-18",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5970324685",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": false,
+   "last_seen": "2026-11-21",
+   "first_seen": "2026-11-18"
   },
   {
    "source": "adzuna",
@@ -19564,32 +20302,6 @@
   },
   {
    "source": "adzuna",
-   "source_id": "5967993162",
-   "title": "INGENIEUR DATA (H/F) - Syndicat mixte de Coopération Territoriale Mégalis Bretagne",
-   "url": "https://www.adzuna.fr/details/5967993162?utm_medium=api&utm_source=b765adeb",
-   "org": "Fonction publique Territoriale",
-   "location": "Cesson-Sévigné, Rennes",
-   "department": "",
-   "contract": "CDD",
-   "description": "Vos missions en quelques mots Les outils et principales technologies utilisés pour la gestion des données sur mon-compte.bzh et mes-services.bzh sont les suivants : bases de données centralisées PostGreSQL, MySQL, gestion des référentiels de données avec l’outil MDM Semarchy, algorithmes de personnalisation et critérisation et intégration d’APIs internes/externes (API manager Gravitee). Concrètement les actifs « data » des solutions actuellement en place sont les suivants : - le référentiel des…",
-   "published": "2026-11-16",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5967993162",
-   "score": 40,
-   "fit": "lo",
-   "category": "ds",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-17"
-  },
-  {
-   "source": "adzuna",
    "source_id": "5967776858",
    "title": "Ingénieur Data & Business Intelligence F/H",
    "url": "https://www.adzuna.fr/details/5967776858?utm_medium=api&utm_source=b765adeb",
@@ -19611,7 +20323,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-16"
   },
   {
@@ -19637,6 +20349,32 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5967993162",
+   "title": "INGENIEUR DATA (H/F) - Syndicat mixte de Coopération Territoriale Mégalis Bretagne",
+   "url": "https://www.adzuna.fr/details/5967993162?utm_medium=api&utm_source=b765adeb",
+   "org": "Fonction publique Territoriale",
+   "location": "Cesson-Sévigné, Rennes",
+   "department": "",
+   "contract": "CDD",
+   "description": "Vos missions en quelques mots Les outils et principales technologies utilisés pour la gestion des données sur mon-compte.bzh et mes-services.bzh sont les suivants : bases de données centralisées PostGreSQL, MySQL, gestion des référentiels de données avec l’outil MDM Semarchy, algorithmes de personnalisation et critérisation et intégration d’APIs internes/externes (API manager Gravitee). Concrètement les actifs « data » des solutions actuellement en place sont les suivants : - le référentiel des…",
+   "published": "2026-11-16",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5967993162",
+   "score": 40,
+   "fit": "lo",
+   "category": "ds",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-17"
   },
@@ -19850,7 +20588,7 @@
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-15"
   },
   {
@@ -19876,7 +20614,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-15"
   },
   {
@@ -19902,7 +20640,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-16"
   },
   {
@@ -19988,7 +20726,7 @@
    "reasons": [],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-15"
   },
@@ -20014,7 +20752,7 @@
    "reasons": [],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-15"
   },
@@ -25406,9 +26144,191 @@
   },
   {
    "source": "adzuna",
+   "source_id": "5974583962",
+   "title": "Data analyst F/H (CDI)",
+   "url": "https://www.adzuna.fr/land/ad/5974583962?se=PN4E33fm8RG3nZ-LYijpoQ&utm_medium=api&utm_source=b765adeb&v=EE28907B40FD7FD322594506A6DF3FAE6978D058",
+   "org": "AGPM GESTION",
+   "location": "Var, Provence-Alpes-Côte d'Azur",
+   "department": "",
+   "contract": "CDI",
+   "description": "Rejoignez l'AGPM et donnez du sens à votre engagement professionnel ! Créée en 1951 par des militaires pour des militaires, l'AGPM est aujourd'hui l'expert de la prévoyance militaire et le partenaire de confiance de la communauté Défense et Sécurité. A ce titre, nous commercialisons une large gamme de solutions d'assurance en prévoyance, santé, épargne et assurance de biens. Depuis toujours, nous portons un esprit mutualiste fondé sur la solidarité et l'entraide qui nous permet d'accompagner ce…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974583962",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974596069",
+   "title": "Statisticien H/F",
+   "url": "https://www.adzuna.fr/land/ad/5974596069?se=7CiJ4nfm8RGB-bDIy5dDgQ&utm_medium=api&utm_source=b765adeb&v=8260DD76063FCED7BBED2632C24C17F4ABDEC4E5",
+   "org": "Lasecurecrute.fr",
+   "location": "Guéret, Creuse",
+   "department": "",
+   "contract": "",
+   "description": "CCSS DE LA CREUSE La caisse commune de sécurité sociale (CCSS) née de la fusion de la Caf et de la CPAM de La Creuse en mars 2026 est un organisme de droit privé ayant une mission de service public. Sur son site unique de Guéret, la CCSS de la Creuse s'appuie sur l'expertise de 250 salariés pour assurer : - Pour la Branche maladie l'accès aux droits et aux soins de plus de 91000 assurés - Pour la Branche famille l'accompagnement des familles et les évolutions sociétales en assurant le versement…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974596069",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5975063711",
+   "title": "Chargé d'Etudes BTP",
+   "url": "https://www.adzuna.fr/details/5975063711?utm_medium=api&utm_source=b765adeb",
+   "org": "ROGER MARTIN",
+   "location": "Saint-Jory, Toulouse",
+   "department": "",
+   "contract": "CDI temps plein",
+   "description": "Nous recherchons pour notre filiale BUESA TP basé à Saint-Jory (31) : Chargé d'études TP H/F Rattaché au Chef d'agence, vos missions seront les suivantes : Vous répondez aux appels d'offres en marché public ou privé, en collaboration avec le directeur de l'agence, Vous concevez les solutions techniques et commerciales, consultez les fournisseurs et déterminez les moyens humains et matériels nécessaires à la remise de l'offre Vous établissez le planning général de l'opération, rédigez également …",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5975063711",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5975061880",
+   "title": "Ingénieur chargé d'études électricité H/F",
+   "url": "https://www.adzuna.fr/details/5975061880?utm_medium=api&utm_source=b765adeb",
+   "org": "BABCOCK WANSON",
+   "location": "Francescas, Nérac",
+   "department": "",
+   "contract": "CDI temps plein",
+   "description": "Rejoignez un projet stratégique au coeur de la décarbonation de l'industrie ! Dans le cadre du développement de notre gamme de chaudières électriques haute et basse tension et afin d'accompagner la transition énergétique de nos clients industriels, nous recherchons notre futur Ingénieur chargé d'études électricité. Rattaché(e) au Responsable Études et Réalisations, vous intervenez en phase d'avant-projet pour analyser les besoins des clients, construire les solutions techniques adaptées et réal…",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5975061880",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "da7ac809cd5f2c9a",
+   "title": "Analyste Data IA expérimenté H/F - IBM FutureNow Center - Strasbourg",
+   "url": "https://www.linkedin.com/comm/jobs/view/4483469761/?trackingId=NrHap2FZ11W%2FakZeHx4APA%3D%3D&refId=1CgSeHOF1sdITklw2Dl2Vw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BGpzsRRs%2BQTK%2FGZQDUNDAUQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=0aAMc0JxCYAYw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4483469761_ssid_1726638067_fmid_bbso98~mwrjm4nm~fc_crv_3&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4483469761_ssid_1726638067_fmid_bbso98~mwrjm4nm~fc_crv_3-null-bbso98~mwrjm4nm~fc-null-null&eid=bbso98-mwrjm4nm-fc&otpToken=NmM2YjRjZmZjMDdiMGViZmM1MDg1OGVlNzhkZmNiMjVlMzcxZWVhODQ1ZWQ1MDUxMzMyODNlODgxMWQwM2Q5NjFlMTE2NGJkYWZlNGQwMWVlOTIzMzIzYmFjMzM0MDNlOWZkOWY3MmQzMjY4N2U5ZThmOGQ2YjkxNmRhZGI3ODhlNmJiOWFkMDNmMTZiMSwyLDE%3D",
+   "org": "IBM",
+   "location": "Bois-Colombes (On-site)",
+   "department": "",
+   "contract": "",
+   "description": "IBM · Bois-Colombes (On-site) · 1 company alum",
+   "published": "2026-11-22",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:da7ac809cd5f2c9a",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974357121",
+   "title": "Revenue Data Analyst",
+   "url": "https://www.adzuna.fr/details/5974357121?utm_medium=api&utm_source=b765adeb",
+   "org": "Jobgether",
+   "location": "France",
+   "department": "",
+   "contract": "temps plein",
+   "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Revenue Data Analyst based in France. We are seeking a data-driven and detail-oriented Revenue Data Analyst to join an international Revenue Operations team. In this role, you will transform complex revenue data into actionable insights that support strategic business decisions and sustainable growth. You will build and maintain dashboards, analyze customer behavior,…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974357121",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5974347186",
+   "title": "PMO Data analyst F/H",
+   "url": "https://www.adzuna.fr/details/5974347186?utm_medium=api&utm_source=b765adeb",
+   "org": "CGI",
+   "location": "Marignane, Istres",
+   "department": "",
+   "contract": "",
+   "description": "Position Description: Vous rejoignez notre centre de services d’ingénierie et prenez part à des projets industriels stratégiques, où l’excellence technique, la qualité et la maîtrise des systèmes complexes sont essentielles. En collaboration avec nos équipes, vous participez à la conception, au développement, à la validation et à l’optimisation de solutions tout au long de leur cycle de vie, dans un environnement favorisant l’apprentissage, la montée en compétences et l’accès à des formations e…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5974347186",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "adzuna",
    "source_id": "5973777569",
    "title": "Data Analyst H/F",
-   "url": "https://www.adzuna.fr/details/5973777569?utm_medium=api&utm_source=b765adeb",
+   "url": "https://www.adzuna.fr/land/ad/5973777569?se=PN4E33fm8RG3nZ-LYijpoQ&utm_medium=api&utm_source=b765adeb&v=443FA915FBF2A1854CA61BDAB980BE42F823F4E1",
    "org": "GROUPE NICOLLIN",
    "location": "Montpellier, Hérault",
    "department": "",
@@ -25427,7 +26347,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -25453,7 +26373,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -25479,33 +26399,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-21"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5973283990",
-   "title": "Data Analyst Confirmé - Power BI F/H (CDI)",
-   "url": "https://www.adzuna.fr/details/5973283990?utm_medium=api&utm_source=b765adeb",
-   "org": "JEMS",
-   "location": "Rhône, Auvergne-Rhône-Alpes",
-   "department": "",
-   "contract": "CDI",
-   "description": "Nous sommes le premier industriel de la donnée en Europe . Notre métier est de créer, manager et exploiter le patrimoine data de nos clients. Nous avons la conviction que chaque entreprise peut adopter une démarche innovante de gestion de la donnée et créer des cas d’usage disruptifs en réduisant l'impact écologique et en diminuant la dette technique. Nous comptons plus de 900 collaborateurs en mission chez nos clients grands comptes dans tout secteur d’activité Nous recherchons pour une entrep…",
-   "published": "2026-11-21",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5973283990",
-   "score": 35,
-   "fit": "lo",
-   "category": "da",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -25531,7 +26425,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -25539,7 +26433,7 @@
    "source_id": "5973283997",
    "title": "Data analyst f/h (CDI)",
    "url": "https://www.adzuna.fr/details/5973283997?utm_medium=api&utm_source=b765adeb",
-   "org": "DAVIDSON CONSULTING",
+   "org": "Davidson consulting",
    "location": "Saint-Cloud, Boulogne-Billancourt",
    "department": "",
    "contract": "CDI",
@@ -25557,14 +26451,40 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5973283990",
+   "title": "Data Analyst Confirmé - Power BI F/H (CDI)",
+   "url": "https://www.adzuna.fr/details/5973283990?utm_medium=api&utm_source=b765adeb",
+   "org": "JEMS",
+   "location": "Rhône, Auvergne-Rhône-Alpes",
+   "department": "",
+   "contract": "CDI",
+   "description": "Nous sommes le premier industriel de la donnée en Europe . Notre métier est de créer, manager et exploiter le patrimoine data de nos clients. Nous avons la conviction que chaque entreprise peut adopter une démarche innovante de gestion de la donnée et créer des cas d’usage disruptifs en réduisant l'impact écologique et en diminuant la dette technique. Nous comptons plus de 900 collaborateurs en mission chez nos clients grands comptes dans tout secteur d’activité Nous recherchons pour une entrep…",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5973283990",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
    "source": "adzuna",
    "source_id": "5973769778",
    "title": "Lead Data Scientist F/H (I2P/CE DATA)",
-   "url": "https://www.adzuna.fr/details/5973769778?utm_medium=api&utm_source=b765adeb",
+   "url": "https://www.adzuna.fr/land/ad/5973769778?se=HqnN5nfm8RGB-bDIy5dDgQ&utm_medium=api&utm_source=b765adeb&v=88114C89D01866DD976F88215ED61AF31E72E7D3",
    "org": "RATP",
    "location": "Paris, Ile-de-France",
    "department": "",
@@ -25585,8 +26505,60 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
+  },
+  {
+   "source": "email",
+   "source_id": "863e19caf0a8f056",
+   "title": "Data Analyst",
+   "url": "https://www.linkedin.com/comm/jobs/view/4492969238/?trackingId=a%2BP755I1uxvt5q1zphEYcw%3D%3D&refId=oWPHKaFnLkVzBC8ykiuUNg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BzurWbaSQRvyCUwlLVzp%2FWw%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3M6aSzSyNQAcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4492969238_ssid_1639702183_fmid_bbso98~mwqplvzv~fo_crv_7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4492969238_ssid_1639702183_fmid_bbso98~mwqplvzv~fo_crv_7-null-bbso98~mwqplvzv~fo-null-null&eid=bbso98-mwqplvzv-fo&otpToken=YTM4MGJmYWVhYTEzMmVmMmVmYjQ1M2JkNjQ0Yjg4OWVjNTYzYzUyNTk5NDBjZDMwZWE5NGRjYTFmMGFhMDQwZDViYTU0NWI5YTc3NTcwNzNlNDRlNWY5MDJhYmZlODYwNTUyNzE5YTRiZWUxZDdmYzA5ZTEzNTg4ZmY5ZjllZDYzYzA4NGJkYjdiYmJmZCwyLDE%3D",
+   "org": "Infinity Quest",
+   "location": "Canada (Remote)",
+   "department": "",
+   "contract": "",
+   "description": "Infinity Quest · Canada (Remote) · Actively recruiting · Easy Apply",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:863e19caf0a8f056",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "ad7eb8c11a9b97b7",
+   "title": "Data Analyst and Geomatics Specialist",
+   "url": "https://www.linkedin.com/comm/jobs/view/4492593998/?trackingId=ygmRjyPSPj%2FxlWmbi8RcsA%3D%3D&refId=oWPHKaFnLkVzBC8ykiuUNg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BzurWbaSQRvyCUwlLVzp%2FWw%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3M6aSzSyNQAcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4492593998_ssid_1639702183_fmid_bbso98~mwqplvzv~fo_crv_7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4492593998_ssid_1639702183_fmid_bbso98~mwqplvzv~fo_crv_7-null-bbso98~mwqplvzv~fo-null-null&eid=bbso98-mwqplvzv-fo&otpToken=YTM4MGJmYWVhYTEzMmVmMmVmYjQ1M2JkNjQ0Yjg4OWVjNTYzYzUyNTk5NDBjZDMwZWE5NGRjYTFmMGFhMDQwZDViYTU0NWI5YTc3NTcwNzNlNDRlNWY5MDJhYmZlODYwNTUyNzE5YTRiZWUxZDdmYzA5ZTEzNTg4ZmY5ZjllZDYzYzA4NGJkYjdiYmJmZCwyLDE%3D",
+   "org": "Government of Alberta",
+   "location": "Edmonton, AB",
+   "department": "",
+   "contract": "",
+   "description": "Government of Alberta · Edmonton, AB · Actively recruiting",
+   "published": "2026-11-21",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:ad7eb8c11a9b97b7",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Alertes e-mail",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
   },
   {
    "source": "adzuna",
@@ -25611,7 +26583,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -25637,7 +26609,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -25663,7 +26635,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -25689,7 +26661,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -25715,7 +26687,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -25741,14 +26713,14 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
    "source": "adzuna",
    "source_id": "5972181845",
    "title": "Data analyst (domaine qualité) F/H (CDI)",
-   "url": "https://www.adzuna.fr/land/ad/5972181845?se=WOR5k6_l8RGK1Jozpv_WtA&utm_medium=api&utm_source=b765adeb&v=DEE1651CFE231C019A6437162E4D8137C4C89EDB",
+   "url": "https://www.adzuna.fr/land/ad/5972181845?se=PN4E33fm8RG3nZ-LYijpoQ&utm_medium=api&utm_source=b765adeb&v=DEE1651CFE231C019A6437162E4D8137C4C89EDB",
    "org": "MBDA",
    "location": "Cher, Centre",
    "department": "",
@@ -25767,7 +26739,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -25795,7 +26767,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -25823,7 +26795,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -25849,7 +26821,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -25875,7 +26847,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -25954,38 +26926,12 @@
    "also_on": [
     {
      "source": "adzuna",
-     "url": "https://www.adzuna.fr/details/5973494444?utm_medium=api&utm_source=b765adeb"
+     "url": "https://www.adzuna.fr/details/5974641317?utm_medium=api&utm_source=b765adeb"
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
-  },
-  {
-   "source": "adzuna",
-   "source_id": "5971869582",
-   "title": "Business Data Analyst H/F",
-   "url": "https://www.adzuna.fr/details/5971869582?utm_medium=api&utm_source=b765adeb",
-   "org": "Crédit Agricole",
-   "location": "France",
-   "department": "",
-   "contract": "temps plein",
-   "description": "Informations générales Entité Rejoignez Crédit Agricole Leasing & Factoring (CAL&F), filiale experte du groupe Crédit Agricole et acteur majeur du crédit-bail, de l'affacturage et du financement de la transition énergétique. CAL&F intervient sur des marchés porteurs et évolutifs en proposant des solutions destinées aux professionnels, agriculteurs, entreprises de toute taille et collectivités locales : • En crédit-bail, pour l'acquisition de matériels et biens immobiliers; • En affacturage, pou…",
-   "published": "2026-11-19",
-   "deadline": null,
-   "salary": "",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5971869582",
-   "score": 35,
-   "fit": "lo",
-   "category": "da",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-20"
   },
   {
    "source": "adzuna",
@@ -26010,7 +26956,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -26036,7 +26982,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -26062,14 +27008,14 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
    "source": "adzuna",
    "source_id": "5971572962",
    "title": "DATA ANALYST (F/H)",
-   "url": "https://www.adzuna.fr/land/ad/5971572962?se=oAozlK_l8RGdrpYB4d7-3g&utm_medium=api&utm_source=b765adeb&v=7866FF72CBAA2F6E76854943C14F8EFF2CCD6F69",
+   "url": "https://www.adzuna.fr/land/ad/5971572962?se=JACR33fm8RGxz9-eUdfqSQ&utm_medium=api&utm_source=b765adeb&v=7866FF72CBAA2F6E76854943C14F8EFF2CCD6F69",
    "org": "Expectra",
    "location": "Blagnac, Toulouse",
    "department": "",
@@ -26088,7 +27034,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-20"
   },
   {
@@ -26114,7 +27060,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -26140,14 +27086,14 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
    "source": "adzuna",
    "source_id": "5970816114",
    "title": "Data Analyst H/F (CDI)",
-   "url": "https://www.adzuna.fr/land/ad/5970816114?se=oAozlK_l8RGdrpYB4d7-3g&utm_medium=api&utm_source=b765adeb&v=92DD7A70D0FB855F231687C9C6F6F8CCCD0A7F0C",
+   "url": "https://www.adzuna.fr/land/ad/5970816114?se=JACR33fm8RGxz9-eUdfqSQ&utm_medium=api&utm_source=b765adeb&v=92DD7A70D0FB855F231687C9C6F6F8CCCD0A7F0C",
    "org": "ELIS",
    "location": "Puteaux, Nanterre",
    "department": "",
@@ -26166,7 +27112,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -26194,7 +27140,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-21"
   },
   {
@@ -26222,7 +27168,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -26246,9 +27192,14 @@
    "category": "da",
    "reasons": [],
    "source_label": "Alertes e-mail",
-   "also_on": [],
+   "also_on": [
+    {
+     "source": "email",
+     "url": "https://www.linkedin.com/comm/jobs/view/4483062357/?trackingId=0vr%2FEFnQQ%2F6CEdqvPfkpcA%3D%3D&refId=oWPHKaFnLkVzBC8ykiuUNg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BzurWbaSQRvyCUwlLVzp%2FWw%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3M6aSzSyNQAcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4483062357_ssid_1639702183_fmid_bbso98~mwqplvzv~fo_crv_7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4483062357_ssid_1639702183_fmid_bbso98~mwqplvzv~fo_crv_7-null-bbso98~mwqplvzv~fo-null-null&eid=bbso98-mwqplvzv-fo&otpToken=YTM4MGJmYWVhYTEzMmVmMmVmYjQ1M2JkNjQ0Yjg4OWVjNTYzYzUyNTk5NDBjZDMwZWE5NGRjYTFmMGFhMDQwZDViYTU0NWI5YTc3NTcwNzNlNDRlNWY5MDJhYmZlODYwNTUyNzE5YTRiZWUxZDdmYzA5ZTEzNTg4ZmY5ZjllZDYzYzA4NGJkYjdiYmJmZCwyLDE%3D"
+    }
+   ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -26276,6 +27227,32 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5971869582",
+   "title": "Business Data Analyst H/F",
+   "url": "https://www.adzuna.fr/details/5971869582?utm_medium=api&utm_source=b765adeb",
+   "org": "Crédit Agricole",
+   "location": "France",
+   "department": "",
+   "contract": "temps plein",
+   "description": "Informations générales Entité Rejoignez Crédit Agricole Leasing & Factoring (CAL&F), filiale experte du groupe Crédit Agricole et acteur majeur du crédit-bail, de l'affacturage et du financement de la transition énergétique. CAL&F intervient sur des marchés porteurs et évolutifs en proposant des solutions destinées aux professionnels, agriculteurs, entreprises de toute taille et collectivités locales : • En crédit-bail, pour l'acquisition de matériels et biens immobiliers; • En affacturage, pou…",
+   "published": "2026-11-19",
+   "deadline": null,
+   "salary": "",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5971869582",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-20"
   },
@@ -26309,37 +27286,6 @@
   },
   {
    "source": "adzuna",
-   "source_id": "5970335086",
-   "title": "Data Analyst F/H",
-   "url": "https://www.adzuna.fr/details/5970335086?utm_medium=api&utm_source=b765adeb",
-   "org": "CDER",
-   "location": "Châlons-en-Champagne, Marne",
-   "department": "",
-   "contract": "CDI",
-   "description": "Vous aimez transformer des données en outils d'aide à la décision ? CDER recherche son/sa futur.e Data Analyst H/F. Dans un environnement où les données occupent une place croissante dans le pilotage des activités, vous contribuerez à structurer leur exploitation afin d'accompagner les métiers et les directions dans leurs prises de décision. Au-delà de la maîtrise des outils, nous recherchons une personne capable de donner du sens aux données : les collecter, les organiser, les analyser et les …",
-   "published": "2026-11-18",
-   "deadline": null,
-   "salary": "42 000 – 50 000 €",
-   "via": "",
-   "extra": {},
-   "uid": "adzuna:5970335086",
-   "score": 35,
-   "fit": "lo",
-   "category": "da",
-   "reasons": [],
-   "source_label": "Adzuna",
-   "also_on": [
-    {
-     "source": "adzuna",
-     "url": "https://www.adzuna.fr/details/5970571633?utm_medium=api&utm_source=b765adeb"
-    }
-   ],
-   "active": true,
-   "last_seen": "2026-11-21",
-   "first_seen": "2026-11-18"
-  },
-  {
-   "source": "adzuna",
    "source_id": "5970567054",
    "title": "Data Analyst Senior – Power BI / SQL - (H/F)",
    "url": "https://www.adzuna.fr/details/5970567054?utm_medium=api&utm_source=b765adeb",
@@ -26361,14 +27307,14 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
    "source": "adzuna",
    "source_id": "5970448476",
    "title": "Data Analyst (h/f) (Intérim)",
-   "url": "https://www.adzuna.fr/land/ad/5970448476?se=oAozlK_l8RGdrpYB4d7-3g&utm_medium=api&utm_source=b765adeb&v=09871FEDBE5EBADF56958C573AB03178ABA6D1EB",
+   "url": "https://www.adzuna.fr/land/ad/5970448476?se=JACR33fm8RGxz9-eUdfqSQ&utm_medium=api&utm_source=b765adeb&v=09871FEDBE5EBADF56958C573AB03178ABA6D1EB",
    "org": "LHH",
    "location": "Magny-les-Hameaux, Maurepas",
    "department": "",
@@ -26387,7 +27333,7 @@
    "source_label": "Adzuna",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-19"
   },
   {
@@ -26411,14 +27357,35 @@
    "category": "da",
    "reasons": [],
    "source_label": "Adzuna",
-   "also_on": [
-    {
-     "source": "adzuna",
-     "url": "https://www.adzuna.fr/details/5969977911?utm_medium=api&utm_source=b765adeb"
-    }
-   ],
+   "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "source": "adzuna",
+   "source_id": "5970335086",
+   "title": "Data Analyst F/H",
+   "url": "https://www.adzuna.fr/details/5970335086?utm_medium=api&utm_source=b765adeb",
+   "org": "CDER",
+   "location": "Châlons-en-Champagne, Marne",
+   "department": "",
+   "contract": "CDI",
+   "description": "Vous aimez transformer des données en outils d'aide à la décision ? CDER recherche son/sa futur.e Data Analyst H/F. Dans un environnement où les données occupent une place croissante dans le pilotage des activités, vous contribuerez à structurer leur exploitation afin d'accompagner les métiers et les directions dans leurs prises de décision. Au-delà de la maîtrise des outils, nous recherchons une personne capable de donner du sens aux données : les collecter, les organiser, les analyser et les …",
+   "published": "2026-11-18",
+   "deadline": null,
+   "salary": "42 000 – 50 000 €",
+   "via": "",
+   "extra": {},
+   "uid": "adzuna:5970335086",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Adzuna",
+   "also_on": [],
+   "active": true,
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -26444,7 +27411,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-18"
   },
   {
@@ -26576,7 +27543,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -26758,7 +27725,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -26784,7 +27751,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-17"
   },
   {
@@ -27051,7 +28018,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-15"
   },
   {
@@ -27077,7 +28044,7 @@
    "source_label": "Alertes e-mail",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-15"
   },
   {
@@ -27117,11 +28084,93 @@
     {
      "source": "email",
      "url": "https://www.linkedin.com/comm/jobs/view/4492165169/?trackingId=jWb%2BhqIs80T92q5jIb5sbw%3D%3D&refId=VW%2FgDDpyMDSIVLW0RxcTaw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bl63cWrQ9RrquF9zBATg1JQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3xxYnGgcLAysw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4492165169_ssid_1639702183_fmid_bbso98~mwp1ldid~po_crv_8&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_5_jobid_4492165169_ssid_1639702183_fmid_bbso98~mwp1ldid~po_crv_8-null-bbso98~mwp1ldid~po-null-null&eid=bbso98-mwp1ldid-po&otpToken=ZjlmZjlkYjk5YTRlZmI4M2Y4OTVkYTY0NzQ2NDY1YjZjNThmNjdiNmJkMDBjM2QyMjVjMDMxMWYzYTY2ZWNlYTcxMzk4ZGVjOTJmYjA3NzExODU0MTcxNTk2OGQyN2M1ODhjZTU2MjVjZGZiNDczMTMwMWVhYWY1Zjk2ZTRlMWYyOGNjN2I3ZDA1ZGJmOSwyLDE%3D"
+    },
+    {
+     "source": "email",
+     "url": "https://www.linkedin.com/comm/jobs/view/4492566871/?trackingId=wbQLnRagDP%2FDA9JbaD7%2Bsw%3D%3D&refId=oWPHKaFnLkVzBC8ykiuUNg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BzurWbaSQRvyCUwlLVzp%2FWw%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3M6aSzSyNQAcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4492566871_ssid_1639702183_fmid_bbso98~mwqplvzv~fo_crv_7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4492566871_ssid_1639702183_fmid_bbso98~mwqplvzv~fo_crv_7-null-bbso98~mwqplvzv~fo-null-null&eid=bbso98-mwqplvzv-fo&otpToken=YTM4MGJmYWVhYTEzMmVmMmVmYjQ1M2JkNjQ0Yjg4OWVjNTYzYzUyNTk5NDBjZDMwZWE5NGRjYTFmMGFhMDQwZDViYTU0NWI5YTc3NTcwNzNlNDRlNWY5MDJhYmZlODYwNTUyNzE5YTRiZWUxZDdmYzA5ZTEzNTg4ZmY5ZjllZDYzYzA4NGJkYjdiYmJmZCwyLDE%3D"
     }
    ],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-15"
+  },
+  {
+   "source": "email",
+   "source_id": "966fc13a9169f1ff",
+   "title": "Data Analyst (Remote)",
+   "url": "https://www.linkedin.com/comm/jobs/view/4489879772/?trackingId=8I0pGdbKD8uJ48tdyqYS8Q%3D%3D&refId=BKj%2BOY7ITT3bzPLiKYxEZA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BibFgl6ZUTVGJcjPZlB0GAg%3D%3D&midToken=AQEISyqAMf6QBg&midSig=36h2aiHQRcrsw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4489879772_ssid_1639702183_fmid_bbso98~mwhs3tpj~94_crv_8&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4489879772_ssid_1639702183_fmid_bbso98~mwhs3tpj~94_crv_8-null-bbso98~mwhs3tpj~94-null-null&eid=bbso98-mwhs3tpj-94&otpToken=YjZmMTY5ZjNhODg4ZjM5Y2M3MWM3YWIwMzU2NTllOTk4MjBjZWIwOGU5MzBhNTFiYWU3NTFmOTk1NDkyZWE2NWE0ZWE5YzU3MzA4NWQzZjdmMTcyZGJhOWJjNThlMDFiZjkxMjY0NTc5MjRlMjg4MzZiMDQ2MzNlZmY3MDg2ZjU0OGYxNGVkYzVjNzg5MCwyLDE%3D",
+   "org": "Crewlia",
+   "location": "Canada (Remote)",
+   "department": "",
+   "contract": "",
+   "description": "Crewlia · Canada (Remote)",
+   "published": "2026-11-15",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:966fc13a9169f1ff",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Alertes e-mail",
+   "also_on": [
+    {
+     "source": "email",
+     "url": "https://www.linkedin.com/comm/jobs/view/4490632895/?trackingId=oALDvQd%2FQpwLFXEJiu0Z8Q%3D%3D&refId=%2FmYnqGskclrV7A47W0VbEw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMkYhixWwS4WdOYdlV%2BJG1g%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3lRShl7Qc4usw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4490632895_ssid_1639702183_fmid_bbso98~mwkr9u17~7m_crv_1&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_1_jobid_4490632895_ssid_1639702183_fmid_bbso98~mwkr9u17~7m_crv_1-null-bbso98~mwkr9u17~7m-null-null&eid=bbso98-mwkr9u17-7m&otpToken=OTRiYjdiOTcwNjE2MzBkMmU0ZjMzZjhjZGIxMzI3MzUzOGU5Nzc1NGU1ZDAzNzY1NTkwYzIxMjc2MDEwNjdlZjQ5NDMxMjA2MmZmYTBhOWIzNzM4M2UyNzZiN2MxOTllMDI2NDJkMmMyN2U0MDIyMWU4ZDgxYThiYjEyOTNiNmUyYmZiNGQ3YmVlNzYzYywyLDE%3D"
+    },
+    {
+     "source": "email",
+     "url": "https://www.linkedin.com/comm/jobs/view/4491146414/?trackingId=%2BCiwsxC%2ByB9ReVAO8hYUAw%3D%3D&refId=%2FGKCgl4DncuDHVGKb%2BzGow%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BU7j97XAbQiKVzNKzphFbeQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=0OApqKSMoIvIw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4491146414_ssid_1639702183_fmid_bbso98~mwm2fcs0~aj_crv_5&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_0_jobid_4491146414_ssid_1639702183_fmid_bbso98~mwm2fcs0~aj_crv_5-null-bbso98~mwm2fcs0~aj-null-null&eid=bbso98-mwm2fcs0-aj&otpToken=MTA4M2VmNzVkNDVjNmVkMjg2MDhiMTJjM2FjNmZmZjZkZTlkOThjODkzNGVhMzFhNTdlMDI5NTdiNGNhNzIyOWI5ODRkNzExNTI3ODkzNTQxZjYwZTcyYzJhNzg3M2ZkYWMxODM4NWZhY2ZmODhlYjg1MTFlNDA3Y2Y0Yjc1MDg1ZTA4YzZlMzIwZTYwZCwyLDE%3D"
+    },
+    {
+     "source": "email",
+     "url": "https://www.linkedin.com/comm/jobs/view/4491835358/?trackingId=ugW%2BM4NLy8K83S8GP%2Fckgw%3D%3D&refId=dUbPvk9K53WqhWGUWSbdpQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B0KSehbrnQve%2BR7r62MmqIA%3D%3D&midToken=AQEISyqAMf6QBg&midSig=29ABcINO14xcw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4491835358_ssid_1639702183_fmid_bbso98~mwnm5j9c~6_crv_7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4491835358_ssid_1639702183_fmid_bbso98~mwnm5j9c~6_crv_7-null-bbso98~mwnm5j9c~6-null-null&eid=bbso98-mwnm5j9c-6&otpToken=MzYyYmU0MGE5MTkyNjQ0NmIwMzFmYWZmZGQ4YzAxN2IxMzhmYmMzNTI0OTY0Nzg4ZGFlOGJiYzRjODg1YWFmZGE3N2I5ZjY4OTQ2OGM4MDFjZThkMTg4MWI5Zjc3Y2EwMjYzYmU3OWFkMTZmMDM1YTRhODVmYmE0MTI2ZTM1YWQ0NzQ3M2EzZjA3YTNhOCwyLDE%3D"
+    },
+    {
+     "source": "email",
+     "url": "https://www.linkedin.com/comm/jobs/view/4492139853/?trackingId=Vces8sgiIJe0dn4n%2FwZz7A%3D%3D&refId=VW%2FgDDpyMDSIVLW0RxcTaw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bl63cWrQ9RrquF9zBATg1JQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3xxYnGgcLAysw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4492139853_ssid_1639702183_fmid_bbso98~mwp1ldid~po_crv_8&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4492139853_ssid_1639702183_fmid_bbso98~mwp1ldid~po_crv_8-null-bbso98~mwp1ldid~po-null-null&eid=bbso98-mwp1ldid-po&otpToken=ZjlmZjlkYjk5YTRlZmI4M2Y4OTVkYTY0NzQ2NDY1YjZjNThmNjdiNmJkMDBjM2QyMjVjMDMxMWYzYTY2ZWNlYTcxMzk4ZGVjOTJmYjA3NzExODU0MTcxNTk2OGQyN2M1ODhjZTU2MjVjZGZiNDczMTMwMWVhYWY1Zjk2ZTRlMWYyOGNjN2I3ZDA1ZGJmOSwyLDE%3D"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
+  },
+  {
+   "source": "email",
+   "source_id": "1036f9417e33ec8a",
+   "title": "Freelance Data Analyst (Remote)",
+   "url": "https://www.linkedin.com/comm/jobs/view/4489880756/?trackingId=XZQpvWq5whvc%2FYRaWPa9sA%3D%3D&refId=BKj%2BOY7ITT3bzPLiKYxEZA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BibFgl6ZUTVGJcjPZlB0GAg%3D%3D&midToken=AQEISyqAMf6QBg&midSig=36h2aiHQRcrsw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4489880756_ssid_1639702183_fmid_bbso98~mwhs3tpj~94_crv_8&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4489880756_ssid_1639702183_fmid_bbso98~mwhs3tpj~94_crv_8-null-bbso98~mwhs3tpj~94-null-null&eid=bbso98-mwhs3tpj-94&otpToken=YjZmMTY5ZjNhODg4ZjM5Y2M3MWM3YWIwMzU2NTllOTk4MjBjZWIwOGU5MzBhNTFiYWU3NTFmOTk1NDkyZWE2NWE0ZWE5YzU3MzA4NWQzZjdmMTcyZGJhOWJjNThlMDFiZjkxMjY0NTc5MjRlMjg4MzZiMDQ2MzNlZmY3MDg2ZjU0OGYxNGVkYzVjNzg5MCwyLDE%3D",
+   "org": "Crewlia",
+   "location": "Canada (Remote)",
+   "department": "",
+   "contract": "",
+   "description": "Crewlia · Canada (Remote)",
+   "published": "2026-11-15",
+   "deadline": null,
+   "salary": "",
+   "via": "LinkedIn",
+   "extra": {},
+   "uid": "email:1036f9417e33ec8a",
+   "score": 35,
+   "fit": "lo",
+   "category": "da",
+   "reasons": [],
+   "source_label": "Alertes e-mail",
+   "also_on": [
+    {
+     "source": "email",
+     "url": "https://www.linkedin.com/comm/jobs/view/4490220834/?trackingId=zk9MRDrHUGpJfYJYf2wfOQ%3D%3D&refId=rzhCiJ%2BhqaG%2FG5308%2FmrCw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BN3wFoQfdSWq5zxfK56xF3g%3D%3D&midToken=AQEISyqAMf6QBg&midSig=1PC4i6_P_ssYw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4490220834_ssid_1639702183_fmid_bbso98~mwjg4am4~hj_crv_9&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4490220834_ssid_1639702183_fmid_bbso98~mwjg4am4~hj_crv_9-null-bbso98~mwjg4am4~hj-null-null&eid=bbso98-mwjg4am4-hj&otpToken=YTVjNThjNDQ5MTU2MDdmNWExZDczMjA4Y2Y4ODc4MDJiNWI1MjAwNDAxM2ZlNTc5NTZkMTEwODYwMTUwNWEyM2VhNDEyMzEwZWQwZDIwOWQ0YTcwMGJiMTY0NDI2ODMxODZiZDczOGRhNmEwODMyMzY0MjdjOThkMTNiY2RhMWQzN2FhNmQ2ZGVjYTIzMCwyLDE%3D"
+    },
+    {
+     "source": "email",
+     "url": "https://www.linkedin.com/comm/jobs/view/4490665128/?trackingId=H%2FfU6AL7wmFH7OLSq6x5Fg%3D%3D&refId=%2FmYnqGskclrV7A47W0VbEw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMkYhixWwS4WdOYdlV%2BJG1g%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3lRShl7Qc4usw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4490665128_ssid_1639702183_fmid_bbso98~mwkr9u17~7m_crv_1&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4490665128_ssid_1639702183_fmid_bbso98~mwkr9u17~7m_crv_1-null-bbso98~mwkr9u17~7m-null-null&eid=bbso98-mwkr9u17-7m&otpToken=OTRiYjdiOTcwNjE2MzBkMmU0ZjMzZjhjZGIxMzI3MzUzOGU5Nzc1NGU1ZDAzNzY1NTkwYzIxMjc2MDEwNjdlZjQ5NDMxMjA2MmZmYTBhOWIzNzM4M2UyNzZiN2MxOTllMDI2NDJkMmMyN2U0MDIyMWU4ZDgxYThiYjEyOTNiNmUyYmZiNGQ3YmVlNzYzYywyLDE%3D"
+    }
+   ],
+   "active": true,
+   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-22"
   },
   {
    "source": "adzuna",
@@ -27256,7 +28305,7 @@
      "url": "https://www.adzuna.fr/details/5965874879?utm_medium=api&utm_source=b765adeb"
     }
    ],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-15"
   },
@@ -27295,7 +28344,7 @@
      "url": "https://www.linkedin.com/comm/jobs/view/4490665128/?trackingId=H%2FfU6AL7wmFH7OLSq6x5Fg%3D%3D&refId=%2FmYnqGskclrV7A47W0VbEw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMkYhixWwS4WdOYdlV%2BJG1g%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3lRShl7Qc4usw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4490665128_ssid_1639702183_fmid_bbso98~mwkr9u17~7m_crv_1&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4490665128_ssid_1639702183_fmid_bbso98~mwkr9u17~7m_crv_1-null-bbso98~mwkr9u17~7m-null-null&eid=bbso98-mwkr9u17-7m&otpToken=OTRiYjdiOTcwNjE2MzBkMmU0ZjMzZjhjZGIxMzI3MzUzOGU5Nzc1NGU1ZDAzNzY1NTkwYzIxMjc2MDEwNjdlZjQ5NDMxMjA2MmZmYTBhOWIzNzM4M2UyNzZiN2MxOTllMDI2NDJkMmMyN2U0MDIyMWU4ZDgxYThiYjEyOTNiNmUyYmZiNGQ3YmVlNzYzYywyLDE%3D"
     }
    ],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-20"
   },
@@ -27321,7 +28370,7 @@
    "reasons": [],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-14"
   },
@@ -27368,7 +28417,7 @@
      "url": "https://www.linkedin.com/comm/jobs/view/4492139853/?trackingId=Vces8sgiIJe0dn4n%2FwZz7A%3D%3D&refId=VW%2FgDDpyMDSIVLW0RxcTaw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bl63cWrQ9RrquF9zBATg1JQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=3xxYnGgcLAysw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4492139853_ssid_1639702183_fmid_bbso98~mwp1ldid~po_crv_8&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_4_jobid_4492139853_ssid_1639702183_fmid_bbso98~mwp1ldid~po_crv_8-null-bbso98~mwp1ldid~po-null-null&eid=bbso98-mwp1ldid-po&otpToken=ZjlmZjlkYjk5YTRlZmI4M2Y4OTVkYTY0NzQ2NDY1YjZjNThmNjdiNmJkMDBjM2QyMjVjMDMxMWYzYTY2ZWNlYTcxMzk4ZGVjOTJmYjA3NzExODU0MTcxNTk2OGQyN2M1ODhjZTU2MjVjZGZiNDczMTMwMWVhYWY1Zjk2ZTRlMWYyOGNjN2I3ZDA1ZGJmOSwyLDE%3D"
     }
    ],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-20"
   },
@@ -27394,7 +28443,7 @@
    "reasons": [],
    "source_label": "Alertes e-mail",
    "also_on": [],
-   "active": true,
+   "active": false,
    "last_seen": "2026-11-21",
    "first_seen": "2026-11-15"
   },
@@ -29713,7 +30762,7 @@
    "source_label": "SFdS (Société française de statistique)",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -31312,32 +32361,6 @@
   },
   {
    "source": "email",
-   "source_id": "da7ac809cd5f2c9a",
-   "title": "Analyste Data IA expérimenté H/F - IBM FutureNow Centers - Strasbourg",
-   "url": "https://www.linkedin.com/comm/jobs/view/4483469761/?trackingId=Ohoe56sYzXU09R3FQcdpUw%3D%3D&refId=15urtvEsl35mAHe5QpvKgA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Be%2FU96w1LSjiWjsMT64qSHQ%3D%3D&midToken=AQEISyqAMf6QBg&midSig=1gIPm3zXtk6Iw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4483469761_ssid_1726638075_fmid_bbso98~mvwpczph~o2&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_3_jobid_4483469761_ssid_1726638075_fmid_bbso98~mvwpczph~o2-null-bbso98~mvwpczph~o2-null-null&eid=bbso98-mvwpczph-o2&otpToken=MzM0YThiOTQ5NjY5ZWQ5MWZhYTc0ZmIxNTZiNmQ2YTlkNGEyYWQ0MTdlNDU4MGVjNWE5YjBmNTg5YmMxODZjM2FlY2Y2MTEyNTAyMTZjOTczY2M5MmZjOWVhMmNmNjI0NTMzZDNiYzJjOTBkNjMzOTcxNWQ5MDYxYTE3YzJkYjJlNzMyOGM3NTdkZTcxNiwyLDE%3D",
-   "org": "IBM",
-   "location": "Bois-Colombes (On-site)",
-   "department": "",
-   "contract": "",
-   "description": "IBM · Bois-Colombes (On-site) · Actively recruiting",
-   "published": "2026-10-31",
-   "deadline": null,
-   "salary": "",
-   "via": "LinkedIn",
-   "extra": {},
-   "uid": "email:da7ac809cd5f2c9a",
-   "score": 35,
-   "fit": "lo",
-   "category": "da",
-   "reasons": [],
-   "source_label": "Alertes e-mail",
-   "also_on": [],
-   "active": false,
-   "last_seen": "2026-11-07",
-   "first_seen": "2026-11-06"
-  },
-  {
-   "source": "email",
    "source_id": "183a5114c93ec316",
    "title": "Chief Data Analyst",
    "url": "https://www.linkedin.com/comm/jobs/view/4483489567/?trackingId=gvXXenxw7sDyzx%2Fg52hnJQ%3D%3D&refId=JPUUwHvk8cRfVtpRmc7%2FaA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BZ9SE35glTL6sW4aptqgIZg%3D%3D&midToken=AQEISyqAMf6QBg&midSig=1YwcZ857nY5Yw1&trk=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4483489567_ssid_1639702183_fmid_bbso98~mvw3xe3a~j7&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-job_posting_2_jobid_4483489567_ssid_1639702183_fmid_bbso98~mvw3xe3a~j7-null-bbso98~mvw3xe3a~j7-null-null&eid=bbso98-mvw3xe3a-j7&otpToken=MGViZTU0MmFiOTgyODkwODQ1YTVmZjI1NTcxYzY3ODdjM2I4MDNhZjc1MGE0NDUzMTkxNzMzOWNhZTE0MTNhODVjMWZmMzQ5N2Y4YTRlODQwNzc5YzVmMGU5ZDQzMTA2NGI1YTk4MTA1ZWViYjdhZmRlOGNjNTFmOWZkZTE0NzQzZjJhNWQ5MmYzYTkyYiwyLDE%3D",
@@ -31463,7 +32486,7 @@
    "source_label": "CNRS",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -31492,7 +32515,7 @@
    "why": "Exposition météo à court terme et hospitalisations : séries temporelles, mais domaine éloigné.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {
@@ -31519,7 +32542,7 @@
    "why": "Demande 6 ans de déploiement en production : décalé, mais EDF recrute souvent. À garder en veille.",
    "also_on": [],
    "active": true,
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "first_seen": "2026-11-06"
   },
   {

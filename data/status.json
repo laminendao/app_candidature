@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-21T13:30:20+00:00",
- "raw": 1442,
- "unique": 1242,
+ "generated": "2026-11-22T13:23:53+00:00",
+ "raw": 1408,
+ "unique": 1272,
  "sources": [
   {
    "id": "france_travail",
@@ -19,10 +19,10 @@
    "homepage": "https://www.adzuna.fr",
    "enabled": true,
    "state": "ok",
-   "count": 772,
+   "count": 759,
    "message": "",
    "warnings": [],
-   "seconds": 26.1
+   "seconds": 24.7
   },
   {
    "id": "cnrs",
@@ -30,10 +30,10 @@
    "homepage": "https://emploi.cnrs.fr/Offres/Recherche.aspx",
    "enabled": true,
    "state": "ok",
-   "count": 244,
+   "count": 245,
    "message": "",
    "warnings": [],
-   "seconds": 5.9
+   "seconds": 5.4
   },
   {
    "id": "inria",
@@ -41,10 +41,10 @@
    "homepage": "https://jobs.inria.fr/public/classic/fr/offres",
    "enabled": true,
    "state": "ok",
-   "count": 145,
+   "count": 137,
    "message": "",
    "warnings": [],
-   "seconds": 3.5
+   "seconds": 1.2
   },
   {
    "id": "sfds",
@@ -55,7 +55,7 @@
    "count": 14,
    "message": "",
    "warnings": [],
-   "seconds": 1.9
+   "seconds": 1.2
   },
   {
    "id": "cesi",
@@ -66,7 +66,7 @@
    "count": 11,
    "message": "",
    "warnings": [],
-   "seconds": 1.9
+   "seconds": 1.5
   },
   {
    "id": "hellowork",
@@ -84,10 +84,10 @@
    "homepage": "https://mail.google.com",
    "enabled": true,
    "state": "ok",
-   "count": 256,
+   "count": 242,
    "message": "",
    "warnings": [],
-   "seconds": 12.3
+   "seconds": 5.6
   },
   {
    "id": "rss",
