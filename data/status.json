@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-22T13:23:53+00:00",
- "raw": 1408,
- "unique": 1272,
+ "generated": "2026-11-23T16:02:47+00:00",
+ "raw": 1339,
+ "unique": 1212,
  "sources": [
   {
    "id": "france_travail",
@@ -18,11 +18,13 @@
    "label": "Adzuna",
    "homepage": "https://www.adzuna.fr",
    "enabled": true,
-   "state": "ok",
-   "count": 759,
+   "state": "warning",
+   "count": 663,
    "message": "",
-   "warnings": [],
-   "seconds": 24.7
+   "warnings": [
+    "« data analyst » page 1 : réponse 503"
+   ],
+   "seconds": 96.4
   },
   {
    "id": "cnrs",
@@ -30,10 +32,10 @@
    "homepage": "https://emploi.cnrs.fr/Offres/Recherche.aspx",
    "enabled": true,
    "state": "ok",
-   "count": 245,
+   "count": 253,
    "message": "",
    "warnings": [],
-   "seconds": 5.4
+   "seconds": 6.2
   },
   {
    "id": "inria",
@@ -41,10 +43,10 @@
    "homepage": "https://jobs.inria.fr/public/classic/fr/offres",
    "enabled": true,
    "state": "ok",
-   "count": 137,
+   "count": 134,
    "message": "",
    "warnings": [],
-   "seconds": 1.2
+   "seconds": 3.5
   },
   {
    "id": "sfds",
@@ -52,10 +54,10 @@
    "homepage": "https://www.sfds.asso.fr/fr/n/506-consulter_les_offres_demploi/",
    "enabled": true,
    "state": "ok",
-   "count": 14,
+   "count": 15,
    "message": "",
    "warnings": [],
-   "seconds": 1.2
+   "seconds": 1.6
   },
   {
    "id": "cesi",
@@ -63,10 +65,10 @@
    "homepage": "https://lineact.cesi.fr/recrutement/",
    "enabled": true,
    "state": "ok",
-   "count": 11,
+   "count": 12,
    "message": "",
    "warnings": [],
-   "seconds": 1.5
+   "seconds": 2.0
   },
   {
    "id": "hellowork",
@@ -84,10 +86,10 @@
    "homepage": "https://mail.google.com",
    "enabled": true,
    "state": "ok",
-   "count": 242,
+   "count": 262,
    "message": "",
    "warnings": [],
-   "seconds": 5.6
+   "seconds": 19.7
   },
   {
    "id": "rss",
