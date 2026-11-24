@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-23T16:02:47+00:00",
- "raw": 1339,
- "unique": 1212,
+ "generated": "2026-11-24T15:55:19+00:00",
+ "raw": 1401,
+ "unique": 1268,
  "sources": [
   {
    "id": "france_travail",
@@ -18,13 +18,11 @@
    "label": "Adzuna",
    "homepage": "https://www.adzuna.fr",
    "enabled": true,
-   "state": "warning",
-   "count": 663,
+   "state": "ok",
+   "count": 739,
    "message": "",
-   "warnings": [
-    "« data analyst » page 1 : réponse 503"
-   ],
-   "seconds": 96.4
+   "warnings": [],
+   "seconds": 23.2
   },
   {
    "id": "cnrs",
@@ -32,10 +30,10 @@
    "homepage": "https://emploi.cnrs.fr/Offres/Recherche.aspx",
    "enabled": true,
    "state": "ok",
-   "count": 253,
+   "count": 251,
    "message": "",
    "warnings": [],
-   "seconds": 6.2
+   "seconds": 6.3
   },
   {
    "id": "inria",
@@ -43,10 +41,10 @@
    "homepage": "https://jobs.inria.fr/public/classic/fr/offres",
    "enabled": true,
    "state": "ok",
-   "count": 134,
+   "count": 135,
    "message": "",
    "warnings": [],
-   "seconds": 3.5
+   "seconds": 2.3
   },
   {
    "id": "sfds",
@@ -57,7 +55,7 @@
    "count": 15,
    "message": "",
    "warnings": [],
-   "seconds": 1.6
+   "seconds": 1.4
   },
   {
    "id": "cesi",
@@ -65,10 +63,10 @@
    "homepage": "https://lineact.cesi.fr/recrutement/",
    "enabled": true,
    "state": "ok",
-   "count": 12,
+   "count": 9,
    "message": "",
    "warnings": [],
-   "seconds": 2.0
+   "seconds": 1.6
   },
   {
    "id": "hellowork",
@@ -86,10 +84,10 @@
    "homepage": "https://mail.google.com",
    "enabled": true,
    "state": "ok",
-   "count": 262,
+   "count": 252,
    "message": "",
    "warnings": [],
-   "seconds": 19.7
+   "seconds": 6.7
   },
   {
    "id": "rss",
