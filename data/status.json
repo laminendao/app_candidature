@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-26T15:20:59+00:00",
- "raw": 1445,
- "unique": 1298,
+ "generated": "2026-11-27T15:08:41+00:00",
+ "raw": 1474,
+ "unique": 1355,
  "sources": [
   {
    "id": "france_travail",
@@ -19,10 +19,10 @@
    "homepage": "https://www.adzuna.fr",
    "enabled": true,
    "state": "ok",
-   "count": 772,
+   "count": 785,
    "message": "",
    "warnings": [],
-   "seconds": 24.2
+   "seconds": 24.5
   },
   {
    "id": "cnrs",
@@ -30,10 +30,10 @@
    "homepage": "https://emploi.cnrs.fr/Offres/Recherche.aspx",
    "enabled": true,
    "state": "ok",
-   "count": 260,
+   "count": 274,
    "message": "",
    "warnings": [],
-   "seconds": 5.8
+   "seconds": 6.1
   },
   {
    "id": "inria",
@@ -41,10 +41,10 @@
    "homepage": "https://jobs.inria.fr/public/classic/fr/offres",
    "enabled": true,
    "state": "ok",
-   "count": 134,
+   "count": 135,
    "message": "",
    "warnings": [],
-   "seconds": 1.6
+   "seconds": 2.8
   },
   {
    "id": "sfds",
@@ -55,7 +55,7 @@
    "count": 15,
    "message": "",
    "warnings": [],
-   "seconds": 1.7
+   "seconds": 1.1
   },
   {
    "id": "cesi",
@@ -66,7 +66,7 @@
    "count": 9,
    "message": "",
    "warnings": [],
-   "seconds": 1.8
+   "seconds": 2.2
   },
   {
    "id": "hellowork",
@@ -84,12 +84,13 @@
    "homepage": "https://mail.google.com",
    "enabled": true,
    "state": "warning",
-   "count": 255,
+   "count": 256,
    "message": "",
    "warnings": [
-    "aucune offre reconnue dans « Partir, rester, revenir : telle est la question » (welcometothejungle.com)"
+    "aucune offre reconnue dans « Partir, rester, revenir : telle est la question » (welcometothejungle.com)",
+    "aucune offre reconnue dans « Confirmation de votre adresse électronique » (francetravail.fr)"
    ],
-   "seconds": 11.0
+   "seconds": 6.9
   },
   {
    "id": "rss",
